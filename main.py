@@ -3,22 +3,19 @@ from pydantic import BaseModel
 import joblib
 import os
 from fastapi.middleware.cors import CORSMiddleware
-
-# Load environment variables for Supabase (optional here)
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+from starlette.responses import JSONResponse
 
 app = FastAPI()
 
-# Allow CORS so your Flutter app can call the API (adjust origins if needed)
+# Allow CORS for frontend access
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # You can restrict to your Flutter app origin for security
+    allow_origins=["*"],  # Replace "*" with specific Flutter web/mobile origin for security
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Define input schema for request body validation
+# Input schema
 class DonorData(BaseModel):
     name: str
     age: int
@@ -28,23 +25,29 @@ class DonorData(BaseModel):
     location: str
     medical_history: str
 
-# Load your model and encoders once at startup
-model = joblib.load("model.pkl")
-le_gender = joblib.load("le_gender.pkl")
-le_blood = joblib.load("le_blood.pkl")
-le_location = joblib.load("le_location.pkl")
-le_history = joblib.load("le_history.pkl")
+# Load model and encoders once at startup
+try:
+    model = joblib.load("model.pkl")
+    le_gender = joblib.load("le_gender.pkl")
+    le_blood = joblib.load("le_blood.pkl")
+    le_location = joblib.load("le_location.pkl")
+    le_history = joblib.load("le_history.pkl")
+except Exception as e:
+    print(f"Model loading failed: {e}")
+    model = None
 
 @app.post("/predict")
 async def predict(donor: DonorData):
+    if model is None:
+        return JSONResponse(status_code=500, content={"error": "Model not loaded on server"})
+
     try:
-        # Encode categorical features using your label encoders
+        # Encode features
         gender_enc = le_gender.transform([donor.gender])[0]
         blood_enc = le_blood.transform([donor.blood_group])[0]
         location_enc = le_location.transform([donor.location])[0]
         history_enc = le_history.transform([donor.medical_history])[0]
 
-        # Prepare feature vector for prediction - adjust order & features to your model!
         features = [[
             donor.age,
             gender_enc,
@@ -54,12 +57,10 @@ async def predict(donor: DonorData):
             history_enc
         ]]
 
-        prediction = model.predict(features)[0]  # Assuming 0 or 1 or similar
-
-        # Convert prediction to boolean for eligibility
+        prediction = model.predict(features)[0]
         eligible = bool(prediction)
 
         return {"eligible": eligible}
 
     except Exception as e:
-        return {"error": str(e)}
+        return JSONResponse(status_code=500, content={"error": str(e)})
