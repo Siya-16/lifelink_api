@@ -1,0 +1,5001 @@
+age,gender,weight,blood_group,location,medical_history,eligible
+49,Male,46.1,B+,Chennai,Asthma,0
+30,Female,70.1,A-,Mumbai,Hypertension,0
+20,Male,77.3,A-,Hyderabad,Diabetes,0
+57,Male,73.8,AB-,Mumbai,Diabetes,0
+23,Male,88.3,O-,Delhi,Diabetes,0
+22,Male,48.5,B-,Delhi,Heart Disease,0
+52,Male,84.5,O-,Chennai,Hypertension,0
+18,Male,54.7,B+,Chennai,Hypertension,0
+43,Male,76.1,B-,Mumbai,Diabetes,0
+30,Male,88.1,A-,Chennai,None,1
+54,Female,63.2,AB-,Delhi,Asthma,0
+34,Female,53.2,AB-,Bangalore,None,1
+58,Female,50.7,A+,Delhi,None,1
+36,Female,87.4,AB+,Bangalore,Heart Disease,0
+44,Male,51.4,AB+,Mumbai,Heart Disease,0
+47,Male,80.1,O+,Bangalore,Asthma,0
+53,Female,60.6,O+,Chennai,Diabetes,0
+48,Male,83.8,B-,Chennai,Heart Disease,0
+22,Male,82.6,A-,Chennai,Hypertension,0
+33,Female,65.3,O+,Mumbai,Hypertension,0
+42,Male,52.4,B-,Bangalore,Diabetes,0
+59,Male,49.8,AB+,Hyderabad,Hypertension,0
+33,Female,54.3,A+,Bangalore,Diabetes,0
+35,Male,64.3,A-,Bangalore,Diabetes,0
+24,Male,82.3,B-,Mumbai,None,1
+18,Female,77.7,AB-,Delhi,Hypertension,0
+32,Male,70.9,AB-,Delhi,Asthma,0
+54,Female,46.3,B-,Mumbai,Diabetes,0
+36,Male,60.3,B-,Mumbai,Heart Disease,0
+47,Male,64.7,A+,Mumbai,None,1
+31,Male,80.1,AB+,Chennai,Heart Disease,0
+52,Male,75.7,AB-,Mumbai,None,1
+39,Male,65.6,A+,Bangalore,None,1
+30,Female,75.7,O+,Bangalore,Asthma,0
+34,Male,64.8,AB-,Chennai,None,1
+53,Male,52.6,AB-,Mumbai,Asthma,0
+55,Male,65.7,O-,Hyderabad,Hypertension,0
+39,Male,49.9,A-,Hyderabad,None,0
+24,Female,63.3,AB-,Hyderabad,None,1
+41,Male,82.9,A-,Mumbai,Hypertension,0
+54,Female,64.3,AB+,Mumbai,Hypertension,0
+43,Male,83.4,A+,Bangalore,Asthma,0
+40,Male,65.6,O-,Hyderabad,None,1
+23,Male,61.3,AB-,Delhi,Heart Disease,0
+43,Male,88.5,A+,Chennai,Heart Disease,0
+22,Female,54.6,B+,Delhi,Asthma,0
+43,Female,57.5,A+,Mumbai,None,1
+41,Male,71.3,AB+,Bangalore,Hypertension,0
+53,Female,47.4,O-,Chennai,None,0
+22,Female,73.0,B+,Bangalore,Asthma,0
+38,Female,88.9,O-,Delhi,Hypertension,0
+32,Male,46.1,AB-,Chennai,Hypertension,0
+22,Female,57.3,B-,Delhi,Heart Disease,0
+19,Female,65.7,A-,Mumbai,Asthma,0
+58,Male,85.9,AB-,Chennai,Diabetes,0
+47,Female,46.5,AB+,Bangalore,Hypertension,0
+54,Female,84.5,B-,Hyderabad,Diabetes,0
+48,Female,70.2,O-,Mumbai,Diabetes,0
+21,Male,60.7,A-,Delhi,Diabetes,0
+49,Female,76.5,B-,Chennai,Heart Disease,0
+47,Male,71.5,O+,Delhi,Hypertension,0
+34,Female,52.8,B+,Hyderabad,Asthma,0
+49,Male,49.4,A-,Chennai,Hypertension,0
+23,Male,88.4,A-,Delhi,None,1
+32,Female,70.1,A-,Bangalore,None,1
+41,Female,77.2,AB-,Bangalore,Diabetes,0
+19,Female,47.6,O-,Mumbai,Heart Disease,0
+29,Female,80.8,A-,Bangalore,Heart Disease,0
+53,Female,52.7,AB-,Bangalore,Heart Disease,0
+51,Female,84.6,AB+,Mumbai,Diabetes,0
+42,Male,83.8,O-,Bangalore,Diabetes,0
+57,Male,58.4,AB-,Bangalore,Asthma,0
+26,Male,59.1,A-,Bangalore,Heart Disease,0
+52,Male,76.6,B-,Hyderabad,Asthma,0
+19,Male,63.0,AB+,Delhi,None,1
+36,Female,45.8,O+,Mumbai,Heart Disease,0
+54,Male,60.4,O-,Delhi,None,1
+23,Female,61.0,O+,Bangalore,Heart Disease,0
+26,Female,69.4,O-,Delhi,Heart Disease,0
+24,Female,49.5,AB-,Hyderabad,Asthma,0
+54,Female,72.2,A+,Mumbai,Diabetes,0
+53,Male,70.8,AB-,Mumbai,None,1
+21,Male,61.9,A+,Bangalore,Hypertension,0
+22,Male,49.3,A+,Hyderabad,Heart Disease,0
+46,Male,55.1,AB-,Hyderabad,None,1
+51,Female,87.4,O-,Bangalore,Asthma,0
+24,Female,69.6,A+,Bangalore,Diabetes,0
+53,Female,65.5,A-,Bangalore,Asthma,0
+34,Male,62.1,O+,Chennai,Heart Disease,0
+45,Male,62.5,O-,Bangalore,Asthma,0
+57,Female,81.2,O-,Delhi,Asthma,0
+58,Male,81.7,A+,Hyderabad,Asthma,0
+34,Male,68.3,B-,Chennai,Heart Disease,0
+46,Male,56.0,O+,Bangalore,Diabetes,0
+54,Male,75.4,B-,Bangalore,Heart Disease,0
+29,Female,57.6,A-,Mumbai,None,1
+22,Female,63.9,A+,Bangalore,Diabetes,0
+30,Female,86.7,AB-,Bangalore,Asthma,0
+48,Male,45.6,A+,Bangalore,Hypertension,0
+32,Male,87.6,AB-,Bangalore,Hypertension,0
+52,Female,51.0,B+,Hyderabad,Hypertension,0
+29,Male,53.9,A-,Chennai,Asthma,0
+57,Female,86.8,A+,Delhi,Hypertension,0
+45,Male,67.5,B-,Hyderabad,Diabetes,0
+18,Female,48.6,B+,Hyderabad,Diabetes,0
+53,Male,58.8,A-,Hyderabad,None,1
+59,Male,66.5,AB-,Hyderabad,Heart Disease,0
+19,Male,67.2,O+,Mumbai,Heart Disease,0
+54,Female,66.6,A-,Bangalore,Hypertension,0
+60,Male,79.4,AB+,Hyderabad,Hypertension,0
+43,Male,63.4,O-,Delhi,Asthma,0
+28,Male,79.1,B+,Bangalore,Hypertension,0
+42,Female,79.8,AB-,Delhi,None,1
+24,Female,58.8,AB-,Chennai,Asthma,0
+51,Male,63.5,O-,Chennai,Heart Disease,0
+52,Male,81.0,O-,Bangalore,None,1
+53,Male,52.5,B+,Delhi,Hypertension,0
+39,Male,71.7,O-,Chennai,Heart Disease,0
+28,Male,76.1,AB-,Chennai,None,1
+56,Male,74.0,O+,Delhi,Diabetes,0
+35,Male,45.0,O-,Chennai,Hypertension,0
+41,Female,59.9,A+,Bangalore,Heart Disease,0
+33,Male,60.5,O+,Hyderabad,None,1
+46,Female,54.3,O+,Mumbai,Heart Disease,0
+27,Female,62.2,AB+,Delhi,Heart Disease,0
+40,Male,51.7,AB-,Bangalore,Asthma,0
+55,Male,55.1,B+,Chennai,Diabetes,0
+58,Female,82.3,O+,Mumbai,Asthma,0
+39,Male,51.4,B+,Chennai,Asthma,0
+34,Female,83.1,O-,Chennai,Asthma,0
+24,Male,50.7,A+,Bangalore,Heart Disease,0
+23,Male,52.4,B-,Delhi,Asthma,0
+28,Male,89.6,O+,Delhi,Hypertension,0
+27,Female,68.4,B-,Hyderabad,Diabetes,0
+34,Female,61.5,A-,Chennai,Hypertension,0
+56,Male,55.7,A+,Mumbai,Asthma,0
+60,Female,57.6,B-,Chennai,Diabetes,0
+18,Male,63.6,O+,Bangalore,Diabetes,0
+22,Female,45.3,AB+,Bangalore,Asthma,0
+25,Female,47.4,O-,Hyderabad,Heart Disease,0
+18,Female,73.5,B+,Bangalore,Diabetes,0
+42,Male,50.0,B-,Bangalore,Asthma,0
+33,Male,72.8,O-,Delhi,Heart Disease,0
+58,Male,61.5,B-,Mumbai,Heart Disease,0
+27,Female,66.4,AB+,Mumbai,Heart Disease,0
+25,Female,72.5,O-,Bangalore,Heart Disease,0
+26,Female,71.7,AB+,Chennai,Hypertension,0
+20,Female,61.0,A-,Mumbai,None,1
+27,Female,63.3,B-,Delhi,Hypertension,0
+19,Male,73.0,AB-,Chennai,Diabetes,0
+48,Male,70.9,A-,Mumbai,None,1
+53,Female,46.4,AB-,Bangalore,None,0
+18,Female,45.9,A-,Chennai,Asthma,0
+42,Male,63.2,B+,Delhi,Heart Disease,0
+50,Male,87.5,A-,Delhi,Heart Disease,0
+44,Female,54.6,O-,Delhi,Heart Disease,0
+52,Male,46.8,O+,Mumbai,None,0
+31,Female,47.5,O-,Hyderabad,None,0
+53,Female,82.9,B+,Hyderabad,Diabetes,0
+57,Male,76.8,A+,Delhi,Asthma,0
+38,Male,56.3,B-,Chennai,Diabetes,0
+45,Female,75.9,O-,Delhi,Heart Disease,0
+23,Male,46.3,A-,Delhi,Asthma,0
+23,Female,87.8,B+,Hyderabad,None,1
+25,Male,86.0,A-,Delhi,Asthma,0
+42,Female,67.8,AB-,Delhi,Hypertension,0
+23,Male,45.2,O+,Hyderabad,None,0
+41,Female,86.5,B-,Mumbai,None,1
+20,Female,48.6,A+,Bangalore,None,0
+55,Female,77.4,AB-,Hyderabad,Heart Disease,0
+58,Female,88.7,A+,Hyderabad,Heart Disease,0
+36,Male,68.2,B-,Delhi,Heart Disease,0
+25,Male,61.8,O+,Bangalore,Heart Disease,0
+27,Male,62.4,AB+,Chennai,Heart Disease,0
+60,Female,67.7,B+,Mumbai,Hypertension,0
+28,Female,88.5,B+,Mumbai,Diabetes,0
+53,Male,79.8,B-,Mumbai,Asthma,0
+29,Male,89.7,AB-,Chennai,Heart Disease,0
+24,Male,65.0,A+,Chennai,None,1
+31,Female,72.8,B-,Hyderabad,Asthma,0
+42,Male,48.5,B-,Bangalore,Heart Disease,0
+38,Female,77.2,AB+,Mumbai,Heart Disease,0
+28,Male,69.3,B+,Delhi,Heart Disease,0
+18,Male,73.4,A+,Delhi,Hypertension,0
+54,Male,45.4,AB-,Mumbai,Diabetes,0
+29,Female,80.7,AB-,Mumbai,Hypertension,0
+44,Male,68.7,A-,Delhi,Hypertension,0
+19,Female,62.9,O-,Delhi,Diabetes,0
+32,Male,85.1,AB-,Bangalore,Hypertension,0
+46,Female,69.0,B-,Mumbai,Asthma,0
+39,Male,66.6,AB+,Chennai,Heart Disease,0
+38,Male,83.8,O+,Delhi,Hypertension,0
+42,Female,77.1,A-,Mumbai,Diabetes,0
+39,Male,55.4,A+,Hyderabad,Diabetes,0
+25,Female,59.6,A-,Delhi,Hypertension,0
+32,Female,71.4,A+,Hyderabad,Asthma,0
+47,Female,56.6,B-,Chennai,None,1
+56,Female,64.5,A-,Hyderabad,Asthma,0
+48,Female,57.3,O+,Chennai,Asthma,0
+25,Male,55.5,B-,Chennai,Diabetes,0
+58,Female,81.2,AB+,Mumbai,Heart Disease,0
+59,Female,46.7,A+,Chennai,Asthma,0
+33,Male,62.6,O-,Mumbai,Diabetes,0
+55,Male,88.2,AB+,Bangalore,Diabetes,0
+56,Male,58.5,O-,Mumbai,Hypertension,0
+18,Female,58.1,A+,Delhi,None,1
+57,Female,86.6,AB+,Chennai,Asthma,0
+59,Male,60.4,O-,Mumbai,Asthma,0
+33,Female,72.8,AB+,Chennai,Asthma,0
+60,Male,84.1,B+,Hyderabad,Diabetes,0
+39,Male,74.5,B+,Hyderabad,None,1
+35,Male,45.7,O+,Chennai,None,0
+53,Female,55.8,O+,Mumbai,Hypertension,0
+52,Female,70.8,A-,Chennai,None,1
+21,Female,85.1,A+,Bangalore,None,1
+58,Male,48.3,B+,Hyderabad,Diabetes,0
+55,Female,60.2,O+,Mumbai,Diabetes,0
+30,Male,86.1,B+,Hyderabad,None,1
+18,Male,62.9,AB-,Mumbai,Heart Disease,0
+26,Male,64.6,B+,Hyderabad,Asthma,0
+39,Female,71.2,O-,Delhi,None,1
+35,Female,57.9,O+,Mumbai,Diabetes,0
+28,Female,66.7,AB+,Delhi,Hypertension,0
+35,Male,58.2,O-,Mumbai,Asthma,0
+48,Female,48.5,O+,Delhi,Hypertension,0
+47,Female,58.8,A-,Bangalore,Hypertension,0
+42,Female,56.6,O-,Hyderabad,Diabetes,0
+20,Female,53.1,B-,Hyderabad,Asthma,0
+31,Female,57.3,AB+,Hyderabad,None,1
+48,Male,48.8,A-,Mumbai,Asthma,0
+31,Female,64.8,B+,Delhi,Asthma,0
+55,Male,88.2,A+,Bangalore,Diabetes,0
+53,Male,84.3,A+,Mumbai,Diabetes,0
+34,Male,63.4,A+,Chennai,Hypertension,0
+40,Female,58.7,A+,Chennai,Heart Disease,0
+20,Male,61.1,B-,Chennai,Heart Disease,0
+45,Female,67.7,B-,Mumbai,Hypertension,0
+26,Male,81.6,AB-,Mumbai,Diabetes,0
+36,Male,63.7,AB+,Bangalore,None,1
+57,Female,59.3,B+,Delhi,None,1
+45,Male,74.8,B-,Delhi,Hypertension,0
+41,Female,76.8,A+,Bangalore,Heart Disease,0
+27,Female,84.4,AB+,Bangalore,Hypertension,0
+26,Female,89.4,AB-,Chennai,Hypertension,0
+21,Female,50.7,B+,Hyderabad,Heart Disease,0
+56,Male,62.2,A-,Bangalore,Asthma,0
+19,Male,69.7,B+,Delhi,None,1
+47,Male,73.8,A-,Mumbai,Diabetes,0
+59,Male,83.2,O-,Bangalore,Diabetes,0
+52,Male,81.2,O-,Bangalore,Diabetes,0
+47,Male,76.3,A+,Chennai,Asthma,0
+49,Male,50.4,B-,Hyderabad,Heart Disease,0
+41,Male,79.5,A+,Bangalore,Hypertension,0
+36,Male,81.3,AB+,Bangalore,Diabetes,0
+27,Male,68.9,O+,Mumbai,Asthma,0
+37,Male,57.3,O-,Delhi,Heart Disease,0
+58,Female,83.4,A+,Bangalore,Hypertension,0
+24,Female,81.6,AB-,Delhi,Asthma,0
+46,Male,89.6,O+,Hyderabad,None,1
+50,Male,47.0,O-,Delhi,Diabetes,0
+42,Male,52.0,O-,Bangalore,Diabetes,0
+58,Male,50.1,AB-,Delhi,Asthma,0
+53,Male,61.7,B-,Mumbai,Asthma,0
+36,Female,56.2,A+,Chennai,None,1
+27,Female,48.7,A+,Hyderabad,Hypertension,0
+37,Female,85.7,B-,Bangalore,Hypertension,0
+55,Male,81.7,A+,Chennai,Diabetes,0
+36,Female,89.9,AB+,Delhi,Diabetes,0
+42,Female,60.0,AB-,Chennai,Asthma,0
+47,Male,50.2,O-,Delhi,None,1
+45,Male,85.2,A+,Mumbai,Heart Disease,0
+29,Female,50.8,A+,Delhi,Hypertension,0
+53,Male,58.9,B+,Mumbai,Heart Disease,0
+50,Female,78.0,O-,Hyderabad,Asthma,0
+22,Male,45.6,AB-,Delhi,Heart Disease,0
+27,Female,47.6,O+,Delhi,None,0
+33,Male,46.8,A+,Delhi,Asthma,0
+58,Male,47.5,AB-,Bangalore,Heart Disease,0
+37,Male,46.7,O+,Hyderabad,Hypertension,0
+44,Male,66.7,B+,Mumbai,Diabetes,0
+35,Male,49.0,B-,Hyderabad,Diabetes,0
+56,Male,61.2,O+,Bangalore,Diabetes,0
+44,Female,87.1,A+,Chennai,Asthma,0
+45,Female,46.3,B+,Mumbai,Asthma,0
+24,Male,45.6,B+,Bangalore,Diabetes,0
+30,Male,48.1,O-,Hyderabad,None,0
+24,Female,61.5,A-,Hyderabad,Asthma,0
+54,Male,48.9,O-,Hyderabad,Hypertension,0
+45,Male,51.4,O-,Hyderabad,None,1
+34,Female,83.0,O-,Bangalore,Asthma,0
+25,Female,61.3,B-,Bangalore,Hypertension,0
+56,Male,46.9,B+,Bangalore,Asthma,0
+38,Female,88.6,AB+,Delhi,Hypertension,0
+22,Female,84.4,O+,Mumbai,Heart Disease,0
+58,Female,45.2,AB-,Bangalore,Heart Disease,0
+55,Female,61.4,AB+,Hyderabad,Hypertension,0
+37,Male,89.8,AB-,Hyderabad,Heart Disease,0
+53,Male,76.8,B-,Mumbai,Asthma,0
+18,Male,54.4,B+,Bangalore,None,1
+43,Female,50.0,AB+,Delhi,Heart Disease,0
+49,Male,79.3,A+,Mumbai,Heart Disease,0
+19,Male,84.0,O+,Delhi,None,1
+51,Male,56.2,B+,Bangalore,Hypertension,0
+34,Male,71.7,A+,Bangalore,Hypertension,0
+34,Male,86.8,A-,Chennai,Asthma,0
+46,Male,66.2,A-,Bangalore,Asthma,0
+38,Male,75.8,B-,Delhi,Asthma,0
+42,Male,53.8,B-,Hyderabad,None,1
+48,Male,64.4,A+,Hyderabad,Asthma,0
+21,Female,76.3,B+,Hyderabad,Asthma,0
+18,Female,56.0,AB-,Delhi,Heart Disease,0
+26,Female,65.7,A-,Hyderabad,Asthma,0
+45,Male,69.9,O+,Chennai,Diabetes,0
+20,Male,86.5,B+,Delhi,Heart Disease,0
+41,Male,75.5,A-,Chennai,Asthma,0
+52,Male,55.6,A-,Chennai,None,1
+55,Male,79.8,AB+,Bangalore,Asthma,0
+40,Male,83.5,O+,Delhi,Heart Disease,0
+24,Male,50.9,A+,Delhi,None,1
+25,Male,83.2,A+,Mumbai,Hypertension,0
+41,Male,60.3,A-,Mumbai,Hypertension,0
+52,Female,56.6,A-,Bangalore,Diabetes,0
+31,Male,82.1,O+,Mumbai,Asthma,0
+50,Female,86.2,AB+,Hyderabad,Heart Disease,0
+48,Male,46.9,O+,Chennai,None,0
+42,Female,57.7,B-,Mumbai,None,1
+28,Female,73.7,AB-,Bangalore,Asthma,0
+52,Female,85.7,O-,Chennai,Heart Disease,0
+36,Male,51.8,B-,Bangalore,Asthma,0
+22,Male,67.3,O+,Mumbai,Hypertension,0
+57,Male,78.9,AB-,Mumbai,Asthma,0
+58,Female,57.3,AB+,Delhi,Diabetes,0
+45,Male,77.7,A-,Bangalore,None,1
+33,Male,56.2,O+,Mumbai,None,1
+58,Female,88.1,A-,Delhi,None,1
+34,Male,51.9,AB-,Bangalore,Heart Disease,0
+37,Male,63.0,AB-,Delhi,None,1
+20,Male,64.5,A-,Hyderabad,Heart Disease,0
+34,Female,78.2,O-,Bangalore,Heart Disease,0
+30,Male,70.8,AB+,Mumbai,Asthma,0
+36,Female,79.5,AB+,Delhi,Heart Disease,0
+39,Male,76.7,A+,Delhi,Asthma,0
+25,Female,53.0,O-,Bangalore,Diabetes,0
+30,Female,61.2,A+,Bangalore,Heart Disease,0
+21,Male,86.4,A+,Hyderabad,None,1
+53,Male,82.6,A+,Delhi,Asthma,0
+35,Male,55.3,B-,Mumbai,Hypertension,0
+18,Female,74.5,B+,Mumbai,Diabetes,0
+40,Female,50.1,O+,Hyderabad,Diabetes,0
+39,Male,89.5,A-,Hyderabad,Diabetes,0
+56,Female,79.0,A-,Chennai,None,1
+49,Female,70.2,A-,Hyderabad,Asthma,0
+53,Female,89.2,AB-,Delhi,Hypertension,0
+36,Male,54.2,AB+,Bangalore,None,1
+52,Male,49.8,B+,Delhi,Hypertension,0
+38,Female,70.6,AB+,Chennai,None,1
+25,Female,86.4,AB+,Mumbai,Diabetes,0
+43,Female,73.9,AB+,Delhi,Asthma,0
+26,Female,87.5,B+,Delhi,Diabetes,0
+55,Female,78.8,A+,Hyderabad,Diabetes,0
+43,Male,76.8,O-,Delhi,Asthma,0
+23,Female,78.8,A-,Mumbai,Diabetes,0
+30,Male,66.2,AB-,Mumbai,None,1
+39,Male,49.6,AB+,Hyderabad,Hypertension,0
+32,Female,65.1,A-,Hyderabad,Diabetes,0
+60,Male,46.6,A+,Mumbai,None,0
+54,Male,79.6,O+,Hyderabad,Heart Disease,0
+54,Male,75.4,A-,Delhi,Asthma,0
+19,Male,60.1,O+,Mumbai,Hypertension,0
+25,Female,64.0,A+,Mumbai,Diabetes,0
+27,Male,82.8,AB+,Delhi,Hypertension,0
+28,Male,75.8,B-,Hyderabad,None,1
+43,Male,68.7,AB-,Bangalore,Heart Disease,0
+48,Male,81.1,AB+,Mumbai,Hypertension,0
+29,Male,86.0,A+,Delhi,Asthma,0
+58,Female,58.5,O+,Bangalore,Hypertension,0
+43,Female,46.7,AB+,Delhi,Hypertension,0
+37,Female,73.9,O-,Mumbai,None,1
+39,Male,85.3,A+,Bangalore,Heart Disease,0
+35,Male,83.4,B+,Mumbai,Diabetes,0
+45,Male,45.8,O+,Mumbai,Diabetes,0
+22,Male,87.6,B-,Chennai,Hypertension,0
+34,Female,78.9,A-,Delhi,None,1
+31,Male,46.2,O+,Bangalore,None,0
+42,Male,56.0,AB-,Chennai,None,1
+29,Male,60.3,O-,Hyderabad,Diabetes,0
+41,Female,61.3,AB-,Bangalore,Diabetes,0
+22,Male,66.5,A+,Mumbai,Diabetes,0
+20,Male,64.3,AB+,Delhi,None,1
+37,Male,49.7,O+,Delhi,Heart Disease,0
+54,Female,59.9,AB+,Mumbai,None,1
+59,Male,47.4,AB+,Chennai,Heart Disease,0
+29,Female,49.0,B-,Bangalore,Hypertension,0
+45,Male,67.4,O+,Chennai,Heart Disease,0
+37,Female,58.7,O+,Delhi,None,1
+46,Male,45.8,A-,Chennai,Asthma,0
+57,Female,61.1,AB+,Bangalore,Diabetes,0
+46,Male,47.7,AB+,Bangalore,Asthma,0
+52,Female,60.1,B-,Bangalore,Hypertension,0
+26,Female,61.7,AB+,Bangalore,Diabetes,0
+25,Male,53.3,B+,Mumbai,Heart Disease,0
+39,Male,72.2,A-,Mumbai,Asthma,0
+43,Male,89.9,AB-,Hyderabad,Diabetes,0
+50,Female,76.9,A+,Mumbai,Diabetes,0
+55,Male,84.1,AB+,Mumbai,Asthma,0
+54,Female,61.7,O-,Chennai,None,1
+54,Female,87.7,O-,Chennai,Hypertension,0
+42,Female,74.7,AB+,Hyderabad,Hypertension,0
+47,Male,58.2,B+,Mumbai,Hypertension,0
+22,Female,71.5,A+,Hyderabad,None,1
+38,Male,70.2,AB-,Hyderabad,None,1
+54,Female,53.5,O-,Chennai,Heart Disease,0
+37,Female,76.8,B-,Chennai,Diabetes,0
+25,Female,66.1,AB+,Hyderabad,Heart Disease,0
+19,Female,85.6,A-,Delhi,Asthma,0
+39,Female,68.4,A-,Mumbai,Diabetes,0
+51,Female,71.2,AB-,Delhi,Heart Disease,0
+54,Female,86.8,B+,Hyderabad,Heart Disease,0
+42,Male,54.9,O+,Bangalore,Diabetes,0
+59,Male,51.2,B-,Chennai,Diabetes,0
+29,Male,82.2,O+,Chennai,Asthma,0
+25,Male,65.6,B+,Chennai,None,1
+38,Female,62.3,O-,Mumbai,Asthma,0
+26,Male,84.6,O-,Chennai,Heart Disease,0
+26,Female,85.5,AB+,Mumbai,Asthma,0
+51,Male,63.3,A-,Delhi,Diabetes,0
+32,Female,70.8,AB+,Mumbai,Hypertension,0
+42,Male,53.9,B+,Delhi,Diabetes,0
+24,Female,67.6,A+,Chennai,Heart Disease,0
+55,Female,64.0,O+,Chennai,Asthma,0
+29,Female,85.3,A-,Delhi,Heart Disease,0
+60,Male,78.5,A-,Bangalore,None,1
+30,Female,76.6,B+,Mumbai,Heart Disease,0
+29,Female,88.9,O+,Chennai,None,1
+29,Male,76.9,A+,Delhi,Heart Disease,0
+20,Male,66.4,AB-,Delhi,None,1
+50,Female,67.6,AB+,Chennai,Asthma,0
+29,Male,85.3,A+,Chennai,None,1
+56,Male,89.7,A-,Chennai,Diabetes,0
+36,Male,72.2,O-,Bangalore,Heart Disease,0
+58,Male,85.9,B-,Delhi,Hypertension,0
+18,Female,57.5,A-,Mumbai,Asthma,0
+54,Female,62.0,AB+,Hyderabad,None,1
+40,Male,64.4,A-,Hyderabad,None,1
+54,Male,74.5,AB-,Mumbai,Hypertension,0
+48,Male,78.4,O-,Bangalore,Hypertension,0
+57,Male,45.4,A+,Mumbai,Heart Disease,0
+53,Female,64.5,O-,Bangalore,Heart Disease,0
+43,Female,55.4,AB+,Delhi,Diabetes,0
+60,Male,86.0,O+,Mumbai,Heart Disease,0
+34,Male,60.3,A+,Hyderabad,Diabetes,0
+33,Female,60.4,B-,Hyderabad,Diabetes,0
+48,Female,47.0,AB-,Hyderabad,Asthma,0
+36,Male,79.7,O-,Chennai,Asthma,0
+40,Male,48.1,AB+,Chennai,Hypertension,0
+36,Female,52.8,O+,Mumbai,Diabetes,0
+27,Female,85.2,AB-,Chennai,Diabetes,0
+26,Male,80.7,A+,Delhi,Hypertension,0
+35,Male,65.5,A-,Chennai,None,1
+19,Female,61.3,O-,Delhi,Asthma,0
+43,Male,57.1,A-,Bangalore,Asthma,0
+54,Female,62.2,O+,Hyderabad,Heart Disease,0
+34,Male,59.2,O+,Delhi,Heart Disease,0
+22,Male,55.1,O-,Mumbai,None,1
+59,Male,53.1,B+,Delhi,None,1
+40,Female,63.3,O+,Chennai,Hypertension,0
+55,Male,76.1,O-,Mumbai,Diabetes,0
+42,Male,75.8,AB+,Hyderabad,Heart Disease,0
+49,Male,58.7,A-,Hyderabad,Hypertension,0
+40,Male,67.0,AB+,Hyderabad,Hypertension,0
+44,Female,57.0,AB-,Bangalore,Asthma,0
+32,Male,78.0,A+,Hyderabad,None,1
+26,Male,71.5,A+,Delhi,None,1
+20,Male,78.1,A+,Chennai,Heart Disease,0
+59,Female,71.6,B+,Delhi,Hypertension,0
+22,Male,56.4,B+,Delhi,None,1
+36,Female,55.3,A+,Mumbai,Heart Disease,0
+23,Male,83.0,O+,Mumbai,None,1
+35,Female,54.4,O+,Mumbai,Asthma,0
+39,Male,69.2,B-,Hyderabad,Hypertension,0
+21,Male,60.3,AB-,Chennai,Asthma,0
+26,Female,69.8,O-,Hyderabad,Asthma,0
+20,Male,56.6,B-,Delhi,None,1
+46,Male,75.3,A-,Mumbai,Hypertension,0
+23,Male,67.8,B+,Hyderabad,Heart Disease,0
+19,Female,63.7,AB+,Hyderabad,None,1
+56,Male,69.8,AB-,Delhi,Diabetes,0
+19,Female,69.7,A-,Hyderabad,Asthma,0
+43,Male,52.2,A-,Bangalore,Asthma,0
+23,Female,50.8,A+,Delhi,None,1
+35,Male,70.6,A-,Bangalore,None,1
+53,Male,54.2,B+,Chennai,None,1
+27,Female,75.1,A-,Mumbai,Heart Disease,0
+19,Male,85.6,O+,Mumbai,Asthma,0
+56,Male,68.9,A+,Hyderabad,Hypertension,0
+38,Male,58.8,O-,Delhi,Hypertension,0
+42,Male,59.5,O+,Hyderabad,Diabetes,0
+27,Female,70.8,AB+,Bangalore,Hypertension,0
+21,Female,73.1,A-,Mumbai,Heart Disease,0
+53,Male,61.0,AB+,Chennai,None,1
+44,Male,84.6,A-,Delhi,None,1
+21,Male,84.0,B+,Hyderabad,None,1
+37,Female,82.3,B-,Delhi,Heart Disease,0
+22,Female,54.2,B-,Chennai,Heart Disease,0
+39,Female,51.0,O+,Chennai,Heart Disease,0
+26,Male,70.0,AB-,Hyderabad,Heart Disease,0
+59,Female,51.2,AB-,Chennai,Diabetes,0
+32,Male,80.2,O-,Mumbai,Diabetes,0
+37,Male,59.6,A+,Mumbai,Asthma,0
+37,Female,64.3,O-,Bangalore,Asthma,0
+30,Female,85.6,B+,Delhi,Hypertension,0
+49,Male,64.9,A-,Bangalore,Heart Disease,0
+35,Female,70.3,AB+,Hyderabad,None,1
+53,Female,57.3,A+,Mumbai,Asthma,0
+54,Female,49.5,AB-,Mumbai,Diabetes,0
+41,Male,81.4,A-,Chennai,Hypertension,0
+31,Female,87.6,AB+,Delhi,None,1
+18,Male,58.7,O-,Mumbai,Hypertension,0
+20,Female,79.9,AB+,Bangalore,Diabetes,0
+52,Male,85.0,A+,Delhi,None,1
+31,Male,84.4,AB-,Bangalore,Diabetes,0
+52,Male,81.2,B+,Hyderabad,None,1
+51,Male,79.3,O+,Chennai,Heart Disease,0
+47,Female,78.4,B+,Chennai,None,1
+44,Male,70.0,A-,Hyderabad,Diabetes,0
+58,Male,88.2,B+,Hyderabad,Asthma,0
+22,Female,49.9,A-,Bangalore,None,0
+47,Male,78.4,A+,Chennai,Heart Disease,0
+51,Male,45.1,A-,Chennai,Diabetes,0
+32,Female,49.7,A+,Delhi,Hypertension,0
+55,Female,76.1,O+,Delhi,Asthma,0
+58,Male,75.0,O+,Mumbai,Heart Disease,0
+21,Female,64.6,AB-,Delhi,Hypertension,0
+49,Male,53.8,AB-,Chennai,Heart Disease,0
+19,Male,83.8,O+,Bangalore,Heart Disease,0
+57,Male,87.7,A+,Mumbai,Hypertension,0
+48,Female,65.4,AB-,Chennai,Hypertension,0
+30,Male,53.4,AB-,Bangalore,Asthma,0
+31,Female,49.5,AB+,Bangalore,Diabetes,0
+41,Male,79.6,B+,Hyderabad,Asthma,0
+58,Male,67.4,AB+,Bangalore,None,1
+51,Male,86.0,B+,Mumbai,None,1
+38,Male,63.3,O-,Hyderabad,Asthma,0
+56,Male,56.9,A+,Mumbai,None,1
+27,Male,47.6,B-,Chennai,Diabetes,0
+22,Male,86.2,O+,Delhi,Heart Disease,0
+51,Female,49.6,B-,Delhi,Heart Disease,0
+48,Female,83.0,B+,Delhi,Heart Disease,0
+53,Male,65.7,B-,Mumbai,Hypertension,0
+18,Female,56.4,B+,Hyderabad,Asthma,0
+60,Female,87.6,A-,Mumbai,None,1
+35,Male,45.4,B+,Hyderabad,Hypertension,0
+53,Female,82.6,A-,Bangalore,Asthma,0
+20,Female,62.2,B-,Bangalore,Diabetes,0
+46,Female,81.0,B+,Delhi,Hypertension,0
+21,Female,84.6,O+,Bangalore,Hypertension,0
+54,Female,51.5,A-,Delhi,Diabetes,0
+30,Male,61.3,A-,Mumbai,Hypertension,0
+48,Female,48.5,B-,Delhi,Diabetes,0
+21,Male,52.3,O+,Bangalore,None,1
+19,Female,71.5,B+,Chennai,Diabetes,0
+24,Female,72.5,A-,Chennai,Asthma,0
+41,Female,62.8,AB-,Hyderabad,None,1
+29,Male,67.1,B-,Hyderabad,Heart Disease,0
+28,Female,51.7,O-,Delhi,Hypertension,0
+46,Female,87.5,O+,Mumbai,Heart Disease,0
+35,Female,76.1,A-,Hyderabad,Hypertension,0
+38,Male,67.6,A+,Mumbai,Hypertension,0
+44,Male,70.2,A-,Bangalore,Diabetes,0
+20,Male,60.4,B-,Bangalore,None,1
+27,Male,58.2,B-,Delhi,None,1
+51,Male,59.2,AB-,Chennai,None,1
+50,Male,61.7,A-,Bangalore,Heart Disease,0
+59,Male,68.4,A+,Hyderabad,Heart Disease,0
+56,Female,57.9,O-,Mumbai,None,1
+33,Male,84.9,B+,Bangalore,Hypertension,0
+47,Male,64.8,B-,Chennai,None,1
+27,Male,84.8,AB-,Hyderabad,Heart Disease,0
+35,Female,67.5,A+,Bangalore,Hypertension,0
+43,Male,70.1,O+,Hyderabad,Heart Disease,0
+59,Male,47.8,O+,Hyderabad,None,0
+51,Female,89.9,AB+,Delhi,Asthma,0
+22,Male,74.7,A-,Bangalore,Hypertension,0
+60,Male,57.9,O-,Hyderabad,None,1
+24,Female,79.3,AB-,Delhi,Hypertension,0
+43,Female,58.3,O+,Bangalore,Diabetes,0
+46,Male,89.9,O-,Bangalore,Heart Disease,0
+52,Female,60.9,O+,Bangalore,Asthma,0
+51,Female,56.6,AB-,Chennai,Diabetes,0
+36,Male,78.4,B-,Bangalore,None,1
+51,Male,75.8,A-,Delhi,Diabetes,0
+32,Female,52.6,B+,Hyderabad,Diabetes,0
+27,Female,74.8,B+,Hyderabad,Asthma,0
+21,Male,76.9,A+,Hyderabad,Heart Disease,0
+26,Female,50.5,A+,Hyderabad,Heart Disease,0
+52,Male,64.8,A+,Bangalore,Asthma,0
+31,Female,63.8,AB+,Mumbai,Hypertension,0
+23,Male,57.2,O+,Hyderabad,None,1
+23,Female,78.0,AB-,Chennai,Hypertension,0
+27,Female,50.9,AB-,Chennai,Asthma,0
+33,Female,65.4,A-,Bangalore,Asthma,0
+48,Female,61.0,B-,Hyderabad,Diabetes,0
+52,Female,73.8,A+,Delhi,Diabetes,0
+39,Male,62.3,O-,Delhi,Asthma,0
+21,Male,61.8,B-,Chennai,None,1
+26,Male,56.5,AB-,Mumbai,Diabetes,0
+46,Male,82.1,AB-,Mumbai,None,1
+33,Male,67.1,A+,Chennai,Heart Disease,0
+29,Male,88.8,AB-,Mumbai,None,1
+26,Female,75.3,O+,Chennai,Asthma,0
+25,Female,69.9,B-,Delhi,Asthma,0
+29,Female,58.4,A+,Bangalore,Diabetes,0
+48,Female,75.6,O+,Hyderabad,None,1
+22,Male,81.3,A-,Delhi,Heart Disease,0
+30,Male,74.2,B-,Hyderabad,Asthma,0
+54,Female,53.5,AB+,Chennai,None,1
+37,Female,79.7,B-,Hyderabad,Diabetes,0
+58,Male,82.5,AB-,Mumbai,None,1
+31,Female,81.7,B-,Hyderabad,Hypertension,0
+56,Female,64.7,B-,Hyderabad,Hypertension,0
+50,Female,58.5,A-,Hyderabad,Diabetes,0
+55,Female,54.9,B-,Chennai,Heart Disease,0
+52,Male,49.6,A+,Mumbai,Heart Disease,0
+33,Male,49.9,O-,Delhi,None,0
+52,Female,54.4,A-,Mumbai,Hypertension,0
+51,Female,59.4,AB-,Hyderabad,Hypertension,0
+52,Male,63.0,AB-,Mumbai,None,1
+43,Male,49.0,AB+,Bangalore,Diabetes,0
+60,Male,80.3,A+,Delhi,None,1
+41,Male,49.0,AB-,Hyderabad,None,0
+32,Female,69.9,A-,Hyderabad,Heart Disease,0
+60,Male,61.7,O+,Delhi,None,1
+41,Male,49.9,B-,Bangalore,Diabetes,0
+60,Female,88.5,AB-,Chennai,Hypertension,0
+18,Female,71.0,B+,Mumbai,Heart Disease,0
+55,Female,84.1,AB-,Hyderabad,Heart Disease,0
+27,Female,71.5,O+,Hyderabad,Hypertension,0
+35,Female,71.9,O-,Delhi,Asthma,0
+45,Male,82.5,AB+,Delhi,Diabetes,0
+48,Female,69.9,AB+,Bangalore,Hypertension,0
+30,Male,86.6,AB+,Delhi,Hypertension,0
+58,Male,72.7,O-,Delhi,Asthma,0
+23,Female,54.8,AB-,Bangalore,Hypertension,0
+28,Female,46.8,B-,Bangalore,Diabetes,0
+21,Male,82.5,O-,Bangalore,None,1
+41,Male,64.7,B-,Delhi,Asthma,0
+43,Male,55.4,AB-,Chennai,None,1
+47,Male,60.4,O-,Chennai,Diabetes,0
+44,Female,70.0,B-,Mumbai,None,1
+43,Male,55.2,AB+,Hyderabad,Hypertension,0
+46,Male,51.3,O-,Hyderabad,Asthma,0
+42,Female,48.0,A+,Delhi,Asthma,0
+46,Female,89.1,A+,Chennai,None,1
+60,Male,83.5,A+,Hyderabad,Asthma,0
+56,Male,45.1,O-,Chennai,Heart Disease,0
+28,Male,75.7,O+,Mumbai,Asthma,0
+52,Male,76.5,A-,Mumbai,Asthma,0
+42,Female,50.0,AB-,Hyderabad,Asthma,0
+54,Male,72.4,A+,Chennai,Diabetes,0
+40,Female,84.5,A+,Delhi,Diabetes,0
+44,Male,79.3,O+,Chennai,Asthma,0
+42,Female,77.2,O+,Mumbai,Asthma,0
+19,Male,84.2,A+,Hyderabad,Diabetes,0
+55,Female,58.1,B-,Hyderabad,None,1
+36,Male,53.6,B-,Mumbai,None,1
+25,Female,77.6,A+,Mumbai,Asthma,0
+21,Male,51.1,O+,Chennai,Asthma,0
+22,Male,76.6,A-,Mumbai,Asthma,0
+26,Male,86.2,A+,Bangalore,Asthma,0
+46,Female,61.0,AB+,Mumbai,Asthma,0
+40,Female,62.1,AB-,Chennai,None,1
+33,Male,86.8,AB-,Hyderabad,Asthma,0
+57,Male,69.2,AB+,Bangalore,Hypertension,0
+56,Female,78.6,O-,Chennai,Diabetes,0
+19,Female,57.5,A+,Hyderabad,Asthma,0
+42,Female,71.3,AB-,Hyderabad,None,1
+53,Male,57.8,O-,Chennai,None,1
+31,Male,60.1,O+,Hyderabad,Diabetes,0
+48,Female,46.3,O-,Delhi,Heart Disease,0
+49,Female,67.6,A-,Delhi,None,1
+41,Male,86.1,B-,Bangalore,Asthma,0
+39,Female,72.2,AB+,Bangalore,Heart Disease,0
+47,Female,61.1,A+,Delhi,None,1
+28,Female,78.8,O+,Bangalore,Diabetes,0
+53,Male,66.9,AB+,Chennai,Hypertension,0
+36,Male,86.4,B+,Bangalore,Diabetes,0
+24,Female,45.7,AB+,Chennai,Asthma,0
+44,Male,66.9,O-,Bangalore,None,1
+42,Female,78.5,O+,Bangalore,Asthma,0
+21,Male,62.5,A+,Chennai,Asthma,0
+47,Female,70.8,A+,Hyderabad,None,1
+47,Male,82.8,A-,Chennai,Hypertension,0
+53,Male,73.0,A-,Hyderabad,None,1
+34,Female,77.0,B-,Mumbai,None,1
+42,Female,50.4,AB-,Delhi,Asthma,0
+55,Male,77.8,B+,Bangalore,Diabetes,0
+47,Female,52.4,B+,Chennai,None,1
+32,Male,85.2,B-,Bangalore,Diabetes,0
+32,Male,72.2,B+,Mumbai,Hypertension,0
+59,Female,84.0,B-,Chennai,Asthma,0
+54,Male,77.8,O-,Chennai,Hypertension,0
+23,Male,88.3,A-,Chennai,Hypertension,0
+45,Female,48.7,A-,Mumbai,Asthma,0
+18,Male,56.7,B+,Mumbai,Hypertension,0
+18,Male,80.1,AB-,Delhi,Diabetes,0
+50,Female,79.0,A-,Delhi,Diabetes,0
+57,Male,65.9,AB+,Hyderabad,None,1
+23,Male,75.6,A+,Mumbai,Hypertension,0
+35,Female,79.2,O+,Hyderabad,Hypertension,0
+21,Male,47.1,O+,Delhi,Diabetes,0
+39,Female,67.6,O-,Mumbai,Hypertension,0
+57,Female,81.3,A-,Mumbai,Asthma,0
+35,Male,58.2,A-,Mumbai,None,1
+22,Female,46.1,AB+,Bangalore,Asthma,0
+53,Female,68.5,AB-,Chennai,Asthma,0
+24,Male,78.8,B-,Hyderabad,Diabetes,0
+28,Female,61.0,B+,Bangalore,Hypertension,0
+45,Male,80.2,B+,Mumbai,None,1
+50,Female,67.4,A+,Bangalore,None,1
+56,Male,74.6,AB-,Delhi,Heart Disease,0
+35,Male,69.8,B-,Delhi,Diabetes,0
+31,Female,58.4,O+,Delhi,Heart Disease,0
+23,Female,74.0,B-,Bangalore,Hypertension,0
+40,Female,79.6,O+,Hyderabad,Heart Disease,0
+25,Female,86.5,AB+,Mumbai,Hypertension,0
+54,Male,87.3,AB-,Delhi,Heart Disease,0
+33,Male,77.5,AB-,Mumbai,Heart Disease,0
+59,Male,46.5,A+,Hyderabad,None,0
+52,Male,76.8,A+,Hyderabad,Diabetes,0
+25,Female,58.8,A-,Hyderabad,Asthma,0
+58,Male,65.0,O-,Delhi,Diabetes,0
+21,Female,85.7,O+,Bangalore,Asthma,0
+39,Female,77.9,O+,Bangalore,Asthma,0
+47,Male,63.5,O-,Mumbai,Heart Disease,0
+58,Male,62.3,A-,Mumbai,Hypertension,0
+28,Male,64.9,A+,Bangalore,None,1
+57,Male,76.4,B-,Mumbai,Asthma,0
+56,Female,89.7,O+,Hyderabad,Heart Disease,0
+22,Male,59.9,B-,Hyderabad,Heart Disease,0
+48,Female,57.3,AB-,Chennai,None,1
+48,Female,70.1,B-,Mumbai,None,1
+34,Female,66.6,O-,Mumbai,Diabetes,0
+40,Male,88.7,O-,Chennai,None,1
+21,Male,80.8,O+,Bangalore,Asthma,0
+51,Male,77.3,A+,Chennai,Heart Disease,0
+30,Male,76.1,B+,Hyderabad,None,1
+45,Male,66.9,A+,Delhi,None,1
+40,Male,66.6,A+,Bangalore,Heart Disease,0
+29,Male,65.3,B+,Delhi,Diabetes,0
+35,Male,50.7,A+,Bangalore,Diabetes,0
+54,Male,71.8,A+,Chennai,Hypertension,0
+52,Male,78.0,B-,Mumbai,Asthma,0
+32,Male,81.0,A-,Hyderabad,Heart Disease,0
+29,Female,84.1,B-,Hyderabad,Hypertension,0
+28,Female,87.7,AB+,Bangalore,Asthma,0
+41,Female,81.8,A+,Mumbai,Heart Disease,0
+59,Male,60.8,B+,Bangalore,Diabetes,0
+45,Female,62.0,AB+,Mumbai,Hypertension,0
+42,Female,71.6,O-,Delhi,Hypertension,0
+53,Male,85.5,A-,Hyderabad,None,1
+44,Male,88.8,O-,Mumbai,Hypertension,0
+56,Male,47.4,O+,Bangalore,Asthma,0
+32,Female,86.2,AB+,Delhi,Heart Disease,0
+56,Male,86.5,O-,Delhi,Heart Disease,0
+56,Female,66.2,B-,Hyderabad,Asthma,0
+33,Female,56.5,B+,Hyderabad,Hypertension,0
+27,Female,45.6,AB-,Delhi,Hypertension,0
+29,Female,84.8,AB-,Delhi,Hypertension,0
+33,Male,56.5,A+,Hyderabad,None,1
+48,Female,56.6,O+,Chennai,Diabetes,0
+20,Female,61.3,A-,Delhi,Heart Disease,0
+33,Female,66.6,O-,Bangalore,Hypertension,0
+35,Male,49.5,O+,Chennai,None,0
+59,Female,81.0,A-,Delhi,Heart Disease,0
+33,Female,72.9,O+,Bangalore,None,1
+41,Female,65.9,B-,Delhi,Asthma,0
+54,Male,49.9,O+,Bangalore,Hypertension,0
+21,Female,84.1,B+,Hyderabad,Heart Disease,0
+22,Male,63.4,B+,Delhi,None,1
+31,Male,56.0,O-,Hyderabad,Hypertension,0
+29,Male,47.6,A-,Bangalore,Diabetes,0
+19,Female,80.9,O-,Chennai,Heart Disease,0
+18,Male,58.3,A+,Bangalore,Heart Disease,0
+55,Male,45.0,AB-,Chennai,Asthma,0
+53,Male,66.2,AB+,Bangalore,Diabetes,0
+45,Male,78.1,AB+,Mumbai,Asthma,0
+54,Female,74.8,A-,Hyderabad,Diabetes,0
+23,Male,54.1,AB+,Delhi,Heart Disease,0
+20,Male,47.6,A-,Hyderabad,Hypertension,0
+22,Male,62.7,A+,Hyderabad,Diabetes,0
+56,Female,68.4,AB+,Bangalore,Asthma,0
+34,Female,74.6,B+,Chennai,Diabetes,0
+38,Female,85.9,O+,Chennai,None,1
+51,Male,65.2,A-,Mumbai,None,1
+38,Female,68.1,AB-,Mumbai,Asthma,0
+54,Male,71.4,A-,Mumbai,None,1
+25,Male,59.5,AB+,Delhi,None,1
+18,Male,55.3,A+,Mumbai,Hypertension,0
+36,Female,48.5,B+,Delhi,Heart Disease,0
+30,Male,55.0,AB-,Chennai,Heart Disease,0
+30,Female,65.9,B-,Delhi,Hypertension,0
+36,Male,71.8,B-,Delhi,Hypertension,0
+46,Female,47.8,A-,Delhi,Hypertension,0
+36,Male,73.7,B+,Hyderabad,Diabetes,0
+55,Female,61.3,A+,Hyderabad,Hypertension,0
+58,Female,60.3,B-,Delhi,Asthma,0
+39,Male,63.3,B-,Mumbai,Heart Disease,0
+19,Male,85.3,A+,Chennai,Hypertension,0
+26,Male,59.9,O-,Mumbai,Asthma,0
+40,Female,56.5,A-,Hyderabad,Diabetes,0
+57,Male,62.3,A+,Delhi,Heart Disease,0
+19,Female,67.9,O+,Hyderabad,None,1
+26,Male,84.1,B+,Delhi,None,1
+18,Male,63.3,AB-,Chennai,Diabetes,0
+29,Female,61.1,O+,Mumbai,Hypertension,0
+22,Female,82.1,B-,Mumbai,Hypertension,0
+52,Male,73.9,AB-,Mumbai,Heart Disease,0
+57,Male,88.1,A-,Chennai,Diabetes,0
+28,Male,47.8,O+,Bangalore,Diabetes,0
+49,Male,54.0,AB+,Hyderabad,Asthma,0
+34,Male,46.7,A-,Hyderabad,None,0
+52,Female,49.5,A+,Delhi,Asthma,0
+18,Female,80.0,AB-,Chennai,Heart Disease,0
+35,Female,71.1,AB+,Hyderabad,None,1
+35,Male,88.2,AB+,Delhi,Diabetes,0
+59,Female,50.1,O+,Hyderabad,Hypertension,0
+28,Female,53.0,B+,Bangalore,Heart Disease,0
+32,Male,45.6,AB-,Chennai,Diabetes,0
+30,Female,88.2,B+,Delhi,Heart Disease,0
+47,Female,52.4,O-,Delhi,None,1
+48,Male,49.4,B-,Chennai,None,0
+32,Female,57.1,AB-,Bangalore,Heart Disease,0
+44,Female,62.5,AB+,Mumbai,None,1
+59,Male,79.6,O+,Delhi,Asthma,0
+53,Female,54.0,B+,Chennai,Asthma,0
+40,Male,52.7,O-,Bangalore,Asthma,0
+38,Female,65.8,A+,Mumbai,Diabetes,0
+28,Male,58.6,A+,Mumbai,Hypertension,0
+60,Female,48.6,O-,Delhi,Diabetes,0
+19,Female,72.3,B+,Delhi,Asthma,0
+26,Female,60.0,A+,Mumbai,Heart Disease,0
+30,Male,67.0,O-,Mumbai,None,1
+18,Male,66.0,O-,Hyderabad,Heart Disease,0
+21,Female,49.7,B+,Delhi,Diabetes,0
+40,Female,54.5,B-,Delhi,Diabetes,0
+49,Female,86.3,O-,Hyderabad,Hypertension,0
+39,Male,63.4,O+,Mumbai,Asthma,0
+30,Male,72.8,B+,Chennai,Heart Disease,0
+51,Male,87.1,O-,Bangalore,None,1
+37,Male,47.6,A+,Hyderabad,Diabetes,0
+44,Male,56.1,A-,Bangalore,Heart Disease,0
+33,Female,83.1,B-,Delhi,Heart Disease,0
+58,Female,75.6,A-,Chennai,Hypertension,0
+52,Female,87.5,O+,Hyderabad,Hypertension,0
+20,Female,79.1,O+,Chennai,Heart Disease,0
+38,Female,67.8,O-,Hyderabad,Diabetes,0
+57,Male,88.9,A-,Hyderabad,None,1
+60,Female,79.8,AB+,Delhi,Diabetes,0
+28,Female,86.0,A+,Hyderabad,Heart Disease,0
+18,Male,60.6,AB+,Mumbai,Diabetes,0
+46,Male,64.5,B+,Chennai,None,1
+56,Male,51.5,AB-,Hyderabad,Asthma,0
+25,Female,87.9,B+,Chennai,Heart Disease,0
+19,Female,59.5,O+,Mumbai,Diabetes,0
+24,Female,52.0,A+,Delhi,None,1
+20,Male,63.9,B-,Bangalore,Asthma,0
+53,Male,64.3,O+,Bangalore,Diabetes,0
+59,Female,74.1,AB-,Hyderabad,Asthma,0
+46,Female,47.3,A+,Delhi,Hypertension,0
+59,Male,53.3,B+,Hyderabad,Diabetes,0
+31,Female,76.5,O-,Mumbai,Asthma,0
+30,Male,81.3,AB-,Hyderabad,Hypertension,0
+52,Male,89.1,O-,Bangalore,Diabetes,0
+37,Female,85.7,A+,Chennai,Hypertension,0
+54,Male,65.7,O-,Hyderabad,Heart Disease,0
+34,Female,57.1,O+,Mumbai,Heart Disease,0
+20,Male,62.1,A-,Bangalore,None,1
+39,Male,50.1,AB+,Mumbai,Heart Disease,0
+36,Female,67.5,AB-,Hyderabad,Hypertension,0
+45,Female,73.8,AB+,Chennai,Heart Disease,0
+46,Female,85.1,AB+,Bangalore,Hypertension,0
+56,Female,66.4,AB+,Chennai,Diabetes,0
+57,Male,58.9,AB+,Delhi,Heart Disease,0
+30,Female,84.0,B-,Hyderabad,Heart Disease,0
+41,Female,57.2,A-,Delhi,Hypertension,0
+33,Female,77.0,AB-,Delhi,Asthma,0
+34,Female,56.3,O+,Chennai,None,1
+24,Female,75.9,O-,Mumbai,Asthma,0
+28,Male,79.5,B-,Mumbai,Heart Disease,0
+18,Male,56.7,O+,Mumbai,Diabetes,0
+49,Female,62.9,AB+,Delhi,Diabetes,0
+18,Female,85.5,B-,Hyderabad,None,1
+44,Male,59.0,AB+,Chennai,Hypertension,0
+54,Female,73.7,AB+,Bangalore,Hypertension,0
+32,Male,55.5,A-,Delhi,Diabetes,0
+60,Male,46.5,A+,Hyderabad,None,0
+20,Male,64.8,AB+,Bangalore,None,1
+54,Female,66.6,A-,Chennai,Heart Disease,0
+30,Male,65.2,O-,Delhi,None,1
+54,Female,49.9,B+,Hyderabad,Hypertension,0
+49,Female,80.3,AB+,Delhi,Diabetes,0
+31,Male,45.1,AB+,Mumbai,Hypertension,0
+33,Male,89.3,O-,Chennai,None,1
+27,Female,58.7,O-,Delhi,Diabetes,0
+21,Male,72.0,A+,Delhi,Heart Disease,0
+19,Male,51.8,B-,Delhi,None,1
+28,Male,82.0,O+,Delhi,Asthma,0
+35,Female,59.7,O-,Hyderabad,Diabetes,0
+53,Male,78.2,O+,Delhi,Diabetes,0
+22,Male,58.5,AB-,Chennai,None,1
+20,Female,85.0,A-,Chennai,Diabetes,0
+49,Female,88.8,AB+,Hyderabad,None,1
+37,Male,62.5,A+,Hyderabad,Hypertension,0
+32,Male,49.9,O+,Mumbai,Diabetes,0
+19,Female,51.9,O+,Chennai,Hypertension,0
+22,Male,58.8,A-,Mumbai,Asthma,0
+40,Female,70.3,B+,Delhi,Heart Disease,0
+32,Male,71.0,B-,Chennai,Hypertension,0
+28,Male,45.8,O+,Delhi,None,0
+20,Male,48.2,B+,Hyderabad,Hypertension,0
+44,Female,59.8,AB-,Hyderabad,Hypertension,0
+45,Female,82.2,AB+,Bangalore,Hypertension,0
+42,Male,68.9,B-,Bangalore,None,1
+19,Female,46.2,AB-,Chennai,Heart Disease,0
+29,Male,52.3,B-,Hyderabad,Asthma,0
+27,Male,56.5,B-,Delhi,Heart Disease,0
+33,Male,81.7,A+,Chennai,None,1
+49,Male,84.0,B+,Chennai,Diabetes,0
+58,Male,84.3,B-,Hyderabad,Hypertension,0
+23,Male,55.1,AB-,Delhi,Diabetes,0
+57,Female,63.5,AB+,Chennai,Hypertension,0
+31,Male,69.5,A-,Mumbai,None,1
+53,Female,89.5,B-,Hyderabad,Heart Disease,0
+49,Male,69.1,O+,Mumbai,Asthma,0
+27,Male,56.7,AB-,Mumbai,Hypertension,0
+43,Male,48.0,A-,Mumbai,Asthma,0
+46,Female,83.3,AB-,Hyderabad,None,1
+37,Male,86.6,O-,Chennai,None,1
+49,Male,77.1,A-,Mumbai,Hypertension,0
+29,Female,54.1,B-,Bangalore,Hypertension,0
+45,Male,83.1,B+,Delhi,None,1
+46,Male,45.6,B+,Delhi,Hypertension,0
+47,Male,63.6,A-,Delhi,Asthma,0
+26,Male,84.9,B-,Hyderabad,Heart Disease,0
+38,Female,72.3,O-,Hyderabad,Asthma,0
+33,Female,80.1,A+,Delhi,Heart Disease,0
+33,Male,70.5,AB-,Bangalore,Heart Disease,0
+18,Male,76.1,B-,Chennai,Diabetes,0
+22,Male,66.7,A+,Mumbai,Diabetes,0
+39,Female,75.3,AB-,Delhi,Heart Disease,0
+19,Female,67.9,A-,Mumbai,Hypertension,0
+19,Female,69.7,B+,Mumbai,Hypertension,0
+49,Male,73.9,O+,Bangalore,Hypertension,0
+56,Female,83.3,O-,Chennai,Heart Disease,0
+55,Female,65.0,B-,Delhi,Asthma,0
+52,Female,69.9,A-,Mumbai,None,1
+59,Male,62.2,A+,Bangalore,Hypertension,0
+44,Female,87.0,O+,Hyderabad,Hypertension,0
+50,Female,71.0,A-,Bangalore,None,1
+18,Male,54.0,AB-,Mumbai,Diabetes,0
+46,Male,52.0,O-,Hyderabad,Heart Disease,0
+46,Female,80.3,A+,Hyderabad,Diabetes,0
+35,Male,74.2,B+,Chennai,Diabetes,0
+19,Female,59.0,A-,Delhi,Diabetes,0
+54,Female,59.2,O+,Mumbai,Asthma,0
+19,Male,80.0,O+,Chennai,None,1
+21,Male,71.3,B-,Delhi,Asthma,0
+42,Male,69.1,O+,Delhi,Diabetes,0
+24,Female,86.3,AB-,Bangalore,Asthma,0
+54,Male,86.7,AB+,Bangalore,Diabetes,0
+49,Female,64.5,B-,Chennai,Heart Disease,0
+56,Male,74.8,AB+,Hyderabad,Asthma,0
+23,Male,52.7,B-,Mumbai,Diabetes,0
+50,Female,71.4,B-,Hyderabad,Asthma,0
+49,Female,83.8,AB-,Delhi,Hypertension,0
+42,Female,59.1,AB-,Hyderabad,None,1
+18,Male,67.1,B-,Bangalore,Hypertension,0
+24,Female,64.0,B-,Bangalore,Diabetes,0
+38,Male,48.1,B+,Delhi,None,0
+53,Male,49.7,AB+,Mumbai,Asthma,0
+49,Male,75.1,AB+,Mumbai,None,1
+21,Female,77.8,O+,Hyderabad,Diabetes,0
+33,Male,74.3,A-,Chennai,Asthma,0
+20,Female,88.7,B-,Bangalore,Diabetes,0
+43,Female,64.0,A-,Delhi,Asthma,0
+26,Female,74.3,B+,Hyderabad,Heart Disease,0
+52,Male,61.0,B+,Chennai,Heart Disease,0
+27,Male,64.9,O+,Hyderabad,None,1
+30,Male,49.4,AB+,Delhi,Diabetes,0
+59,Male,56.5,AB-,Bangalore,Hypertension,0
+59,Female,76.8,A+,Delhi,Hypertension,0
+55,Female,63.1,AB+,Bangalore,Heart Disease,0
+30,Male,84.8,O+,Bangalore,Diabetes,0
+52,Male,49.5,O+,Delhi,Hypertension,0
+22,Male,58.4,A+,Delhi,Heart Disease,0
+21,Male,88.3,B+,Bangalore,None,1
+45,Male,75.3,A+,Delhi,Diabetes,0
+20,Female,55.7,B-,Bangalore,Diabetes,0
+46,Male,72.8,O+,Hyderabad,Heart Disease,0
+47,Female,80.5,B+,Bangalore,None,1
+26,Male,59.9,B+,Delhi,Diabetes,0
+45,Male,69.2,AB-,Bangalore,Diabetes,0
+38,Male,77.5,O+,Mumbai,Asthma,0
+23,Male,87.0,O+,Mumbai,Heart Disease,0
+41,Male,49.8,B+,Hyderabad,Heart Disease,0
+23,Female,69.8,A+,Delhi,Diabetes,0
+46,Male,48.4,AB-,Mumbai,Asthma,0
+41,Female,62.4,AB-,Chennai,None,1
+37,Male,82.2,O+,Delhi,None,1
+32,Female,63.9,O+,Hyderabad,Hypertension,0
+42,Female,87.9,A-,Chennai,Asthma,0
+37,Female,60.6,O-,Hyderabad,Heart Disease,0
+31,Male,60.1,AB+,Bangalore,Hypertension,0
+22,Female,87.0,B+,Mumbai,Hypertension,0
+31,Female,66.3,AB+,Bangalore,Asthma,0
+42,Female,79.6,AB-,Bangalore,Heart Disease,0
+33,Male,59.2,O-,Delhi,None,1
+60,Female,69.7,O+,Mumbai,Heart Disease,0
+36,Male,51.7,AB-,Delhi,Hypertension,0
+43,Female,62.7,O+,Delhi,Diabetes,0
+46,Male,57.3,A-,Delhi,Asthma,0
+34,Male,70.0,B+,Bangalore,Heart Disease,0
+33,Female,60.6,B+,Hyderabad,Hypertension,0
+21,Male,86.1,AB-,Delhi,Diabetes,0
+52,Male,79.9,A-,Delhi,Asthma,0
+47,Female,72.6,A-,Hyderabad,Diabetes,0
+60,Female,66.6,B+,Mumbai,Hypertension,0
+23,Male,57.5,A+,Hyderabad,Asthma,0
+22,Female,78.2,B-,Bangalore,Hypertension,0
+59,Male,63.3,O-,Hyderabad,Diabetes,0
+31,Male,72.9,AB+,Chennai,None,1
+22,Female,85.9,A+,Bangalore,Diabetes,0
+58,Male,86.9,O-,Delhi,Asthma,0
+48,Female,59.6,A+,Delhi,Heart Disease,0
+26,Male,86.3,O-,Delhi,Diabetes,0
+42,Female,59.6,A-,Bangalore,None,1
+31,Female,58.2,O+,Hyderabad,Hypertension,0
+44,Male,65.7,O-,Bangalore,Diabetes,0
+58,Female,80.8,B+,Delhi,Hypertension,0
+36,Female,53.0,B+,Delhi,Diabetes,0
+49,Male,67.5,A+,Chennai,Diabetes,0
+29,Male,73.5,AB+,Delhi,Diabetes,0
+27,Male,78.7,O+,Bangalore,Hypertension,0
+27,Male,53.3,A-,Delhi,Asthma,0
+25,Male,79.0,A+,Mumbai,Diabetes,0
+36,Male,55.2,B+,Chennai,Asthma,0
+20,Female,89.9,AB+,Hyderabad,Hypertension,0
+38,Female,63.8,O-,Delhi,Heart Disease,0
+38,Male,61.7,B+,Delhi,Heart Disease,0
+59,Female,82.1,B+,Mumbai,Heart Disease,0
+52,Male,78.7,O+,Bangalore,Hypertension,0
+34,Female,67.4,AB-,Hyderabad,Hypertension,0
+28,Female,69.1,A+,Chennai,Asthma,0
+48,Male,67.5,B+,Delhi,Diabetes,0
+56,Female,73.3,O+,Delhi,Diabetes,0
+39,Female,59.9,B-,Hyderabad,Hypertension,0
+24,Male,50.7,A-,Delhi,Asthma,0
+37,Male,64.6,O-,Mumbai,Asthma,0
+31,Male,74.3,AB-,Bangalore,Asthma,0
+48,Male,74.8,AB-,Mumbai,Hypertension,0
+20,Male,68.1,O+,Hyderabad,None,1
+56,Female,67.3,O+,Delhi,Asthma,0
+47,Female,85.9,B-,Bangalore,Heart Disease,0
+50,Female,71.9,A-,Hyderabad,Hypertension,0
+57,Male,87.2,A-,Bangalore,Diabetes,0
+52,Male,74.8,B+,Delhi,None,1
+45,Female,86.0,A+,Bangalore,None,1
+38,Female,78.0,O+,Delhi,Hypertension,0
+39,Female,49.6,AB+,Mumbai,Heart Disease,0
+57,Male,86.8,B+,Delhi,None,1
+34,Male,68.1,B+,Bangalore,Hypertension,0
+57,Female,84.9,O+,Chennai,Heart Disease,0
+50,Male,55.6,O+,Chennai,None,1
+56,Male,46.4,B-,Bangalore,Asthma,0
+22,Male,50.2,AB+,Mumbai,Diabetes,0
+41,Female,82.4,AB-,Mumbai,Hypertension,0
+54,Female,70.2,A-,Hyderabad,None,1
+53,Female,65.0,O-,Chennai,Hypertension,0
+42,Female,85.4,AB-,Hyderabad,Asthma,0
+59,Male,63.1,B-,Mumbai,Asthma,0
+29,Male,50.7,AB+,Hyderabad,Diabetes,0
+42,Male,61.4,B+,Mumbai,Diabetes,0
+30,Male,60.4,AB-,Mumbai,Asthma,0
+30,Male,54.6,A+,Bangalore,Asthma,0
+58,Male,49.2,A+,Mumbai,Asthma,0
+56,Male,75.3,O-,Mumbai,Hypertension,0
+55,Female,76.6,B-,Hyderabad,Asthma,0
+60,Male,76.0,O-,Hyderabad,Hypertension,0
+30,Female,69.6,O-,Hyderabad,Diabetes,0
+42,Male,84.9,O-,Chennai,Hypertension,0
+23,Male,71.2,O+,Chennai,Diabetes,0
+19,Female,70.3,AB-,Chennai,Hypertension,0
+57,Female,61.0,A+,Chennai,None,1
+48,Male,55.7,AB+,Hyderabad,Asthma,0
+29,Male,76.8,A+,Mumbai,Diabetes,0
+19,Female,62.2,A-,Hyderabad,None,1
+42,Male,86.7,A+,Delhi,Diabetes,0
+51,Male,76.4,B+,Bangalore,Heart Disease,0
+35,Male,71.8,AB-,Chennai,Asthma,0
+42,Female,49.0,AB-,Mumbai,None,0
+60,Male,85.1,O-,Delhi,Hypertension,0
+57,Male,78.6,B-,Delhi,Diabetes,0
+56,Female,59.5,AB-,Hyderabad,None,1
+55,Male,89.8,B+,Hyderabad,Asthma,0
+30,Female,53.7,AB+,Chennai,Hypertension,0
+35,Male,63.8,B-,Chennai,Diabetes,0
+37,Male,57.0,O+,Chennai,Heart Disease,0
+45,Female,59.6,A-,Chennai,None,1
+43,Male,80.9,A+,Hyderabad,Hypertension,0
+23,Female,83.4,O+,Bangalore,Asthma,0
+50,Male,57.2,A-,Hyderabad,Asthma,0
+50,Male,83.7,A+,Bangalore,None,1
+21,Male,50.0,AB+,Delhi,Heart Disease,0
+47,Male,65.5,B+,Delhi,Asthma,0
+40,Female,71.9,B+,Mumbai,None,1
+42,Female,51.8,A-,Bangalore,Asthma,0
+38,Female,89.8,A+,Delhi,Heart Disease,0
+31,Female,88.9,A+,Hyderabad,Heart Disease,0
+20,Male,56.0,A+,Hyderabad,Asthma,0
+34,Male,84.4,AB+,Delhi,Heart Disease,0
+53,Female,49.4,AB+,Delhi,Hypertension,0
+48,Female,75.5,A+,Bangalore,Hypertension,0
+24,Female,56.7,B+,Hyderabad,Diabetes,0
+27,Male,64.4,AB+,Chennai,Asthma,0
+56,Male,62.8,AB+,Hyderabad,Hypertension,0
+44,Female,65.6,O+,Bangalore,Asthma,0
+35,Male,78.5,AB-,Delhi,Hypertension,0
+29,Male,86.4,B-,Delhi,None,1
+49,Male,49.2,AB+,Mumbai,None,0
+20,Male,65.4,AB+,Mumbai,Asthma,0
+40,Female,60.1,A-,Hyderabad,Asthma,0
+33,Female,58.2,O-,Delhi,Heart Disease,0
+22,Female,75.2,A-,Hyderabad,Hypertension,0
+52,Male,68.7,AB+,Hyderabad,Hypertension,0
+26,Male,73.4,A-,Hyderabad,Diabetes,0
+43,Female,63.2,AB-,Bangalore,Hypertension,0
+24,Male,60.4,AB-,Delhi,Heart Disease,0
+45,Male,89.7,AB+,Mumbai,Heart Disease,0
+54,Male,88.2,AB+,Mumbai,Diabetes,0
+27,Male,48.0,O-,Mumbai,Diabetes,0
+21,Female,78.5,AB+,Chennai,Heart Disease,0
+45,Male,63.8,A+,Bangalore,Asthma,0
+40,Male,80.9,A-,Bangalore,Heart Disease,0
+34,Male,49.5,A-,Hyderabad,None,0
+45,Female,67.2,B+,Hyderabad,Heart Disease,0
+33,Male,46.6,AB-,Bangalore,Heart Disease,0
+26,Female,51.6,O+,Delhi,Heart Disease,0
+49,Male,49.5,O-,Hyderabad,Asthma,0
+57,Male,63.7,O+,Bangalore,Diabetes,0
+45,Female,45.6,A+,Chennai,None,0
+54,Female,54.4,AB+,Hyderabad,Asthma,0
+54,Male,48.0,B+,Chennai,Asthma,0
+39,Female,46.8,O-,Delhi,Asthma,0
+57,Male,53.3,AB+,Mumbai,None,1
+32,Female,54.5,A-,Mumbai,Diabetes,0
+31,Male,85.2,A-,Mumbai,Heart Disease,0
+44,Female,64.1,B-,Delhi,Hypertension,0
+46,Male,73.0,AB+,Delhi,Hypertension,0
+47,Female,57.8,O-,Chennai,Heart Disease,0
+29,Male,62.0,O-,Bangalore,Hypertension,0
+39,Female,76.5,AB-,Mumbai,None,1
+46,Female,81.6,O+,Chennai,None,1
+22,Male,88.4,O+,Mumbai,Hypertension,0
+38,Female,67.3,AB-,Delhi,Heart Disease,0
+45,Female,88.2,B-,Mumbai,Diabetes,0
+42,Female,85.2,B-,Delhi,Asthma,0
+26,Male,78.4,AB-,Hyderabad,Asthma,0
+27,Female,45.0,O+,Bangalore,Asthma,0
+46,Male,69.6,AB+,Delhi,Asthma,0
+31,Female,49.7,A-,Delhi,None,0
+35,Female,59.5,B+,Chennai,None,1
+53,Male,87.4,B+,Bangalore,Asthma,0
+40,Male,69.0,A-,Hyderabad,Hypertension,0
+19,Male,49.5,O-,Delhi,Hypertension,0
+57,Female,69.9,O-,Hyderabad,None,1
+19,Male,71.5,AB-,Delhi,Hypertension,0
+44,Male,66.2,O-,Hyderabad,Hypertension,0
+54,Female,49.4,AB-,Chennai,Diabetes,0
+59,Male,74.6,O-,Bangalore,Diabetes,0
+36,Male,85.9,B+,Chennai,Hypertension,0
+41,Female,49.1,B-,Chennai,Diabetes,0
+34,Male,51.5,AB+,Bangalore,Asthma,0
+56,Male,55.1,A+,Mumbai,None,1
+31,Female,55.3,B-,Mumbai,None,1
+59,Female,62.6,A-,Delhi,None,1
+57,Male,61.9,AB+,Hyderabad,Asthma,0
+38,Male,80.3,AB+,Hyderabad,Hypertension,0
+29,Female,84.0,AB-,Bangalore,None,1
+52,Male,51.5,A+,Bangalore,Heart Disease,0
+35,Male,70.1,AB+,Delhi,Asthma,0
+48,Male,87.5,A+,Bangalore,Diabetes,0
+34,Female,49.3,A+,Delhi,Asthma,0
+53,Female,87.7,B-,Hyderabad,None,1
+47,Female,66.2,AB+,Bangalore,Asthma,0
+36,Male,47.9,B-,Chennai,Heart Disease,0
+57,Male,59.6,AB+,Mumbai,None,1
+47,Female,50.2,O+,Delhi,Heart Disease,0
+33,Male,77.3,A+,Bangalore,Diabetes,0
+18,Female,70.4,A-,Hyderabad,Heart Disease,0
+39,Female,74.4,B-,Delhi,Hypertension,0
+54,Female,71.1,O-,Chennai,Diabetes,0
+26,Male,71.2,O-,Hyderabad,Heart Disease,0
+59,Female,73.6,B+,Bangalore,Diabetes,0
+29,Male,51.2,B+,Mumbai,Asthma,0
+35,Female,81.8,AB+,Bangalore,Asthma,0
+32,Male,71.0,B+,Bangalore,Hypertension,0
+42,Male,74.6,AB-,Chennai,Heart Disease,0
+48,Male,60.4,B-,Delhi,Hypertension,0
+19,Female,67.9,O+,Delhi,Asthma,0
+43,Female,81.4,O-,Hyderabad,None,1
+40,Male,75.6,AB-,Bangalore,Hypertension,0
+41,Male,51.2,B+,Hyderabad,Hypertension,0
+21,Female,64.5,O-,Chennai,Hypertension,0
+57,Female,58.9,AB-,Mumbai,Heart Disease,0
+22,Male,84.6,AB+,Chennai,None,1
+46,Male,89.8,B-,Hyderabad,Diabetes,0
+57,Female,50.3,B+,Delhi,Asthma,0
+42,Female,83.9,A+,Delhi,Hypertension,0
+28,Female,88.6,O-,Bangalore,None,1
+49,Female,65.2,AB+,Mumbai,None,1
+55,Male,59.1,O-,Hyderabad,Asthma,0
+24,Male,88.4,O+,Chennai,Heart Disease,0
+60,Male,63.7,A-,Mumbai,None,1
+19,Female,67.9,A+,Mumbai,Asthma,0
+31,Male,45.6,B-,Delhi,Heart Disease,0
+22,Male,75.9,O+,Bangalore,Asthma,0
+60,Female,83.4,AB+,Bangalore,Heart Disease,0
+36,Male,75.4,B-,Hyderabad,None,1
+21,Female,75.1,B+,Chennai,Diabetes,0
+28,Female,88.0,A-,Delhi,Heart Disease,0
+37,Female,75.9,A+,Mumbai,Asthma,0
+54,Male,55.7,AB+,Bangalore,None,1
+29,Female,87.3,B+,Delhi,Heart Disease,0
+29,Female,55.6,O-,Mumbai,Asthma,0
+43,Female,64.7,AB-,Hyderabad,None,1
+41,Female,52.4,B+,Mumbai,Hypertension,0
+29,Male,72.2,AB-,Hyderabad,Heart Disease,0
+20,Female,74.6,A+,Bangalore,Diabetes,0
+46,Female,64.3,B+,Chennai,Asthma,0
+20,Female,73.3,B-,Chennai,None,1
+36,Female,53.1,A+,Bangalore,Heart Disease,0
+49,Male,87.4,O-,Bangalore,Asthma,0
+24,Female,61.5,AB+,Bangalore,Hypertension,0
+56,Female,55.4,B+,Chennai,Asthma,0
+51,Female,67.8,A+,Delhi,Asthma,0
+25,Male,73.7,O-,Delhi,Hypertension,0
+25,Male,65.0,AB-,Chennai,Asthma,0
+33,Female,84.7,B-,Bangalore,Diabetes,0
+34,Female,50.1,B+,Hyderabad,Hypertension,0
+32,Male,64.0,A+,Delhi,Heart Disease,0
+57,Female,70.3,A+,Chennai,Heart Disease,0
+20,Female,67.8,O+,Mumbai,Diabetes,0
+56,Male,81.5,AB+,Delhi,Heart Disease,0
+59,Female,53.7,B-,Mumbai,None,1
+45,Female,69.0,O-,Bangalore,Asthma,0
+53,Male,56.8,AB-,Mumbai,Diabetes,0
+49,Male,88.2,AB-,Bangalore,Heart Disease,0
+48,Female,56.8,A-,Bangalore,Heart Disease,0
+22,Male,74.4,O-,Bangalore,Hypertension,0
+24,Male,59.0,A-,Hyderabad,Asthma,0
+45,Female,72.2,O-,Hyderabad,Heart Disease,0
+45,Male,87.8,B-,Bangalore,Asthma,0
+45,Male,80.8,O-,Delhi,Hypertension,0
+48,Male,72.8,AB+,Delhi,None,1
+45,Male,73.8,O+,Bangalore,None,1
+39,Male,74.6,B-,Hyderabad,Heart Disease,0
+47,Male,49.9,AB-,Chennai,Diabetes,0
+28,Male,84.8,B-,Hyderabad,Hypertension,0
+36,Female,71.8,AB+,Hyderabad,Heart Disease,0
+53,Female,54.5,O+,Bangalore,Asthma,0
+30,Male,75.7,O+,Bangalore,None,1
+43,Female,80.0,B+,Chennai,None,1
+20,Male,71.0,A-,Delhi,None,1
+49,Male,65.5,B+,Delhi,None,1
+55,Female,86.0,AB+,Chennai,Heart Disease,0
+37,Male,70.7,O+,Chennai,Hypertension,0
+22,Female,55.3,AB+,Delhi,None,1
+25,Female,81.4,AB+,Hyderabad,Hypertension,0
+42,Male,60.6,AB-,Hyderabad,None,1
+29,Female,48.2,O-,Mumbai,Asthma,0
+48,Male,59.5,AB-,Chennai,Heart Disease,0
+54,Male,71.7,AB+,Chennai,Asthma,0
+39,Male,49.9,A+,Hyderabad,Hypertension,0
+19,Female,74.6,B+,Hyderabad,Heart Disease,0
+59,Female,65.6,O-,Bangalore,Asthma,0
+33,Female,61.5,O+,Hyderabad,Asthma,0
+60,Male,83.6,AB-,Delhi,Diabetes,0
+31,Male,59.9,O+,Delhi,Hypertension,0
+34,Male,58.0,AB+,Chennai,Diabetes,0
+42,Male,61.5,AB-,Bangalore,Asthma,0
+38,Male,59.7,O-,Chennai,Asthma,0
+22,Female,66.9,A+,Hyderabad,Asthma,0
+39,Female,45.2,A-,Delhi,Hypertension,0
+53,Female,58.2,AB+,Hyderabad,None,1
+33,Female,54.2,A-,Mumbai,Diabetes,0
+38,Male,71.6,AB-,Delhi,None,1
+50,Female,45.0,AB+,Chennai,Hypertension,0
+33,Female,73.8,A+,Chennai,Asthma,0
+48,Male,69.0,AB-,Hyderabad,None,1
+26,Female,54.3,B+,Bangalore,Hypertension,0
+22,Male,66.0,B-,Bangalore,Hypertension,0
+41,Female,56.7,A-,Chennai,Heart Disease,0
+21,Female,75.8,O-,Chennai,Diabetes,0
+52,Male,72.7,AB-,Mumbai,None,1
+19,Female,49.3,A+,Hyderabad,None,0
+56,Female,55.1,B-,Mumbai,Asthma,0
+40,Female,58.1,B-,Bangalore,Heart Disease,0
+35,Male,84.4,AB+,Chennai,None,1
+44,Female,85.2,B+,Mumbai,Hypertension,0
+28,Female,70.3,O+,Mumbai,None,1
+39,Male,75.2,A+,Chennai,Heart Disease,0
+59,Male,83.7,B+,Mumbai,None,1
+56,Female,57.1,A+,Bangalore,Diabetes,0
+40,Male,45.0,B+,Delhi,None,0
+25,Male,80.5,A+,Chennai,Asthma,0
+19,Female,72.4,A-,Delhi,Hypertension,0
+20,Male,73.0,O+,Mumbai,Diabetes,0
+43,Male,57.5,B-,Hyderabad,Hypertension,0
+41,Female,53.8,A+,Mumbai,Asthma,0
+21,Male,49.8,AB-,Delhi,Asthma,0
+40,Female,85.5,O+,Delhi,None,1
+29,Male,80.9,B-,Chennai,Asthma,0
+47,Female,54.3,AB-,Hyderabad,Asthma,0
+36,Male,47.5,AB-,Bangalore,Asthma,0
+20,Male,74.9,B-,Bangalore,Heart Disease,0
+60,Female,46.9,AB-,Chennai,Asthma,0
+58,Male,48.9,B+,Bangalore,Asthma,0
+35,Female,86.0,AB-,Bangalore,Asthma,0
+21,Male,87.9,O+,Delhi,Hypertension,0
+43,Female,62.2,A-,Mumbai,None,1
+56,Male,58.5,A+,Hyderabad,Asthma,0
+46,Female,70.1,O+,Chennai,Hypertension,0
+40,Female,54.5,B-,Hyderabad,Heart Disease,0
+41,Male,63.0,O-,Chennai,None,1
+26,Male,55.3,A+,Delhi,Diabetes,0
+37,Female,84.1,AB-,Chennai,Diabetes,0
+50,Female,55.7,AB-,Bangalore,Hypertension,0
+24,Female,54.3,AB+,Chennai,Diabetes,0
+42,Female,48.6,O-,Mumbai,Asthma,0
+32,Female,64.4,B-,Mumbai,None,1
+50,Male,88.5,O-,Delhi,None,1
+42,Male,65.9,AB+,Delhi,Asthma,0
+53,Female,75.4,A-,Hyderabad,Hypertension,0
+49,Male,74.7,O+,Hyderabad,Hypertension,0
+43,Female,74.3,B+,Hyderabad,None,1
+54,Male,75.6,O+,Delhi,Diabetes,0
+18,Female,49.8,O+,Bangalore,Heart Disease,0
+55,Female,85.0,B+,Mumbai,Diabetes,0
+18,Female,57.6,A+,Delhi,Heart Disease,0
+46,Male,88.0,A-,Chennai,None,1
+48,Female,48.1,AB+,Hyderabad,Hypertension,0
+48,Male,62.4,B+,Chennai,Diabetes,0
+22,Female,57.7,O+,Mumbai,None,1
+56,Female,78.1,A+,Chennai,Asthma,0
+34,Male,60.8,AB+,Bangalore,Hypertension,0
+24,Female,48.5,A+,Chennai,Hypertension,0
+36,Male,69.6,B+,Bangalore,Heart Disease,0
+40,Male,69.0,O+,Hyderabad,Hypertension,0
+20,Female,78.9,A+,Delhi,Hypertension,0
+34,Female,62.1,O-,Bangalore,None,1
+59,Female,60.3,O-,Mumbai,None,1
+31,Male,84.8,A+,Hyderabad,Heart Disease,0
+39,Male,75.7,O+,Delhi,Hypertension,0
+20,Female,52.6,AB+,Mumbai,Hypertension,0
+55,Female,57.7,B+,Hyderabad,Diabetes,0
+20,Male,62.4,O+,Delhi,Diabetes,0
+44,Female,60.9,A-,Mumbai,None,1
+59,Female,66.5,B+,Chennai,Diabetes,0
+41,Male,76.3,O+,Delhi,Hypertension,0
+48,Male,60.8,O+,Delhi,Diabetes,0
+42,Female,61.3,O-,Bangalore,Diabetes,0
+20,Female,76.9,AB+,Chennai,Hypertension,0
+37,Female,62.4,A+,Hyderabad,Asthma,0
+44,Female,56.6,A+,Hyderabad,Heart Disease,0
+48,Male,81.6,O-,Delhi,Diabetes,0
+18,Male,84.0,O+,Bangalore,Diabetes,0
+31,Male,61.0,A+,Bangalore,None,1
+36,Female,70.2,AB+,Delhi,Heart Disease,0
+42,Female,64.9,B+,Hyderabad,None,1
+29,Male,71.4,O+,Bangalore,None,1
+21,Male,55.1,A+,Chennai,Hypertension,0
+33,Male,62.1,B-,Mumbai,Diabetes,0
+41,Male,47.6,A+,Hyderabad,None,0
+26,Male,73.4,A-,Hyderabad,Hypertension,0
+56,Female,59.5,O-,Delhi,Heart Disease,0
+50,Female,61.6,AB-,Delhi,Heart Disease,0
+31,Male,82.8,AB-,Bangalore,Asthma,0
+52,Male,60.6,O-,Chennai,Heart Disease,0
+33,Female,85.1,A-,Chennai,Diabetes,0
+21,Female,58.9,AB-,Bangalore,Heart Disease,0
+58,Male,66.1,A-,Hyderabad,Hypertension,0
+35,Female,71.2,A+,Delhi,Heart Disease,0
+58,Female,53.0,B-,Hyderabad,None,1
+34,Female,78.3,O+,Chennai,Diabetes,0
+22,Male,63.6,O-,Bangalore,Hypertension,0
+19,Female,64.6,O-,Delhi,Diabetes,0
+27,Male,52.7,AB+,Bangalore,Hypertension,0
+59,Female,57.8,O-,Delhi,Diabetes,0
+57,Male,86.5,B+,Bangalore,Heart Disease,0
+21,Female,56.3,B+,Chennai,None,1
+18,Female,48.8,O+,Chennai,None,0
+44,Male,48.8,A+,Chennai,None,0
+42,Male,86.1,A+,Bangalore,Diabetes,0
+26,Male,48.6,AB+,Hyderabad,Diabetes,0
+20,Female,49.9,O-,Mumbai,Hypertension,0
+56,Female,53.6,AB+,Hyderabad,Diabetes,0
+40,Male,50.9,B+,Mumbai,Hypertension,0
+28,Male,79.1,AB+,Hyderabad,Hypertension,0
+30,Female,45.3,A+,Delhi,Heart Disease,0
+59,Male,67.3,A+,Chennai,Hypertension,0
+58,Female,82.7,O+,Chennai,Heart Disease,0
+28,Female,56.2,AB-,Chennai,Diabetes,0
+57,Female,74.6,B+,Bangalore,Heart Disease,0
+40,Female,51.3,AB-,Hyderabad,None,1
+47,Male,89.6,B-,Mumbai,Diabetes,0
+41,Female,79.7,A-,Bangalore,Hypertension,0
+38,Male,83.2,O+,Mumbai,Heart Disease,0
+33,Male,62.5,B-,Chennai,Hypertension,0
+34,Female,81.2,A+,Hyderabad,Heart Disease,0
+23,Male,82.1,AB+,Delhi,Heart Disease,0
+25,Female,84.4,AB+,Hyderabad,None,1
+32,Female,89.6,O-,Mumbai,Diabetes,0
+18,Male,63.7,AB-,Mumbai,Diabetes,0
+28,Female,64.6,AB-,Mumbai,Diabetes,0
+60,Female,62.9,AB-,Bangalore,Heart Disease,0
+27,Male,66.2,O+,Mumbai,None,1
+37,Male,45.0,O+,Hyderabad,Hypertension,0
+26,Female,57.1,AB+,Chennai,Heart Disease,0
+18,Female,80.1,A+,Bangalore,Diabetes,0
+19,Female,73.0,B+,Bangalore,Asthma,0
+32,Female,62.2,A-,Hyderabad,None,1
+42,Female,87.8,B+,Hyderabad,Diabetes,0
+23,Female,79.9,O-,Hyderabad,Diabetes,0
+33,Male,52.6,A+,Mumbai,None,1
+34,Female,78.7,A-,Delhi,None,1
+19,Male,46.3,A-,Bangalore,Hypertension,0
+21,Male,77.7,B-,Chennai,Heart Disease,0
+55,Female,81.9,AB+,Delhi,Asthma,0
+25,Male,52.7,B-,Hyderabad,Asthma,0
+30,Male,45.6,AB-,Chennai,None,0
+22,Female,53.9,AB-,Hyderabad,Hypertension,0
+40,Female,67.3,B+,Chennai,None,1
+40,Male,51.1,O+,Bangalore,Heart Disease,0
+23,Male,59.6,B-,Mumbai,Diabetes,0
+20,Male,55.9,A+,Delhi,None,1
+23,Male,65.2,B+,Delhi,Diabetes,0
+18,Male,59.2,B+,Hyderabad,Diabetes,0
+47,Male,78.0,B+,Chennai,Diabetes,0
+33,Male,83.9,AB-,Chennai,Diabetes,0
+59,Male,84.4,A-,Mumbai,Diabetes,0
+44,Male,79.1,O-,Delhi,Asthma,0
+50,Female,49.5,B+,Mumbai,Diabetes,0
+36,Female,67.5,O+,Bangalore,Asthma,0
+27,Male,60.7,AB-,Mumbai,Hypertension,0
+23,Male,45.9,A+,Bangalore,Heart Disease,0
+57,Male,55.7,A-,Delhi,Heart Disease,0
+36,Female,78.0,O-,Bangalore,Hypertension,0
+60,Female,75.8,B+,Chennai,Diabetes,0
+18,Female,71.8,B+,Delhi,Heart Disease,0
+49,Female,56.0,B-,Delhi,Hypertension,0
+49,Female,71.3,AB+,Delhi,Hypertension,0
+42,Male,60.5,O+,Chennai,None,1
+20,Female,49.1,B+,Bangalore,Heart Disease,0
+34,Female,70.7,AB+,Chennai,None,1
+41,Female,84.5,A+,Hyderabad,None,1
+30,Male,78.2,O+,Bangalore,Asthma,0
+40,Male,75.2,AB+,Mumbai,Heart Disease,0
+45,Male,79.3,O-,Hyderabad,Asthma,0
+47,Female,77.2,AB+,Chennai,Heart Disease,0
+27,Male,52.5,O-,Bangalore,None,1
+55,Female,70.0,A-,Chennai,Heart Disease,0
+18,Female,73.0,O-,Bangalore,None,1
+33,Male,62.8,AB-,Chennai,Asthma,0
+28,Female,66.9,A-,Bangalore,None,1
+30,Female,82.5,A-,Chennai,None,1
+22,Female,61.7,B+,Chennai,Diabetes,0
+30,Female,56.2,B+,Hyderabad,Heart Disease,0
+22,Male,83.4,B-,Mumbai,None,1
+39,Male,73.5,B+,Mumbai,Diabetes,0
+54,Female,73.8,O-,Bangalore,Asthma,0
+49,Male,59.5,A+,Delhi,Asthma,0
+47,Male,85.2,B-,Bangalore,None,1
+20,Male,53.2,B-,Mumbai,Diabetes,0
+22,Male,73.6,B-,Chennai,Diabetes,0
+26,Male,67.7,O-,Hyderabad,Hypertension,0
+27,Male,66.5,B+,Hyderabad,Diabetes,0
+41,Female,89.6,AB+,Bangalore,None,1
+43,Female,68.5,A-,Mumbai,Heart Disease,0
+38,Female,45.8,AB+,Hyderabad,Asthma,0
+20,Male,77.9,O-,Chennai,Asthma,0
+60,Male,79.2,A-,Mumbai,Diabetes,0
+28,Female,77.8,B+,Mumbai,Asthma,0
+54,Male,59.5,B-,Bangalore,Heart Disease,0
+34,Female,81.9,B+,Bangalore,None,1
+49,Female,60.5,O-,Hyderabad,Heart Disease,0
+56,Female,76.4,O+,Chennai,Heart Disease,0
+53,Male,89.5,O+,Mumbai,Asthma,0
+44,Female,45.2,B+,Chennai,Diabetes,0
+48,Female,46.1,O-,Delhi,Heart Disease,0
+53,Female,59.6,B+,Hyderabad,Diabetes,0
+23,Female,83.1,B-,Chennai,None,1
+33,Female,87.6,AB-,Bangalore,Heart Disease,0
+28,Female,56.2,A-,Delhi,Asthma,0
+23,Female,60.8,O-,Mumbai,Diabetes,0
+39,Female,55.8,O-,Mumbai,Heart Disease,0
+48,Female,82.6,AB-,Mumbai,Diabetes,0
+34,Female,57.6,O+,Mumbai,None,1
+45,Female,56.9,O-,Chennai,Heart Disease,0
+52,Female,48.2,B+,Bangalore,Diabetes,0
+23,Female,46.8,AB+,Hyderabad,Heart Disease,0
+19,Male,45.5,AB+,Chennai,None,0
+52,Female,84.8,O-,Mumbai,Heart Disease,0
+54,Male,68.8,O+,Chennai,None,1
+36,Male,83.9,B-,Bangalore,Heart Disease,0
+41,Female,81.0,B-,Chennai,Heart Disease,0
+50,Female,65.8,A-,Mumbai,Heart Disease,0
+28,Male,74.3,AB+,Delhi,None,1
+26,Female,53.1,B-,Hyderabad,Heart Disease,0
+46,Female,57.7,B+,Mumbai,Heart Disease,0
+52,Male,56.1,A-,Mumbai,Asthma,0
+37,Male,87.7,AB+,Mumbai,Hypertension,0
+32,Male,73.6,AB-,Mumbai,Asthma,0
+29,Male,88.0,B-,Hyderabad,Hypertension,0
+21,Female,86.7,AB-,Bangalore,Diabetes,0
+36,Female,79.2,B-,Hyderabad,Heart Disease,0
+40,Female,54.6,AB-,Hyderabad,Heart Disease,0
+26,Male,61.3,O-,Mumbai,Diabetes,0
+27,Female,48.0,AB-,Mumbai,None,0
+40,Female,49.1,O-,Bangalore,Hypertension,0
+58,Male,87.0,A+,Bangalore,Asthma,0
+40,Male,51.9,AB+,Chennai,Heart Disease,0
+41,Male,54.1,A+,Bangalore,Diabetes,0
+41,Male,57.2,AB-,Mumbai,Asthma,0
+23,Female,52.8,O-,Hyderabad,Heart Disease,0
+44,Female,72.6,O-,Chennai,Asthma,0
+54,Female,87.4,AB-,Bangalore,Diabetes,0
+49,Male,78.4,B-,Mumbai,Asthma,0
+29,Female,48.5,AB-,Chennai,None,0
+58,Male,45.1,A+,Hyderabad,Diabetes,0
+26,Female,49.9,B+,Hyderabad,Asthma,0
+47,Male,81.4,O+,Bangalore,Hypertension,0
+37,Female,73.8,A-,Mumbai,Heart Disease,0
+25,Female,48.5,A+,Hyderabad,None,0
+50,Male,67.5,O+,Chennai,Heart Disease,0
+27,Male,50.2,O-,Mumbai,Heart Disease,0
+42,Female,82.4,O-,Delhi,Hypertension,0
+40,Female,77.3,A+,Bangalore,Hypertension,0
+28,Male,76.7,A-,Hyderabad,Hypertension,0
+35,Female,49.8,A-,Bangalore,Asthma,0
+50,Male,86.4,O+,Mumbai,None,1
+33,Female,48.2,O+,Chennai,Diabetes,0
+59,Female,52.6,O+,Delhi,Hypertension,0
+54,Male,89.5,O-,Delhi,Diabetes,0
+55,Male,55.1,B-,Chennai,None,1
+20,Male,78.3,A-,Mumbai,Hypertension,0
+28,Male,90.0,B-,Chennai,Heart Disease,0
+22,Female,67.8,B-,Mumbai,Hypertension,0
+23,Female,64.5,O+,Chennai,Heart Disease,0
+23,Male,86.0,AB-,Bangalore,Heart Disease,0
+58,Male,86.9,A+,Delhi,Hypertension,0
+21,Female,78.3,AB-,Mumbai,Asthma,0
+46,Male,86.0,A-,Bangalore,Asthma,0
+54,Male,82.6,O-,Mumbai,Diabetes,0
+22,Female,64.4,B+,Delhi,Hypertension,0
+48,Male,56.9,AB+,Mumbai,Diabetes,0
+21,Male,56.0,AB+,Mumbai,Diabetes,0
+38,Male,67.5,O+,Mumbai,None,1
+41,Female,82.9,B-,Bangalore,Asthma,0
+49,Female,59.5,AB+,Chennai,Diabetes,0
+31,Male,48.6,O-,Delhi,Diabetes,0
+44,Male,86.9,B-,Mumbai,Diabetes,0
+55,Male,51.4,O-,Mumbai,None,1
+49,Female,89.4,AB-,Delhi,Asthma,0
+18,Male,60.2,A-,Chennai,Asthma,0
+47,Male,72.1,O-,Delhi,Asthma,0
+50,Female,60.5,B+,Bangalore,Diabetes,0
+53,Female,86.6,A-,Mumbai,Hypertension,0
+57,Female,73.7,O-,Bangalore,Hypertension,0
+58,Female,57.3,O+,Chennai,Heart Disease,0
+51,Male,80.5,B+,Delhi,Hypertension,0
+25,Male,66.4,B+,Bangalore,Hypertension,0
+45,Female,71.4,B-,Bangalore,None,1
+46,Female,56.8,A-,Mumbai,None,1
+39,Female,70.2,A+,Bangalore,Diabetes,0
+54,Male,52.3,AB-,Mumbai,Heart Disease,0
+18,Female,59.5,O+,Hyderabad,None,1
+20,Male,75.8,B-,Chennai,Heart Disease,0
+33,Female,59.6,AB+,Delhi,Heart Disease,0
+23,Female,77.5,B+,Hyderabad,None,1
+57,Female,76.4,B+,Bangalore,Diabetes,0
+59,Female,67.2,B-,Bangalore,Diabetes,0
+55,Male,63.8,B+,Bangalore,Diabetes,0
+46,Male,55.6,O+,Mumbai,Diabetes,0
+43,Female,72.0,AB+,Bangalore,Heart Disease,0
+38,Male,54.7,AB-,Delhi,Asthma,0
+52,Male,53.5,AB-,Hyderabad,Asthma,0
+39,Female,53.5,O+,Chennai,Hypertension,0
+19,Female,47.2,O-,Bangalore,Heart Disease,0
+60,Male,85.9,A+,Mumbai,Hypertension,0
+57,Female,81.9,B-,Chennai,Heart Disease,0
+48,Female,69.8,O-,Hyderabad,Hypertension,0
+18,Female,74.2,O+,Bangalore,Diabetes,0
+44,Female,64.5,B-,Bangalore,Heart Disease,0
+55,Female,46.8,O-,Bangalore,Hypertension,0
+43,Male,65.9,AB-,Mumbai,Heart Disease,0
+40,Male,89.7,A+,Delhi,Hypertension,0
+48,Female,60.4,A-,Mumbai,Hypertension,0
+27,Male,66.1,B+,Bangalore,None,1
+50,Male,63.4,O+,Hyderabad,Diabetes,0
+46,Male,55.8,AB-,Mumbai,Heart Disease,0
+28,Male,84.1,AB-,Hyderabad,Asthma,0
+40,Female,61.5,O-,Chennai,Diabetes,0
+29,Male,75.8,AB-,Delhi,Asthma,0
+47,Female,78.9,B-,Mumbai,Heart Disease,0
+51,Female,61.2,B-,Hyderabad,None,1
+21,Female,89.6,B+,Hyderabad,None,1
+19,Male,65.6,O+,Bangalore,Heart Disease,0
+39,Female,56.6,B-,Bangalore,Asthma,0
+30,Female,53.6,A+,Chennai,Diabetes,0
+37,Female,65.0,O+,Bangalore,Diabetes,0
+30,Female,53.9,A+,Delhi,Diabetes,0
+52,Male,59.9,AB+,Bangalore,Hypertension,0
+52,Male,79.9,B-,Chennai,Diabetes,0
+22,Female,68.7,B+,Hyderabad,Asthma,0
+50,Male,59.8,B-,Chennai,Diabetes,0
+26,Male,68.7,B+,Bangalore,Diabetes,0
+47,Male,55.4,O-,Chennai,Diabetes,0
+31,Male,48.6,O+,Mumbai,None,0
+53,Male,79.4,AB-,Chennai,Diabetes,0
+29,Female,70.1,B-,Bangalore,Hypertension,0
+60,Male,80.7,O+,Delhi,None,1
+46,Female,87.1,B+,Chennai,Diabetes,0
+53,Female,86.9,AB+,Chennai,None,1
+27,Female,56.6,A+,Chennai,Hypertension,0
+18,Female,66.9,O-,Bangalore,Diabetes,0
+44,Male,78.2,A+,Delhi,Hypertension,0
+30,Female,77.0,A-,Delhi,Hypertension,0
+32,Female,87.8,A-,Hyderabad,None,1
+35,Female,58.0,B+,Hyderabad,Asthma,0
+32,Female,68.8,B+,Delhi,Diabetes,0
+35,Female,68.9,A-,Delhi,Diabetes,0
+28,Male,78.3,B-,Chennai,Hypertension,0
+24,Female,59.9,AB+,Hyderabad,Hypertension,0
+39,Female,52.4,A-,Delhi,Asthma,0
+60,Female,85.3,AB+,Chennai,None,1
+26,Male,71.6,AB+,Bangalore,Hypertension,0
+53,Female,73.0,O+,Hyderabad,None,1
+25,Female,80.4,B-,Delhi,None,1
+26,Female,56.9,AB+,Mumbai,Hypertension,0
+22,Male,49.6,B-,Mumbai,Hypertension,0
+39,Female,89.0,A+,Hyderabad,Asthma,0
+42,Female,59.3,AB-,Mumbai,Heart Disease,0
+26,Female,65.0,B+,Mumbai,Heart Disease,0
+56,Male,71.1,O+,Delhi,Asthma,0
+21,Female,76.0,O-,Hyderabad,Hypertension,0
+25,Female,61.1,AB-,Mumbai,Hypertension,0
+44,Male,77.9,A+,Mumbai,Heart Disease,0
+49,Male,69.1,O-,Mumbai,Diabetes,0
+54,Female,48.5,A+,Hyderabad,Hypertension,0
+37,Male,65.3,B-,Delhi,Heart Disease,0
+33,Female,80.7,AB+,Hyderabad,Diabetes,0
+19,Male,66.7,AB+,Delhi,Diabetes,0
+31,Male,50.5,B-,Chennai,Heart Disease,0
+21,Male,79.5,O-,Hyderabad,Heart Disease,0
+37,Male,49.9,A-,Delhi,Asthma,0
+34,Male,61.3,O+,Chennai,Diabetes,0
+32,Male,59.0,O-,Delhi,Diabetes,0
+26,Male,65.4,AB+,Mumbai,None,1
+42,Male,66.1,O+,Bangalore,None,1
+37,Female,64.5,AB+,Delhi,Hypertension,0
+40,Male,59.3,B+,Hyderabad,Heart Disease,0
+46,Female,68.2,A+,Delhi,Hypertension,0
+36,Female,53.9,O-,Hyderabad,Heart Disease,0
+37,Female,46.9,B-,Mumbai,Asthma,0
+25,Male,46.6,A+,Delhi,Asthma,0
+19,Female,47.5,O+,Bangalore,Heart Disease,0
+28,Female,62.0,A+,Hyderabad,Asthma,0
+51,Female,75.0,AB-,Bangalore,Asthma,0
+45,Male,78.4,B-,Delhi,Asthma,0
+34,Male,46.0,O-,Bangalore,Diabetes,0
+32,Female,88.5,B-,Hyderabad,None,1
+23,Male,63.6,O+,Mumbai,Asthma,0
+42,Male,88.2,AB+,Bangalore,Hypertension,0
+58,Male,85.9,O+,Hyderabad,Diabetes,0
+45,Female,75.9,A-,Chennai,Hypertension,0
+39,Male,83.7,AB-,Chennai,Hypertension,0
+25,Female,49.9,B-,Delhi,Diabetes,0
+47,Female,74.7,B+,Chennai,Asthma,0
+34,Female,63.4,A-,Mumbai,Heart Disease,0
+27,Female,81.4,B-,Mumbai,Heart Disease,0
+59,Female,80.5,O+,Delhi,Heart Disease,0
+35,Female,57.2,O-,Delhi,Asthma,0
+55,Male,71.2,O-,Delhi,None,1
+25,Female,57.8,A+,Hyderabad,None,1
+18,Male,52.2,O+,Chennai,None,1
+50,Female,62.9,A+,Bangalore,None,1
+43,Female,46.3,AB-,Bangalore,Asthma,0
+28,Male,62.4,AB+,Delhi,Hypertension,0
+40,Male,85.5,A+,Bangalore,Asthma,0
+45,Female,86.1,A-,Bangalore,Hypertension,0
+46,Female,79.6,A-,Bangalore,Diabetes,0
+40,Female,80.9,B+,Chennai,Asthma,0
+58,Male,51.2,B-,Mumbai,Diabetes,0
+46,Male,58.5,O+,Chennai,Asthma,0
+55,Male,85.2,AB+,Hyderabad,Diabetes,0
+55,Male,62.9,O-,Hyderabad,Hypertension,0
+47,Male,76.6,A-,Delhi,Diabetes,0
+21,Female,72.0,B+,Chennai,Hypertension,0
+44,Male,76.8,B+,Delhi,Asthma,0
+27,Male,47.4,A-,Delhi,Asthma,0
+36,Male,55.9,O+,Hyderabad,Diabetes,0
+52,Male,57.3,B+,Chennai,Hypertension,0
+27,Female,52.4,B-,Delhi,Heart Disease,0
+25,Male,58.1,O+,Bangalore,None,1
+25,Male,73.1,AB-,Hyderabad,Diabetes,0
+56,Male,75.8,AB+,Chennai,None,1
+44,Male,68.2,A-,Hyderabad,Diabetes,0
+18,Female,53.3,A-,Bangalore,None,1
+47,Male,69.0,B-,Chennai,Heart Disease,0
+43,Male,80.7,A+,Bangalore,Heart Disease,0
+27,Female,87.9,A+,Mumbai,None,1
+22,Male,89.2,B+,Delhi,None,1
+35,Male,58.8,A-,Delhi,None,1
+56,Male,53.1,O-,Chennai,Hypertension,0
+22,Male,89.8,A-,Hyderabad,Diabetes,0
+26,Male,81.7,O+,Mumbai,Hypertension,0
+43,Female,52.4,AB+,Mumbai,Diabetes,0
+43,Male,61.2,AB+,Bangalore,Heart Disease,0
+55,Male,45.7,O-,Bangalore,Asthma,0
+48,Male,73.4,A-,Bangalore,Asthma,0
+47,Male,86.3,B-,Chennai,Heart Disease,0
+56,Male,88.3,AB-,Hyderabad,Asthma,0
+33,Male,73.3,B-,Bangalore,Diabetes,0
+30,Female,82.8,AB+,Bangalore,Diabetes,0
+20,Female,69.1,A-,Chennai,None,1
+38,Female,69.9,O+,Mumbai,Hypertension,0
+42,Female,85.6,AB-,Bangalore,Diabetes,0
+24,Male,54.4,AB+,Chennai,None,1
+60,Male,78.7,O+,Hyderabad,Asthma,0
+60,Female,67.0,O-,Bangalore,None,1
+49,Female,80.7,O-,Delhi,None,1
+22,Female,64.3,AB+,Hyderabad,Heart Disease,0
+24,Female,72.3,A-,Delhi,Diabetes,0
+53,Female,63.5,O-,Chennai,None,1
+43,Male,85.8,AB-,Bangalore,None,1
+43,Male,59.9,O-,Delhi,Hypertension,0
+46,Female,67.4,B-,Mumbai,Hypertension,0
+35,Male,69.0,O+,Hyderabad,Heart Disease,0
+60,Female,53.0,A-,Mumbai,Hypertension,0
+57,Female,69.9,O-,Delhi,None,1
+20,Female,72.8,A-,Delhi,Hypertension,0
+41,Male,56.2,B-,Bangalore,Heart Disease,0
+60,Male,76.5,AB+,Chennai,None,1
+52,Male,63.6,B+,Bangalore,Asthma,0
+50,Female,61.8,O-,Mumbai,Hypertension,0
+24,Male,89.8,AB+,Mumbai,Diabetes,0
+50,Female,57.2,A+,Bangalore,Hypertension,0
+43,Male,57.2,A+,Mumbai,Heart Disease,0
+23,Male,88.9,AB-,Hyderabad,Hypertension,0
+21,Male,45.3,A-,Bangalore,Diabetes,0
+51,Male,64.1,AB-,Chennai,Heart Disease,0
+54,Male,49.8,B-,Delhi,None,0
+55,Male,88.7,AB-,Delhi,None,1
+33,Male,78.2,B+,Delhi,Heart Disease,0
+55,Male,87.3,B+,Hyderabad,Asthma,0
+21,Male,68.2,B+,Bangalore,Hypertension,0
+23,Male,67.0,O+,Delhi,Asthma,0
+28,Male,75.2,B+,Mumbai,Asthma,0
+47,Male,85.5,A+,Hyderabad,Heart Disease,0
+45,Female,56.4,B-,Delhi,Heart Disease,0
+33,Female,66.6,A+,Chennai,Asthma,0
+20,Male,69.7,AB-,Mumbai,Diabetes,0
+44,Male,81.0,O-,Mumbai,None,1
+22,Male,56.0,O-,Delhi,Asthma,0
+58,Male,81.8,O-,Delhi,Diabetes,0
+51,Male,84.3,A+,Delhi,None,1
+19,Male,62.0,O-,Bangalore,Heart Disease,0
+30,Female,53.2,A+,Bangalore,Hypertension,0
+45,Male,61.0,A-,Delhi,Heart Disease,0
+45,Male,71.3,AB-,Hyderabad,Diabetes,0
+60,Female,75.1,A-,Mumbai,None,1
+44,Male,69.9,B+,Bangalore,Hypertension,0
+20,Female,48.1,AB-,Chennai,Heart Disease,0
+28,Male,72.1,B+,Chennai,Hypertension,0
+19,Female,81.1,B-,Mumbai,Hypertension,0
+59,Female,67.7,AB-,Chennai,Diabetes,0
+38,Female,67.0,O+,Mumbai,Asthma,0
+47,Male,48.3,O+,Mumbai,Diabetes,0
+34,Female,76.4,O+,Hyderabad,Hypertension,0
+23,Male,65.1,B+,Chennai,Heart Disease,0
+43,Female,78.1,O-,Chennai,Diabetes,0
+26,Female,57.7,A-,Chennai,None,1
+57,Male,62.9,A+,Mumbai,None,1
+20,Male,60.4,O-,Chennai,Hypertension,0
+56,Male,80.6,A+,Chennai,Hypertension,0
+23,Male,57.3,B+,Chennai,Asthma,0
+48,Female,51.8,A-,Chennai,None,1
+37,Female,73.1,AB+,Mumbai,Hypertension,0
+30,Female,53.8,AB+,Mumbai,Asthma,0
+60,Female,46.4,B-,Hyderabad,Hypertension,0
+57,Male,63.6,AB+,Chennai,None,1
+27,Female,56.1,AB+,Mumbai,Asthma,0
+44,Female,78.7,A+,Hyderabad,Diabetes,0
+52,Male,57.1,B+,Bangalore,Diabetes,0
+20,Female,62.8,AB-,Chennai,Asthma,0
+43,Male,85.2,AB+,Mumbai,Hypertension,0
+40,Male,73.7,O+,Chennai,None,1
+20,Male,62.7,A-,Bangalore,None,1
+41,Male,60.7,AB-,Delhi,Diabetes,0
+39,Male,78.5,O+,Chennai,None,1
+35,Male,64.5,B-,Chennai,Diabetes,0
+42,Female,89.4,O+,Hyderabad,Asthma,0
+23,Female,85.2,B+,Bangalore,None,1
+19,Female,53.9,B+,Delhi,Diabetes,0
+33,Male,49.9,O+,Chennai,Heart Disease,0
+25,Female,80.0,A-,Mumbai,Hypertension,0
+43,Female,73.6,AB+,Delhi,Diabetes,0
+60,Male,56.4,A-,Bangalore,Heart Disease,0
+54,Male,65.0,O-,Chennai,Heart Disease,0
+41,Female,69.7,A+,Mumbai,Diabetes,0
+25,Male,49.8,B-,Mumbai,Asthma,0
+24,Male,77.8,A+,Hyderabad,Diabetes,0
+24,Female,84.6,B+,Delhi,Hypertension,0
+20,Male,64.7,B-,Mumbai,Asthma,0
+46,Female,52.7,B+,Hyderabad,Diabetes,0
+25,Male,49.3,B-,Delhi,Asthma,0
+29,Male,89.8,B-,Hyderabad,Heart Disease,0
+18,Female,51.2,A+,Bangalore,Asthma,0
+29,Female,80.9,B-,Bangalore,Hypertension,0
+24,Male,81.9,O+,Delhi,None,1
+27,Female,77.2,B+,Mumbai,Heart Disease,0
+38,Female,50.1,A-,Hyderabad,Hypertension,0
+54,Male,73.4,O-,Delhi,None,1
+40,Male,62.7,O+,Mumbai,Hypertension,0
+57,Male,78.7,O+,Chennai,None,1
+52,Female,68.2,AB+,Chennai,Asthma,0
+29,Female,89.2,A-,Chennai,Asthma,0
+54,Female,81.0,A+,Chennai,None,1
+44,Female,45.8,A+,Bangalore,Heart Disease,0
+38,Male,85.2,O+,Bangalore,Asthma,0
+37,Male,53.0,O-,Mumbai,Heart Disease,0
+35,Male,63.5,B+,Mumbai,Hypertension,0
+25,Female,79.3,O+,Delhi,Hypertension,0
+30,Female,49.2,AB-,Mumbai,None,0
+25,Female,72.9,B+,Chennai,Hypertension,0
+18,Male,69.7,A+,Chennai,Asthma,0
+57,Female,79.2,O+,Delhi,Hypertension,0
+20,Male,86.1,A-,Bangalore,Diabetes,0
+25,Male,54.1,O-,Mumbai,Asthma,0
+30,Female,70.7,O+,Hyderabad,None,1
+42,Male,89.4,O-,Delhi,Hypertension,0
+38,Female,53.1,O+,Mumbai,Asthma,0
+60,Male,89.1,O+,Chennai,Diabetes,0
+23,Male,82.0,A-,Bangalore,Asthma,0
+22,Male,76.9,B-,Mumbai,Hypertension,0
+22,Female,74.3,AB+,Hyderabad,None,1
+36,Female,72.9,AB-,Delhi,Heart Disease,0
+26,Male,74.9,AB+,Mumbai,Diabetes,0
+58,Female,56.0,A+,Chennai,Diabetes,0
+58,Female,54.1,B-,Bangalore,Diabetes,0
+21,Female,47.3,B-,Delhi,Heart Disease,0
+59,Female,63.5,A-,Bangalore,Heart Disease,0
+51,Female,45.3,B+,Delhi,Hypertension,0
+21,Male,56.6,O-,Delhi,Asthma,0
+23,Female,67.4,A-,Mumbai,Diabetes,0
+34,Female,70.7,B+,Chennai,None,1
+41,Male,45.7,AB-,Delhi,Heart Disease,0
+23,Male,62.7,B-,Hyderabad,None,1
+37,Female,60.0,O-,Mumbai,Diabetes,0
+51,Male,60.6,O-,Chennai,Hypertension,0
+21,Male,76.8,B+,Chennai,Diabetes,0
+26,Female,60.9,A+,Chennai,Asthma,0
+58,Female,83.9,O-,Hyderabad,Diabetes,0
+47,Male,55.5,O-,Hyderabad,Hypertension,0
+58,Male,53.5,A+,Delhi,Hypertension,0
+55,Male,48.9,O-,Delhi,Diabetes,0
+37,Male,88.5,AB+,Hyderabad,Diabetes,0
+59,Male,80.1,A+,Bangalore,Diabetes,0
+21,Male,46.3,B+,Delhi,Hypertension,0
+20,Male,88.9,AB-,Delhi,Asthma,0
+51,Male,77.7,AB-,Bangalore,Hypertension,0
+47,Male,87.3,B-,Hyderabad,Diabetes,0
+55,Female,86.2,B-,Bangalore,Diabetes,0
+56,Female,81.6,A+,Chennai,Hypertension,0
+26,Male,77.3,AB+,Delhi,Heart Disease,0
+58,Female,65.5,A+,Delhi,Hypertension,0
+55,Male,64.6,O+,Mumbai,None,1
+48,Female,57.1,B+,Mumbai,None,1
+53,Male,83.1,O+,Delhi,Hypertension,0
+42,Male,84.3,O-,Delhi,Hypertension,0
+42,Female,50.6,B-,Bangalore,Hypertension,0
+23,Male,86.2,AB-,Hyderabad,Asthma,0
+48,Female,80.6,AB-,Hyderabad,Asthma,0
+31,Female,70.6,AB+,Mumbai,Hypertension,0
+40,Male,80.7,B+,Hyderabad,Hypertension,0
+34,Female,81.8,A-,Mumbai,Diabetes,0
+24,Male,86.5,AB+,Hyderabad,None,1
+30,Female,55.3,O+,Chennai,Diabetes,0
+47,Male,63.5,AB-,Delhi,None,1
+35,Female,50.2,O-,Delhi,Heart Disease,0
+19,Female,81.2,A-,Mumbai,None,1
+40,Female,82.6,O+,Hyderabad,Asthma,0
+28,Female,67.8,O-,Hyderabad,Hypertension,0
+41,Male,68.2,A-,Bangalore,Asthma,0
+19,Female,71.2,B+,Mumbai,Hypertension,0
+60,Female,50.6,A-,Mumbai,Asthma,0
+53,Female,73.1,O-,Bangalore,None,1
+52,Female,63.2,AB-,Delhi,Hypertension,0
+57,Female,89.5,A-,Bangalore,None,1
+52,Male,84.0,AB-,Hyderabad,Diabetes,0
+23,Female,72.1,AB-,Hyderabad,Asthma,0
+43,Male,68.9,AB-,Chennai,Heart Disease,0
+39,Male,78.5,A-,Mumbai,None,1
+49,Male,63.6,AB-,Mumbai,Heart Disease,0
+26,Male,48.4,AB+,Delhi,Asthma,0
+36,Female,58.9,B+,Delhi,Diabetes,0
+18,Female,75.8,B-,Bangalore,Diabetes,0
+32,Female,79.6,O+,Bangalore,Asthma,0
+58,Female,81.3,B+,Chennai,Hypertension,0
+21,Female,50.9,A+,Chennai,Asthma,0
+39,Female,65.4,AB-,Chennai,None,1
+39,Male,49.9,A+,Chennai,Heart Disease,0
+34,Male,50.0,O-,Chennai,Asthma,0
+59,Female,51.1,AB-,Delhi,Asthma,0
+59,Female,54.5,O+,Delhi,Heart Disease,0
+39,Male,84.8,O-,Chennai,Asthma,0
+43,Female,49.9,O+,Hyderabad,Asthma,0
+54,Female,73.1,O+,Bangalore,Heart Disease,0
+59,Female,58.8,O-,Bangalore,Asthma,0
+56,Female,76.6,AB-,Mumbai,Asthma,0
+44,Female,64.6,A-,Bangalore,Asthma,0
+48,Female,57.5,O-,Mumbai,Diabetes,0
+30,Female,81.2,B-,Mumbai,Heart Disease,0
+55,Male,53.1,A-,Mumbai,Hypertension,0
+21,Male,57.4,B+,Hyderabad,Asthma,0
+21,Female,61.8,O-,Mumbai,Hypertension,0
+42,Female,74.9,O+,Delhi,Diabetes,0
+54,Male,79.3,A-,Hyderabad,Heart Disease,0
+24,Male,69.9,A-,Delhi,Heart Disease,0
+40,Female,61.9,AB-,Hyderabad,Heart Disease,0
+38,Male,77.6,O+,Hyderabad,None,1
+58,Male,70.6,A-,Bangalore,Heart Disease,0
+27,Male,55.8,B+,Bangalore,Heart Disease,0
+37,Female,88.4,A-,Hyderabad,Asthma,0
+50,Male,48.6,A-,Bangalore,Diabetes,0
+37,Female,79.5,B+,Bangalore,Heart Disease,0
+20,Male,83.7,AB-,Chennai,Diabetes,0
+53,Male,71.3,A+,Mumbai,Hypertension,0
+18,Female,68.9,A+,Bangalore,Heart Disease,0
+44,Female,74.0,A-,Chennai,Diabetes,0
+33,Male,51.9,A-,Delhi,Heart Disease,0
+19,Female,74.4,A+,Chennai,Asthma,0
+25,Male,50.3,AB-,Bangalore,None,1
+38,Male,69.6,AB+,Chennai,Diabetes,0
+19,Male,49.6,AB-,Bangalore,None,0
+19,Male,53.2,B+,Delhi,Asthma,0
+37,Female,54.6,O-,Delhi,Diabetes,0
+28,Male,66.4,A-,Delhi,None,1
+51,Male,62.4,A+,Chennai,Diabetes,0
+46,Female,47.9,AB-,Hyderabad,Asthma,0
+24,Female,86.8,B+,Hyderabad,Asthma,0
+51,Female,66.3,A+,Mumbai,Diabetes,0
+22,Male,45.1,AB+,Delhi,Heart Disease,0
+58,Female,60.1,AB+,Chennai,None,1
+32,Female,77.1,AB+,Bangalore,Diabetes,0
+43,Female,63.3,O+,Chennai,None,1
+33,Male,48.1,O-,Bangalore,Diabetes,0
+28,Female,83.7,AB+,Mumbai,Asthma,0
+33,Male,62.6,A+,Bangalore,Hypertension,0
+43,Female,84.9,B-,Delhi,Diabetes,0
+42,Male,76.5,A-,Delhi,None,1
+31,Male,72.6,A+,Bangalore,None,1
+51,Female,69.7,B+,Bangalore,Heart Disease,0
+47,Female,50.1,O+,Mumbai,Asthma,0
+35,Male,65.8,A-,Hyderabad,Diabetes,0
+20,Male,88.0,AB-,Mumbai,Hypertension,0
+48,Male,58.3,AB-,Chennai,None,1
+23,Male,60.2,B-,Bangalore,Heart Disease,0
+57,Female,79.8,AB-,Mumbai,Asthma,0
+22,Male,45.7,AB-,Hyderabad,Asthma,0
+56,Male,76.5,B-,Bangalore,Hypertension,0
+60,Female,60.3,O+,Mumbai,Heart Disease,0
+40,Male,57.4,O-,Bangalore,None,1
+30,Male,84.4,O+,Chennai,Heart Disease,0
+58,Male,64.4,AB-,Delhi,Diabetes,0
+20,Female,51.1,B-,Hyderabad,Asthma,0
+18,Female,46.9,AB-,Chennai,Hypertension,0
+22,Female,66.4,A-,Hyderabad,Heart Disease,0
+40,Male,61.0,A-,Hyderabad,Diabetes,0
+40,Female,65.7,B-,Chennai,None,1
+55,Male,71.2,A-,Chennai,Hypertension,0
+40,Male,56.1,O+,Delhi,Heart Disease,0
+45,Female,50.5,O+,Delhi,None,1
+41,Female,53.0,O-,Hyderabad,Diabetes,0
+31,Female,76.3,B+,Chennai,Heart Disease,0
+40,Male,88.1,A+,Mumbai,None,1
+52,Female,75.1,B-,Delhi,Heart Disease,0
+26,Female,66.0,A+,Delhi,Diabetes,0
+37,Female,65.5,A-,Hyderabad,Heart Disease,0
+42,Female,72.6,O+,Bangalore,Heart Disease,0
+36,Female,57.6,AB+,Chennai,Diabetes,0
+25,Male,54.4,B-,Delhi,None,1
+19,Female,83.6,O+,Mumbai,Heart Disease,0
+56,Female,80.0,A+,Mumbai,Heart Disease,0
+32,Male,80.1,B+,Delhi,Asthma,0
+58,Male,56.1,B+,Hyderabad,Diabetes,0
+34,Male,46.9,O+,Mumbai,Hypertension,0
+52,Male,73.5,O-,Delhi,Heart Disease,0
+42,Female,76.8,B+,Mumbai,Asthma,0
+43,Male,60.6,A-,Mumbai,Asthma,0
+34,Female,73.3,O+,Mumbai,Diabetes,0
+30,Male,55.8,O+,Delhi,Heart Disease,0
+39,Female,58.4,O-,Hyderabad,Hypertension,0
+50,Male,56.6,AB+,Hyderabad,Hypertension,0
+30,Female,63.8,A-,Mumbai,Diabetes,0
+26,Male,81.3,AB+,Mumbai,Diabetes,0
+21,Female,84.8,O+,Mumbai,Hypertension,0
+19,Female,50.5,O-,Delhi,Hypertension,0
+19,Male,77.6,A+,Chennai,None,1
+52,Female,54.9,B-,Delhi,Heart Disease,0
+35,Female,83.6,AB+,Bangalore,Asthma,0
+34,Female,66.1,AB-,Chennai,Diabetes,0
+49,Female,58.0,O-,Bangalore,Asthma,0
+24,Male,82.8,AB+,Mumbai,Diabetes,0
+34,Female,86.0,AB+,Bangalore,Diabetes,0
+53,Male,68.7,O-,Chennai,Asthma,0
+34,Female,75.9,O+,Bangalore,Asthma,0
+32,Female,83.9,A-,Delhi,Hypertension,0
+43,Female,81.3,AB-,Chennai,Asthma,0
+29,Male,53.0,AB+,Chennai,None,1
+21,Male,56.2,B+,Delhi,Hypertension,0
+51,Male,88.5,O-,Delhi,None,1
+26,Female,62.2,B-,Bangalore,None,1
+56,Female,87.0,AB+,Delhi,Hypertension,0
+59,Male,69.1,B-,Chennai,Hypertension,0
+48,Female,78.4,O+,Chennai,Hypertension,0
+28,Male,84.2,B+,Chennai,Heart Disease,0
+19,Male,88.5,O-,Bangalore,Diabetes,0
+22,Female,85.3,A+,Delhi,Diabetes,0
+29,Female,87.5,B+,Hyderabad,None,1
+36,Female,64.8,O+,Chennai,Asthma,0
+22,Male,66.1,A-,Chennai,Heart Disease,0
+30,Female,80.0,A-,Bangalore,Asthma,0
+33,Male,72.5,B+,Delhi,Asthma,0
+24,Female,84.1,AB+,Hyderabad,Diabetes,0
+42,Male,54.4,O-,Delhi,Heart Disease,0
+59,Male,87.3,A+,Chennai,Diabetes,0
+35,Female,63.1,O-,Hyderabad,Heart Disease,0
+33,Male,74.3,B+,Hyderabad,Diabetes,0
+50,Female,85.9,AB-,Delhi,Diabetes,0
+39,Male,68.0,AB+,Mumbai,Hypertension,0
+34,Female,67.7,B+,Bangalore,None,1
+39,Male,87.8,A-,Delhi,Asthma,0
+18,Female,81.0,O+,Bangalore,Hypertension,0
+55,Male,66.5,O+,Hyderabad,None,1
+19,Male,89.7,B-,Bangalore,Heart Disease,0
+57,Male,70.7,A+,Mumbai,None,1
+51,Female,65.6,O+,Mumbai,None,1
+58,Female,68.3,B+,Chennai,Heart Disease,0
+57,Female,82.7,B-,Bangalore,Heart Disease,0
+27,Female,60.6,B-,Chennai,Asthma,0
+29,Male,55.0,AB+,Hyderabad,Asthma,0
+38,Male,58.2,A-,Bangalore,Hypertension,0
+18,Female,66.0,O-,Delhi,Hypertension,0
+45,Male,75.9,A+,Chennai,Hypertension,0
+31,Female,60.3,O-,Chennai,None,1
+49,Female,50.4,A-,Hyderabad,Diabetes,0
+37,Male,74.1,B+,Delhi,None,1
+18,Female,73.2,AB-,Hyderabad,Diabetes,0
+57,Female,68.1,AB+,Mumbai,None,1
+42,Female,60.7,A-,Chennai,Asthma,0
+28,Female,86.2,B-,Delhi,None,1
+49,Female,79.1,O+,Bangalore,None,1
+25,Male,86.3,A+,Mumbai,Heart Disease,0
+30,Female,62.1,A-,Delhi,Asthma,0
+58,Male,89.6,B-,Chennai,Diabetes,0
+25,Male,84.8,AB-,Mumbai,Diabetes,0
+28,Male,50.1,B-,Hyderabad,Heart Disease,0
+43,Female,84.6,AB-,Mumbai,Hypertension,0
+21,Male,60.9,AB-,Mumbai,Asthma,0
+57,Male,81.9,B+,Delhi,Hypertension,0
+26,Female,71.3,A+,Delhi,Heart Disease,0
+28,Female,84.4,AB+,Chennai,Heart Disease,0
+54,Male,84.9,AB-,Hyderabad,Diabetes,0
+31,Female,82.0,A+,Delhi,None,1
+18,Female,59.4,AB+,Chennai,None,1
+23,Male,85.1,AB+,Hyderabad,Asthma,0
+25,Male,69.0,A-,Mumbai,Hypertension,0
+22,Female,61.0,A+,Hyderabad,None,1
+35,Female,89.6,AB+,Mumbai,Hypertension,0
+38,Female,68.7,O+,Chennai,Diabetes,0
+37,Female,78.2,AB-,Mumbai,Heart Disease,0
+30,Female,73.9,O+,Delhi,Hypertension,0
+19,Female,60.2,AB+,Chennai,None,1
+44,Male,46.0,A-,Delhi,Hypertension,0
+48,Male,80.0,A+,Hyderabad,None,1
+55,Female,48.4,A+,Hyderabad,Asthma,0
+30,Female,55.9,AB+,Mumbai,Heart Disease,0
+20,Male,58.1,AB-,Mumbai,Diabetes,0
+27,Male,68.4,A+,Bangalore,Diabetes,0
+55,Female,76.0,O-,Mumbai,Asthma,0
+19,Male,67.2,O+,Mumbai,Diabetes,0
+57,Male,83.3,AB-,Mumbai,Asthma,0
+56,Male,50.4,B-,Bangalore,Diabetes,0
+58,Male,79.7,A+,Hyderabad,Asthma,0
+52,Male,52.7,AB+,Chennai,Hypertension,0
+33,Female,86.6,A+,Hyderabad,Hypertension,0
+50,Female,47.4,B+,Hyderabad,Diabetes,0
+57,Male,80.0,O-,Bangalore,Hypertension,0
+37,Female,60.8,A+,Mumbai,Diabetes,0
+24,Male,83.4,A-,Bangalore,Asthma,0
+59,Female,72.4,AB-,Chennai,Asthma,0
+36,Male,59.1,AB-,Delhi,None,1
+49,Male,67.2,A+,Delhi,Diabetes,0
+21,Female,64.8,AB+,Hyderabad,Hypertension,0
+32,Female,69.4,AB-,Mumbai,None,1
+33,Male,58.2,O-,Delhi,Hypertension,0
+28,Male,77.2,AB+,Mumbai,Asthma,0
+49,Female,87.2,O-,Chennai,Heart Disease,0
+21,Female,52.1,B-,Hyderabad,Diabetes,0
+29,Male,48.2,O-,Bangalore,Heart Disease,0
+50,Male,77.3,B+,Delhi,Heart Disease,0
+41,Male,71.8,O-,Hyderabad,None,1
+38,Male,49.5,AB-,Mumbai,Asthma,0
+28,Male,71.4,O-,Delhi,None,1
+56,Male,63.3,O-,Chennai,Hypertension,0
+54,Female,48.5,O-,Chennai,Diabetes,0
+32,Female,46.9,O-,Chennai,None,0
+20,Female,83.7,B-,Chennai,Asthma,0
+47,Male,75.8,B+,Chennai,Hypertension,0
+35,Female,67.3,A+,Mumbai,None,1
+40,Female,58.9,B-,Delhi,Hypertension,0
+59,Female,70.3,B+,Chennai,Diabetes,0
+59,Male,45.4,AB+,Delhi,Heart Disease,0
+33,Female,64.7,A-,Mumbai,Hypertension,0
+56,Male,75.4,O+,Mumbai,Hypertension,0
+58,Female,59.1,O-,Mumbai,Hypertension,0
+20,Male,75.0,AB-,Bangalore,Hypertension,0
+23,Male,68.2,B-,Hyderabad,None,1
+44,Male,50.3,AB+,Mumbai,None,1
+52,Female,45.5,AB-,Hyderabad,None,0
+35,Female,89.0,O+,Delhi,Asthma,0
+19,Female,46.7,B+,Hyderabad,Asthma,0
+51,Female,70.2,A+,Hyderabad,Asthma,0
+34,Female,46.8,A+,Bangalore,Asthma,0
+26,Female,79.9,O-,Hyderabad,Diabetes,0
+36,Female,73.6,A+,Delhi,Heart Disease,0
+19,Female,79.0,O+,Bangalore,Hypertension,0
+43,Female,65.2,B+,Bangalore,Hypertension,0
+57,Male,80.7,O-,Chennai,Heart Disease,0
+27,Male,61.0,B+,Bangalore,Asthma,0
+43,Male,57.2,O+,Delhi,Heart Disease,0
+31,Female,67.7,B-,Mumbai,Diabetes,0
+36,Male,47.1,A-,Bangalore,None,0
+22,Male,80.5,A-,Delhi,Asthma,0
+29,Male,47.6,A-,Chennai,Diabetes,0
+45,Female,67.8,O-,Chennai,None,1
+38,Female,50.1,A-,Mumbai,None,1
+40,Female,83.1,B-,Chennai,Diabetes,0
+19,Female,72.0,AB+,Bangalore,Heart Disease,0
+40,Male,72.4,O+,Chennai,Hypertension,0
+43,Male,71.1,A+,Chennai,Hypertension,0
+56,Male,55.9,A+,Mumbai,Heart Disease,0
+26,Male,61.2,A+,Delhi,None,1
+57,Male,56.6,AB-,Chennai,Asthma,0
+22,Female,55.5,AB+,Bangalore,Asthma,0
+30,Male,81.5,AB+,Hyderabad,Diabetes,0
+44,Male,58.1,B-,Chennai,Heart Disease,0
+38,Female,86.8,O+,Chennai,None,1
+36,Female,47.8,O+,Delhi,Hypertension,0
+59,Male,77.0,AB+,Hyderabad,Heart Disease,0
+18,Female,63.6,AB+,Bangalore,Heart Disease,0
+27,Female,50.2,B-,Hyderabad,Diabetes,0
+42,Male,87.4,O+,Delhi,None,1
+39,Female,86.5,AB+,Delhi,Heart Disease,0
+28,Male,85.8,B-,Chennai,Diabetes,0
+18,Male,85.1,AB-,Mumbai,Heart Disease,0
+56,Female,79.7,B-,Chennai,None,1
+43,Male,74.4,B-,Hyderabad,Asthma,0
+23,Male,88.3,B-,Bangalore,Diabetes,0
+58,Female,57.9,A-,Hyderabad,Diabetes,0
+23,Female,49.0,AB-,Bangalore,Heart Disease,0
+21,Female,61.6,B+,Hyderabad,Heart Disease,0
+47,Male,57.7,O+,Chennai,Diabetes,0
+59,Male,80.8,B+,Chennai,None,1
+42,Female,75.0,A+,Mumbai,Asthma,0
+57,Female,45.9,O+,Mumbai,Heart Disease,0
+34,Female,47.2,AB-,Delhi,Heart Disease,0
+49,Male,59.5,AB-,Chennai,Diabetes,0
+54,Female,69.7,AB-,Mumbai,None,1
+53,Male,46.2,AB-,Mumbai,None,0
+46,Male,69.0,O+,Mumbai,Heart Disease,0
+59,Male,70.4,AB-,Hyderabad,None,1
+44,Male,88.2,O+,Delhi,Hypertension,0
+53,Female,69.1,A-,Hyderabad,None,1
+42,Female,63.4,AB+,Delhi,Hypertension,0
+33,Female,80.1,B+,Delhi,Heart Disease,0
+49,Female,46.1,AB+,Bangalore,Heart Disease,0
+47,Male,75.4,B-,Bangalore,Diabetes,0
+19,Male,49.0,B-,Delhi,Hypertension,0
+34,Male,48.4,AB+,Chennai,None,0
+23,Male,51.6,O-,Delhi,Heart Disease,0
+24,Male,72.3,AB+,Hyderabad,Asthma,0
+59,Male,76.3,B-,Delhi,Diabetes,0
+51,Male,52.4,B-,Hyderabad,Asthma,0
+33,Female,46.1,B-,Hyderabad,Heart Disease,0
+55,Female,60.7,AB-,Delhi,Asthma,0
+58,Female,79.0,B-,Delhi,Hypertension,0
+49,Female,81.2,B+,Hyderabad,Heart Disease,0
+59,Male,52.8,A-,Delhi,None,1
+46,Female,84.5,AB-,Bangalore,Asthma,0
+50,Female,46.7,B-,Mumbai,Heart Disease,0
+20,Female,82.5,A+,Chennai,None,1
+34,Male,48.5,B-,Hyderabad,Hypertension,0
+46,Female,58.7,A-,Hyderabad,Hypertension,0
+42,Female,51.6,AB+,Mumbai,Heart Disease,0
+46,Male,75.9,A+,Chennai,Heart Disease,0
+26,Male,81.9,A+,Bangalore,Hypertension,0
+46,Male,60.8,O+,Hyderabad,Diabetes,0
+22,Male,50.5,A-,Bangalore,Asthma,0
+21,Female,59.7,AB+,Bangalore,Diabetes,0
+35,Male,79.9,A-,Bangalore,Heart Disease,0
+31,Female,57.8,O-,Chennai,Diabetes,0
+53,Male,48.6,AB-,Mumbai,Hypertension,0
+19,Female,83.4,O+,Bangalore,Heart Disease,0
+26,Female,52.9,A+,Hyderabad,Heart Disease,0
+60,Female,88.4,AB+,Mumbai,Asthma,0
+41,Female,82.8,A-,Mumbai,None,1
+34,Male,66.2,B+,Mumbai,Asthma,0
+33,Female,50.6,A+,Bangalore,Asthma,0
+48,Female,55.8,O-,Mumbai,Diabetes,0
+35,Female,69.5,O-,Bangalore,Diabetes,0
+26,Male,63.0,AB+,Chennai,None,1
+59,Male,69.4,B-,Mumbai,Diabetes,0
+52,Male,79.9,A+,Mumbai,None,1
+30,Male,72.2,A-,Mumbai,None,1
+28,Female,55.9,AB+,Hyderabad,None,1
+25,Female,78.2,AB+,Chennai,Hypertension,0
+42,Female,79.3,B+,Hyderabad,Diabetes,0
+50,Male,85.2,B+,Delhi,Heart Disease,0
+53,Male,79.3,A+,Mumbai,Hypertension,0
+39,Male,78.7,AB-,Bangalore,Heart Disease,0
+33,Female,81.1,O-,Hyderabad,Heart Disease,0
+26,Male,48.4,AB+,Mumbai,Hypertension,0
+34,Male,73.7,B+,Bangalore,Asthma,0
+22,Male,57.5,B-,Bangalore,Diabetes,0
+24,Male,53.9,A+,Chennai,Diabetes,0
+36,Female,87.3,O+,Mumbai,Diabetes,0
+19,Female,69.8,A+,Bangalore,None,1
+27,Male,89.2,AB+,Delhi,Asthma,0
+44,Male,86.8,AB+,Delhi,Asthma,0
+50,Female,71.4,O-,Chennai,Diabetes,0
+40,Female,72.4,AB+,Mumbai,Heart Disease,0
+57,Male,82.0,B-,Chennai,Heart Disease,0
+50,Male,55.0,AB+,Bangalore,Diabetes,0
+55,Female,54.1,A+,Delhi,Asthma,0
+50,Male,87.5,B+,Delhi,Hypertension,0
+50,Male,81.0,A+,Hyderabad,None,1
+21,Female,88.5,B+,Mumbai,None,1
+25,Male,63.4,AB+,Chennai,Hypertension,0
+37,Male,85.3,A-,Chennai,Hypertension,0
+32,Male,59.6,O+,Bangalore,Heart Disease,0
+35,Male,52.4,AB-,Hyderabad,None,1
+32,Female,57.0,B+,Mumbai,Asthma,0
+38,Male,87.6,AB+,Bangalore,Diabetes,0
+27,Male,84.9,B+,Delhi,Hypertension,0
+20,Female,73.6,AB-,Mumbai,Diabetes,0
+24,Male,58.3,B+,Hyderabad,Diabetes,0
+49,Male,62.3,B-,Bangalore,None,1
+53,Male,47.7,B+,Hyderabad,None,0
+35,Male,83.0,B-,Hyderabad,Diabetes,0
+30,Female,57.6,O+,Delhi,Heart Disease,0
+20,Male,48.3,AB+,Hyderabad,Hypertension,0
+60,Female,64.3,B+,Bangalore,Hypertension,0
+54,Female,61.8,AB+,Bangalore,None,1
+44,Male,58.3,A+,Hyderabad,Asthma,0
+30,Female,57.9,O-,Hyderabad,Heart Disease,0
+42,Female,58.8,B-,Hyderabad,Asthma,0
+55,Male,57.8,B-,Chennai,Diabetes,0
+32,Male,45.4,A+,Mumbai,Diabetes,0
+51,Male,48.4,AB-,Hyderabad,Asthma,0
+57,Female,86.6,A+,Mumbai,Asthma,0
+27,Female,67.2,O+,Bangalore,Heart Disease,0
+53,Female,81.7,AB-,Chennai,Diabetes,0
+34,Female,60.0,B-,Bangalore,Asthma,0
+53,Male,63.1,AB-,Hyderabad,Heart Disease,0
+40,Female,85.1,AB+,Hyderabad,Hypertension,0
+35,Female,50.5,AB+,Hyderabad,Heart Disease,0
+33,Female,50.9,AB-,Delhi,Diabetes,0
+40,Female,71.8,O+,Delhi,Diabetes,0
+44,Male,81.9,AB-,Hyderabad,Asthma,0
+29,Male,64.9,B-,Mumbai,Asthma,0
+49,Female,69.8,AB+,Chennai,Hypertension,0
+54,Female,83.4,B-,Chennai,Asthma,0
+41,Male,48.8,AB-,Bangalore,Asthma,0
+51,Female,82.4,AB-,Delhi,None,1
+38,Male,76.3,B-,Delhi,Diabetes,0
+19,Male,80.8,AB-,Delhi,Asthma,0
+28,Female,70.8,AB+,Delhi,Asthma,0
+53,Male,68.5,AB+,Mumbai,None,1
+25,Female,56.7,AB-,Hyderabad,None,1
+18,Male,69.2,B-,Chennai,Diabetes,0
+24,Female,87.0,O-,Mumbai,None,1
+18,Male,51.2,A-,Chennai,Heart Disease,0
+34,Female,53.7,B-,Mumbai,Hypertension,0
+38,Female,57.3,O+,Chennai,Heart Disease,0
+35,Male,86.9,B-,Delhi,None,1
+22,Male,49.9,A+,Chennai,Heart Disease,0
+55,Female,47.4,B+,Delhi,None,0
+52,Male,50.3,A-,Delhi,Asthma,0
+54,Male,47.6,O+,Chennai,Hypertension,0
+38,Female,50.3,B-,Chennai,Diabetes,0
+25,Male,59.6,B-,Mumbai,Hypertension,0
+27,Male,86.4,A-,Mumbai,Diabetes,0
+58,Male,47.1,AB-,Bangalore,Asthma,0
+24,Male,49.9,AB+,Bangalore,Asthma,0
+36,Male,48.1,AB+,Mumbai,Diabetes,0
+36,Male,86.9,AB-,Delhi,Diabetes,0
+55,Female,85.6,AB-,Chennai,Diabetes,0
+27,Male,75.7,B-,Mumbai,Asthma,0
+54,Male,55.1,A+,Chennai,Heart Disease,0
+38,Male,74.0,AB-,Mumbai,Asthma,0
+39,Female,66.8,O-,Mumbai,Asthma,0
+18,Female,47.3,AB-,Hyderabad,None,0
+55,Female,67.5,AB-,Hyderabad,None,1
+57,Female,79.7,O-,Hyderabad,Asthma,0
+39,Female,57.4,O-,Mumbai,Asthma,0
+47,Male,84.5,A+,Mumbai,Heart Disease,0
+45,Male,76.6,O-,Delhi,Asthma,0
+34,Male,71.9,O-,Delhi,None,1
+52,Male,87.2,B-,Chennai,Heart Disease,0
+47,Female,79.0,AB-,Delhi,Diabetes,0
+28,Female,86.5,A-,Chennai,None,1
+38,Male,73.8,A-,Mumbai,None,1
+57,Male,64.6,AB-,Hyderabad,Heart Disease,0
+46,Female,79.8,B+,Bangalore,Asthma,0
+44,Female,73.1,AB-,Bangalore,Diabetes,0
+44,Male,85.9,AB-,Mumbai,Heart Disease,0
+58,Female,73.9,A+,Mumbai,None,1
+37,Female,46.3,A+,Hyderabad,None,0
+47,Male,83.1,AB+,Hyderabad,Hypertension,0
+32,Female,85.3,AB-,Delhi,Hypertension,0
+35,Male,63.9,AB+,Bangalore,Diabetes,0
+26,Male,66.7,B-,Delhi,Hypertension,0
+24,Male,59.2,A+,Delhi,Diabetes,0
+26,Male,46.2,A-,Chennai,Heart Disease,0
+37,Female,64.8,A+,Delhi,None,1
+28,Male,86.1,B-,Hyderabad,Diabetes,0
+58,Male,62.4,B-,Mumbai,Hypertension,0
+35,Male,56.4,B+,Delhi,None,1
+44,Male,87.5,A-,Hyderabad,Hypertension,0
+31,Female,74.8,O-,Bangalore,Hypertension,0
+49,Male,72.5,O+,Mumbai,Diabetes,0
+59,Female,65.1,A+,Bangalore,Diabetes,0
+32,Female,52.2,AB-,Chennai,Asthma,0
+52,Male,49.9,O+,Delhi,None,0
+36,Male,53.9,AB-,Bangalore,Asthma,0
+37,Female,82.5,B+,Delhi,Asthma,0
+53,Male,61.4,O+,Hyderabad,Diabetes,0
+19,Male,56.8,B-,Mumbai,Heart Disease,0
+41,Female,54.1,O-,Chennai,Hypertension,0
+39,Male,59.4,B+,Delhi,Hypertension,0
+30,Male,74.2,AB+,Delhi,None,1
+58,Male,80.5,AB+,Mumbai,Asthma,0
+19,Female,68.2,O-,Hyderabad,Hypertension,0
+46,Male,73.6,AB-,Bangalore,Heart Disease,0
+57,Male,86.1,A+,Mumbai,Hypertension,0
+40,Female,68.6,AB+,Mumbai,None,1
+50,Male,80.6,AB+,Bangalore,None,1
+58,Female,80.6,B+,Bangalore,None,1
+40,Male,81.0,AB-,Delhi,Asthma,0
+60,Female,85.8,O+,Delhi,Hypertension,0
+44,Male,70.9,AB-,Delhi,Heart Disease,0
+46,Female,69.7,O+,Chennai,Hypertension,0
+59,Male,62.5,B+,Chennai,None,1
+52,Female,84.1,B-,Bangalore,Diabetes,0
+49,Male,63.2,AB+,Hyderabad,Hypertension,0
+37,Female,80.7,O+,Bangalore,Heart Disease,0
+30,Female,63.8,B+,Mumbai,None,1
+43,Male,58.4,AB-,Hyderabad,None,1
+56,Female,60.6,O-,Mumbai,Asthma,0
+34,Male,82.5,A-,Mumbai,Diabetes,0
+46,Male,71.3,B-,Bangalore,Asthma,0
+18,Female,45.7,A+,Chennai,Diabetes,0
+47,Male,65.9,A-,Chennai,None,1
+52,Male,51.9,B-,Delhi,Asthma,0
+31,Female,69.6,O-,Delhi,Heart Disease,0
+54,Female,70.0,O+,Delhi,None,1
+60,Male,87.9,A-,Hyderabad,None,1
+55,Male,72.6,O-,Bangalore,Diabetes,0
+41,Male,88.1,B-,Hyderabad,Hypertension,0
+30,Female,56.8,O-,Hyderabad,Asthma,0
+37,Female,61.6,A+,Delhi,None,1
+23,Male,62.2,AB+,Hyderabad,Heart Disease,0
+24,Female,79.8,O-,Delhi,Diabetes,0
+23,Female,64.7,O+,Mumbai,Asthma,0
+22,Male,54.6,A-,Mumbai,Hypertension,0
+55,Female,84.9,B-,Chennai,Diabetes,0
+47,Male,74.7,AB-,Bangalore,Hypertension,0
+42,Male,88.2,A+,Delhi,None,1
+18,Female,76.2,A-,Hyderabad,None,1
+60,Male,53.8,B-,Hyderabad,Diabetes,0
+46,Male,80.0,O+,Chennai,Hypertension,0
+57,Female,66.3,B+,Bangalore,Diabetes,0
+48,Male,58.4,AB+,Delhi,Diabetes,0
+33,Male,58.7,O+,Chennai,Hypertension,0
+52,Female,79.3,A-,Mumbai,Hypertension,0
+21,Male,67.6,B+,Delhi,Hypertension,0
+44,Male,77.2,AB-,Chennai,None,1
+40,Male,50.3,A-,Mumbai,Hypertension,0
+24,Female,81.1,AB+,Mumbai,None,1
+26,Male,87.0,A+,Delhi,Hypertension,0
+53,Male,88.2,A-,Mumbai,Heart Disease,0
+35,Male,80.6,B-,Hyderabad,Asthma,0
+43,Female,50.6,O+,Mumbai,None,1
+43,Female,74.4,B-,Hyderabad,None,1
+49,Female,79.5,A-,Hyderabad,None,1
+18,Female,51.6,A-,Delhi,Diabetes,0
+34,Female,50.6,B-,Delhi,Asthma,0
+33,Female,71.9,O+,Chennai,Diabetes,0
+60,Male,59.3,A-,Chennai,Heart Disease,0
+60,Male,53.9,AB+,Hyderabad,Asthma,0
+27,Male,77.6,B-,Delhi,Heart Disease,0
+22,Female,69.2,O+,Mumbai,Asthma,0
+45,Female,74.5,A-,Chennai,None,1
+31,Female,54.0,O+,Mumbai,Heart Disease,0
+37,Male,60.0,A-,Delhi,Heart Disease,0
+42,Female,64.1,B+,Chennai,Diabetes,0
+56,Male,55.1,O-,Delhi,Hypertension,0
+56,Female,73.7,B-,Delhi,Diabetes,0
+43,Male,75.1,O-,Delhi,None,1
+37,Male,69.3,AB-,Hyderabad,Asthma,0
+51,Female,65.4,A-,Chennai,Heart Disease,0
+58,Male,77.4,A+,Hyderabad,Diabetes,0
+28,Male,75.2,O+,Mumbai,Heart Disease,0
+20,Female,58.5,O-,Hyderabad,Asthma,0
+32,Female,74.2,B-,Hyderabad,Heart Disease,0
+36,Male,54.3,B+,Delhi,Asthma,0
+18,Male,83.3,A+,Hyderabad,Diabetes,0
+54,Male,87.6,AB-,Mumbai,Asthma,0
+58,Female,88.7,O-,Bangalore,Diabetes,0
+21,Male,58.3,AB-,Delhi,Diabetes,0
+48,Female,77.8,A-,Chennai,Hypertension,0
+23,Male,75.2,AB-,Bangalore,Heart Disease,0
+18,Male,57.9,B-,Bangalore,Diabetes,0
+59,Female,61.3,B+,Bangalore,Diabetes,0
+28,Female,62.3,B+,Mumbai,Diabetes,0
+38,Male,48.3,A+,Bangalore,Hypertension,0
+22,Female,66.9,O-,Delhi,Diabetes,0
+34,Female,51.4,B+,Hyderabad,Hypertension,0
+18,Male,58.7,O+,Delhi,None,1
+58,Male,67.6,O-,Bangalore,Diabetes,0
+32,Male,82.8,B+,Chennai,Hypertension,0
+27,Female,67.8,AB-,Delhi,None,1
+32,Male,88.0,B+,Bangalore,Hypertension,0
+22,Female,62.2,AB-,Bangalore,Hypertension,0
+28,Male,64.0,O-,Hyderabad,Heart Disease,0
+60,Female,51.1,A+,Delhi,None,1
+53,Female,76.4,B-,Delhi,Hypertension,0
+45,Male,50.9,AB-,Chennai,None,1
+36,Female,58.1,O-,Mumbai,Hypertension,0
+33,Male,49.4,AB+,Bangalore,Asthma,0
+20,Male,67.2,O+,Hyderabad,Diabetes,0
+53,Female,72.7,B+,Chennai,Heart Disease,0
+57,Female,46.4,AB-,Mumbai,Hypertension,0
+41,Male,54.3,AB+,Mumbai,Asthma,0
+52,Male,71.1,O+,Bangalore,Hypertension,0
+29,Male,86.1,O-,Bangalore,Asthma,0
+29,Male,47.7,AB-,Hyderabad,Hypertension,0
+20,Female,80.4,A+,Chennai,Asthma,0
+28,Female,58.5,O-,Delhi,Hypertension,0
+29,Female,45.5,AB+,Delhi,Hypertension,0
+44,Female,65.2,B-,Hyderabad,Asthma,0
+59,Male,72.3,O+,Mumbai,None,1
+20,Male,83.3,AB-,Hyderabad,Heart Disease,0
+30,Male,49.6,O-,Hyderabad,None,0
+38,Female,79.2,A-,Mumbai,None,1
+55,Female,51.9,AB+,Bangalore,Heart Disease,0
+19,Male,61.1,O-,Delhi,Hypertension,0
+54,Female,46.8,B+,Bangalore,Asthma,0
+42,Male,70.1,B-,Mumbai,Diabetes,0
+60,Male,49.5,A+,Hyderabad,Asthma,0
+56,Male,81.5,O-,Chennai,Asthma,0
+58,Female,47.1,A+,Bangalore,Asthma,0
+42,Female,50.6,O-,Hyderabad,Heart Disease,0
+32,Male,68.0,O-,Delhi,Diabetes,0
+36,Female,77.5,A+,Mumbai,None,1
+25,Male,90.0,AB-,Bangalore,Diabetes,0
+57,Female,62.8,A+,Bangalore,Heart Disease,0
+32,Male,63.1,A-,Mumbai,Diabetes,0
+55,Male,59.6,B+,Delhi,Diabetes,0
+20,Male,45.8,AB-,Delhi,Asthma,0
+59,Male,73.0,B-,Chennai,Hypertension,0
+46,Male,88.1,B-,Bangalore,Hypertension,0
+36,Female,86.5,O-,Hyderabad,Heart Disease,0
+36,Female,58.0,A-,Chennai,None,1
+59,Female,75.0,AB+,Bangalore,Diabetes,0
+38,Male,56.0,B-,Hyderabad,None,1
+40,Male,58.9,O-,Bangalore,Hypertension,0
+40,Male,48.0,AB-,Delhi,Hypertension,0
+51,Female,53.8,AB-,Bangalore,Heart Disease,0
+55,Female,46.6,O-,Bangalore,None,0
+49,Male,55.3,A+,Hyderabad,Heart Disease,0
+60,Male,46.0,A+,Delhi,Heart Disease,0
+29,Female,77.6,A+,Chennai,Heart Disease,0
+38,Male,55.1,B-,Mumbai,Hypertension,0
+40,Male,74.1,AB+,Delhi,Heart Disease,0
+28,Male,71.7,O+,Mumbai,Asthma,0
+30,Female,68.1,AB+,Mumbai,Asthma,0
+53,Male,55.4,A+,Hyderabad,Diabetes,0
+26,Female,60.7,A+,Chennai,Diabetes,0
+42,Female,67.3,B-,Bangalore,Heart Disease,0
+19,Female,80.4,B-,Chennai,None,1
+44,Female,53.7,O-,Hyderabad,Heart Disease,0
+25,Female,60.1,O+,Chennai,Asthma,0
+39,Male,75.0,O+,Chennai,Heart Disease,0
+29,Male,89.1,O-,Delhi,None,1
+52,Female,52.5,AB+,Bangalore,None,1
+56,Female,77.0,B-,Mumbai,Asthma,0
+54,Female,52.0,B+,Hyderabad,Heart Disease,0
+34,Female,56.7,B+,Chennai,None,1
+26,Male,70.1,B-,Delhi,Asthma,0
+50,Male,66.6,AB+,Chennai,Diabetes,0
+47,Male,64.2,AB-,Mumbai,None,1
+59,Male,78.9,AB-,Delhi,Heart Disease,0
+56,Male,62.4,O-,Bangalore,Heart Disease,0
+33,Female,73.2,A-,Hyderabad,Hypertension,0
+35,Female,81.5,B-,Bangalore,None,1
+28,Female,70.9,B+,Bangalore,Asthma,0
+26,Female,59.8,O+,Delhi,None,1
+31,Female,83.2,B-,Hyderabad,Heart Disease,0
+57,Female,74.6,O-,Hyderabad,Heart Disease,0
+46,Male,82.6,B+,Bangalore,None,1
+41,Female,73.4,A+,Mumbai,None,1
+37,Male,89.5,B+,Bangalore,Diabetes,0
+27,Male,80.8,B-,Chennai,Heart Disease,0
+60,Male,62.5,A+,Bangalore,Asthma,0
+21,Female,73.1,O+,Delhi,None,1
+34,Female,72.0,A+,Bangalore,None,1
+35,Female,87.4,AB+,Delhi,None,1
+19,Male,68.5,A-,Chennai,Asthma,0
+36,Female,79.0,O-,Bangalore,Diabetes,0
+24,Female,47.3,O-,Delhi,Heart Disease,0
+32,Male,85.1,AB+,Mumbai,Diabetes,0
+42,Male,83.8,O-,Delhi,None,1
+47,Male,55.7,O+,Delhi,None,1
+41,Male,76.6,A+,Hyderabad,Heart Disease,0
+51,Female,56.4,O+,Hyderabad,Diabetes,0
+26,Female,79.8,B+,Mumbai,Asthma,0
+45,Female,54.4,A+,Mumbai,Hypertension,0
+55,Female,77.0,A+,Delhi,Diabetes,0
+40,Male,52.1,B+,Delhi,Diabetes,0
+37,Female,54.8,O-,Bangalore,Heart Disease,0
+47,Male,72.7,B+,Delhi,Diabetes,0
+55,Male,54.2,O-,Chennai,Heart Disease,0
+47,Female,73.0,O+,Mumbai,Asthma,0
+60,Male,73.9,A+,Chennai,Asthma,0
+34,Female,89.7,O-,Chennai,Hypertension,0
+33,Female,49.4,B-,Hyderabad,None,0
+33,Female,60.7,B-,Delhi,Asthma,0
+19,Female,84.1,A+,Hyderabad,Hypertension,0
+47,Female,65.9,A-,Bangalore,Hypertension,0
+48,Female,59.4,AB-,Hyderabad,None,1
+29,Female,60.6,AB+,Mumbai,Asthma,0
+59,Female,88.6,B+,Hyderabad,Hypertension,0
+24,Male,50.4,AB-,Chennai,None,1
+58,Male,46.0,AB-,Delhi,Heart Disease,0
+42,Male,67.3,A-,Hyderabad,None,1
+57,Female,80.1,O-,Mumbai,Diabetes,0
+37,Female,69.1,AB-,Hyderabad,Asthma,0
+33,Female,49.2,O+,Bangalore,Hypertension,0
+34,Female,45.6,B+,Mumbai,Diabetes,0
+40,Female,73.8,B-,Hyderabad,Heart Disease,0
+34,Male,64.6,A-,Chennai,Asthma,0
+22,Female,87.5,B-,Bangalore,Hypertension,0
+52,Male,85.3,A-,Delhi,Asthma,0
+47,Female,73.1,B-,Chennai,Asthma,0
+37,Female,57.7,O-,Chennai,Diabetes,0
+36,Male,67.3,B-,Chennai,Diabetes,0
+58,Female,50.4,AB-,Delhi,Heart Disease,0
+43,Female,55.7,O-,Chennai,Hypertension,0
+20,Female,51.7,O+,Chennai,Diabetes,0
+30,Female,60.4,B+,Hyderabad,None,1
+43,Female,88.7,B-,Bangalore,Heart Disease,0
+58,Female,55.3,O-,Delhi,Diabetes,0
+55,Male,54.3,B-,Hyderabad,Asthma,0
+27,Female,55.8,B+,Delhi,Heart Disease,0
+24,Male,61.2,AB-,Delhi,Hypertension,0
+20,Male,72.2,B-,Mumbai,Diabetes,0
+60,Male,55.8,B+,Delhi,Asthma,0
+21,Male,71.5,B-,Mumbai,Diabetes,0
+23,Female,81.2,B+,Mumbai,Asthma,0
+46,Female,64.1,A-,Delhi,Asthma,0
+52,Male,64.0,A+,Delhi,Diabetes,0
+29,Female,51.6,A-,Delhi,Heart Disease,0
+60,Female,58.5,O-,Mumbai,Asthma,0
+44,Male,61.4,B-,Bangalore,None,1
+37,Male,88.9,B-,Mumbai,Diabetes,0
+19,Female,85.5,B-,Mumbai,Diabetes,0
+53,Male,50.9,AB-,Hyderabad,Hypertension,0
+20,Male,65.8,A+,Mumbai,None,1
+47,Female,51.4,O+,Delhi,Hypertension,0
+19,Female,60.1,B-,Hyderabad,Asthma,0
+58,Female,85.4,A+,Hyderabad,Hypertension,0
+20,Male,76.1,B-,Hyderabad,Heart Disease,0
+43,Male,74.3,AB+,Mumbai,Hypertension,0
+34,Female,47.1,O+,Mumbai,Heart Disease,0
+52,Female,86.0,A-,Mumbai,Asthma,0
+42,Male,45.5,B-,Delhi,None,0
+51,Female,81.0,A-,Hyderabad,Asthma,0
+24,Male,87.7,B-,Chennai,Heart Disease,0
+39,Female,75.8,A+,Delhi,Asthma,0
+24,Female,73.3,O+,Chennai,Hypertension,0
+43,Male,57.5,A-,Delhi,Asthma,0
+49,Female,89.6,AB-,Delhi,Asthma,0
+41,Male,73.4,AB-,Bangalore,Asthma,0
+39,Male,52.9,O-,Hyderabad,Diabetes,0
+33,Male,48.4,AB+,Hyderabad,None,0
+57,Male,60.9,O-,Chennai,Heart Disease,0
+55,Female,59.7,A-,Chennai,None,1
+51,Male,61.4,A-,Delhi,Asthma,0
+26,Female,63.5,O+,Bangalore,Hypertension,0
+41,Male,59.1,O-,Bangalore,Diabetes,0
+27,Female,79.4,B-,Delhi,None,1
+34,Female,61.8,AB-,Chennai,Hypertension,0
+50,Female,72.2,B+,Mumbai,Heart Disease,0
+23,Female,75.8,O-,Bangalore,Heart Disease,0
+37,Male,74.2,AB-,Bangalore,Hypertension,0
+33,Male,87.4,B+,Chennai,Asthma,0
+36,Male,51.1,B-,Chennai,Diabetes,0
+18,Male,61.9,A-,Delhi,Heart Disease,0
+25,Female,73.0,B-,Hyderabad,Diabetes,0
+47,Male,62.5,B-,Bangalore,Asthma,0
+41,Male,86.5,O-,Hyderabad,None,1
+19,Male,67.3,B-,Hyderabad,Hypertension,0
+31,Female,77.8,O+,Chennai,Asthma,0
+33,Female,64.8,AB-,Delhi,None,1
+57,Female,45.4,O+,Mumbai,Asthma,0
+55,Male,61.7,A+,Mumbai,Diabetes,0
+33,Male,77.5,O+,Hyderabad,Heart Disease,0
+55,Male,55.6,B-,Chennai,Diabetes,0
+24,Male,85.9,AB+,Hyderabad,Diabetes,0
+41,Male,73.2,B+,Hyderabad,Heart Disease,0
+41,Female,60.5,AB-,Bangalore,None,1
+52,Female,62.6,O-,Bangalore,None,1
+51,Female,75.6,B-,Bangalore,Hypertension,0
+29,Male,51.6,B+,Chennai,Diabetes,0
+59,Female,50.1,AB-,Hyderabad,Heart Disease,0
+24,Female,60.8,O+,Delhi,None,1
+60,Male,64.9,B-,Bangalore,Heart Disease,0
+53,Female,72.7,B-,Chennai,Asthma,0
+60,Female,83.3,B+,Delhi,Diabetes,0
+27,Male,87.3,A+,Chennai,None,1
+28,Female,57.7,AB-,Mumbai,Asthma,0
+58,Female,58.5,B+,Bangalore,Heart Disease,0
+52,Male,47.6,B-,Chennai,Hypertension,0
+33,Male,62.4,O+,Bangalore,Hypertension,0
+31,Male,58.8,B-,Chennai,Asthma,0
+48,Female,45.3,B-,Hyderabad,Diabetes,0
+39,Male,74.5,AB+,Chennai,Asthma,0
+44,Female,57.4,AB+,Chennai,Heart Disease,0
+52,Male,53.8,B-,Mumbai,None,1
+29,Female,46.2,O-,Chennai,Asthma,0
+21,Female,82.3,AB+,Delhi,Hypertension,0
+40,Male,69.3,B-,Hyderabad,Diabetes,0
+42,Male,87.4,AB+,Mumbai,None,1
+49,Male,84.6,B-,Bangalore,None,1
+30,Female,59.8,O+,Bangalore,None,1
+41,Male,75.7,A-,Chennai,None,1
+57,Male,79.3,AB-,Mumbai,None,1
+42,Male,50.8,B-,Bangalore,Heart Disease,0
+38,Male,63.5,AB+,Mumbai,Hypertension,0
+59,Female,54.1,A-,Hyderabad,Hypertension,0
+33,Female,64.8,AB-,Delhi,Hypertension,0
+21,Female,78.9,AB-,Chennai,None,1
+44,Female,55.7,B-,Delhi,Diabetes,0
+25,Male,70.7,O-,Mumbai,Heart Disease,0
+48,Female,56.9,B-,Delhi,Asthma,0
+34,Female,62.3,A-,Hyderabad,Asthma,0
+24,Male,50.6,B-,Hyderabad,Asthma,0
+31,Female,73.0,AB+,Chennai,Diabetes,0
+56,Female,83.8,AB-,Delhi,None,1
+31,Male,47.8,O-,Mumbai,Heart Disease,0
+55,Female,48.9,O+,Delhi,Hypertension,0
+51,Female,45.6,A+,Chennai,Hypertension,0
+22,Male,71.8,AB-,Hyderabad,None,1
+33,Female,71.8,A+,Delhi,Asthma,0
+26,Male,67.7,AB+,Chennai,Heart Disease,0
+23,Male,77.2,O+,Hyderabad,Asthma,0
+51,Male,59.8,B+,Hyderabad,Hypertension,0
+48,Male,77.3,A-,Hyderabad,Heart Disease,0
+22,Male,76.8,B-,Mumbai,Diabetes,0
+33,Female,72.0,AB+,Delhi,None,1
+38,Male,58.7,AB+,Mumbai,Hypertension,0
+57,Female,85.3,O+,Delhi,Asthma,0
+23,Female,88.6,O-,Delhi,Asthma,0
+24,Female,68.5,A+,Mumbai,Heart Disease,0
+41,Female,66.9,A+,Delhi,Diabetes,0
+57,Male,57.9,AB-,Bangalore,Asthma,0
+57,Female,68.1,O+,Delhi,Diabetes,0
+31,Female,59.0,A+,Delhi,Diabetes,0
+50,Male,85.5,B+,Hyderabad,Asthma,0
+47,Female,57.0,B+,Bangalore,None,1
+33,Female,60.7,B+,Bangalore,Hypertension,0
+56,Male,58.1,B+,Mumbai,Hypertension,0
+24,Male,73.6,A-,Hyderabad,Asthma,0
+59,Female,61.9,B+,Bangalore,Diabetes,0
+32,Female,75.6,A-,Mumbai,Hypertension,0
+33,Female,50.1,O+,Chennai,None,1
+45,Male,46.4,O-,Chennai,Diabetes,0
+54,Male,55.0,AB-,Chennai,Hypertension,0
+52,Female,50.6,AB-,Delhi,None,1
+36,Male,55.8,AB+,Bangalore,None,1
+44,Female,70.1,O+,Delhi,Heart Disease,0
+20,Female,88.8,AB+,Chennai,Asthma,0
+36,Female,74.7,AB-,Bangalore,Diabetes,0
+58,Female,86.8,A+,Delhi,Diabetes,0
+50,Male,77.7,AB+,Delhi,None,1
+33,Male,81.9,B-,Bangalore,None,1
+24,Male,83.5,A-,Delhi,Heart Disease,0
+29,Female,54.3,B-,Hyderabad,Diabetes,0
+29,Female,70.2,O+,Delhi,Hypertension,0
+37,Female,84.1,O-,Bangalore,Asthma,0
+48,Female,47.9,B-,Delhi,None,0
+20,Male,85.8,B+,Chennai,Heart Disease,0
+38,Female,82.7,B+,Bangalore,None,1
+18,Female,53.6,A-,Mumbai,Heart Disease,0
+48,Female,69.8,O-,Bangalore,None,1
+36,Male,60.6,AB+,Mumbai,Asthma,0
+40,Female,72.5,A-,Mumbai,Hypertension,0
+52,Male,85.0,AB+,Chennai,None,1
+57,Male,78.7,AB-,Hyderabad,None,1
+28,Female,55.3,B+,Chennai,None,1
+42,Female,57.8,B+,Hyderabad,Heart Disease,0
+53,Male,89.2,O+,Mumbai,Heart Disease,0
+21,Male,78.4,O-,Hyderabad,Asthma,0
+42,Male,49.9,AB+,Delhi,Heart Disease,0
+38,Male,84.7,A-,Bangalore,Heart Disease,0
+26,Female,71.0,O-,Delhi,Heart Disease,0
+55,Male,59.2,A+,Hyderabad,Heart Disease,0
+50,Male,79.4,AB+,Hyderabad,Diabetes,0
+19,Female,84.5,B-,Mumbai,None,1
+27,Female,71.8,A-,Delhi,Heart Disease,0
+22,Male,79.4,A-,Bangalore,Diabetes,0
+56,Male,56.8,AB+,Chennai,Heart Disease,0
+25,Male,87.8,AB-,Bangalore,Diabetes,0
+29,Male,74.1,A-,Chennai,Hypertension,0
+30,Female,83.0,AB+,Delhi,Asthma,0
+43,Female,53.5,AB-,Hyderabad,Asthma,0
+21,Male,74.3,O-,Delhi,Asthma,0
+53,Male,84.6,B+,Mumbai,Heart Disease,0
+47,Male,89.7,AB+,Chennai,None,1
+31,Female,57.1,B+,Chennai,Asthma,0
+21,Female,67.6,A-,Bangalore,Asthma,0
+30,Male,80.9,O+,Hyderabad,Hypertension,0
+33,Female,66.1,O-,Delhi,Heart Disease,0
+60,Male,64.6,A+,Hyderabad,Hypertension,0
+47,Female,77.3,O+,Bangalore,Diabetes,0
+21,Female,64.0,A+,Hyderabad,Heart Disease,0
+35,Female,74.5,O+,Chennai,Hypertension,0
+53,Male,83.0,B-,Hyderabad,Asthma,0
+58,Male,48.6,AB-,Mumbai,Diabetes,0
+39,Male,74.5,AB+,Chennai,Diabetes,0
+50,Male,73.2,O+,Mumbai,Heart Disease,0
+25,Female,52.2,A-,Delhi,None,1
+42,Male,59.6,O-,Delhi,Heart Disease,0
+55,Female,69.0,AB+,Delhi,Hypertension,0
+45,Female,60.1,O-,Hyderabad,Asthma,0
+37,Female,48.2,AB-,Mumbai,Hypertension,0
+59,Male,88.3,AB-,Mumbai,None,1
+37,Male,84.5,O+,Bangalore,Heart Disease,0
+32,Female,46.8,AB+,Bangalore,Hypertension,0
+52,Male,60.0,AB-,Mumbai,Hypertension,0
+31,Male,68.6,O+,Delhi,Hypertension,0
+19,Female,80.1,B+,Hyderabad,Heart Disease,0
+40,Male,68.4,AB+,Hyderabad,Asthma,0
+27,Female,45.5,B+,Hyderabad,Asthma,0
+38,Male,73.6,B-,Mumbai,Asthma,0
+38,Male,88.8,AB+,Mumbai,None,1
+53,Female,61.6,O-,Chennai,Heart Disease,0
+25,Male,45.3,A+,Delhi,Diabetes,0
+37,Male,47.9,O-,Chennai,Heart Disease,0
+48,Female,79.9,O+,Hyderabad,Diabetes,0
+25,Male,75.3,AB+,Hyderabad,None,1
+53,Female,51.7,O-,Bangalore,Heart Disease,0
+45,Female,53.2,AB-,Chennai,Hypertension,0
+24,Male,87.5,AB+,Bangalore,Diabetes,0
+39,Female,79.8,O+,Delhi,Hypertension,0
+52,Female,62.5,O-,Mumbai,None,1
+29,Female,49.3,A+,Chennai,Hypertension,0
+37,Male,85.8,A-,Hyderabad,Heart Disease,0
+48,Male,89.0,B-,Hyderabad,None,1
+20,Female,72.5,O-,Mumbai,Asthma,0
+57,Female,70.0,A+,Bangalore,None,1
+36,Male,61.6,A-,Chennai,Asthma,0
+43,Male,66.9,A-,Delhi,Asthma,0
+53,Female,61.9,A+,Chennai,Asthma,0
+39,Male,56.7,O+,Bangalore,Heart Disease,0
+44,Male,52.7,A+,Chennai,Asthma,0
+25,Male,61.9,O-,Chennai,Diabetes,0
+33,Female,45.2,A-,Hyderabad,Asthma,0
+48,Male,48.0,A-,Chennai,Heart Disease,0
+20,Female,65.8,B+,Bangalore,Hypertension,0
+33,Male,75.1,O-,Bangalore,Diabetes,0
+38,Male,81.1,O-,Bangalore,None,1
+59,Male,80.7,B+,Bangalore,Diabetes,0
+49,Female,65.4,B-,Chennai,Hypertension,0
+40,Male,89.3,A-,Chennai,Heart Disease,0
+48,Male,75.1,O-,Chennai,Heart Disease,0
+21,Female,68.3,AB-,Chennai,Heart Disease,0
+29,Male,74.7,O+,Delhi,Heart Disease,0
+29,Male,78.4,AB+,Delhi,Heart Disease,0
+47,Male,45.3,A-,Delhi,None,0
+55,Male,61.0,AB+,Chennai,Diabetes,0
+25,Female,77.1,A+,Delhi,None,1
+18,Male,76.8,AB+,Hyderabad,Asthma,0
+29,Male,76.1,B-,Delhi,Asthma,0
+29,Male,78.8,O+,Mumbai,Hypertension,0
+25,Male,54.7,B-,Delhi,Asthma,0
+21,Male,84.7,B+,Bangalore,Hypertension,0
+18,Female,53.6,O-,Bangalore,Hypertension,0
+33,Male,67.4,A-,Chennai,Heart Disease,0
+49,Female,83.5,A-,Chennai,Hypertension,0
+18,Male,83.0,O+,Bangalore,Hypertension,0
+54,Male,88.5,B-,Delhi,Diabetes,0
+51,Male,70.2,AB-,Delhi,Diabetes,0
+49,Female,73.5,O+,Hyderabad,Hypertension,0
+26,Female,86.4,B-,Delhi,Asthma,0
+51,Female,86.3,A-,Hyderabad,Diabetes,0
+18,Male,88.7,A-,Bangalore,Asthma,0
+27,Male,66.1,O+,Bangalore,Hypertension,0
+41,Female,73.1,O-,Delhi,None,1
+57,Male,61.5,O-,Delhi,Heart Disease,0
+33,Male,84.9,A+,Delhi,Asthma,0
+43,Female,61.4,AB+,Hyderabad,None,1
+19,Male,79.5,B-,Hyderabad,Hypertension,0
+44,Female,82.3,B-,Bangalore,Diabetes,0
+24,Female,63.8,B-,Mumbai,Asthma,0
+54,Female,65.1,A+,Bangalore,Asthma,0
+54,Male,85.5,B+,Chennai,Diabetes,0
+51,Female,49.2,B-,Chennai,Heart Disease,0
+46,Female,68.5,B+,Delhi,Hypertension,0
+27,Female,83.0,O-,Chennai,Diabetes,0
+19,Male,87.1,B-,Delhi,Diabetes,0
+37,Male,84.6,A-,Chennai,Heart Disease,0
+52,Male,89.8,AB-,Mumbai,Diabetes,0
+46,Female,53.7,AB+,Bangalore,Hypertension,0
+24,Female,70.4,B+,Chennai,Heart Disease,0
+45,Female,76.8,AB-,Bangalore,Hypertension,0
+22,Female,59.3,A+,Delhi,Heart Disease,0
+27,Female,79.0,AB+,Mumbai,Hypertension,0
+18,Male,62.0,A+,Chennai,Diabetes,0
+54,Male,87.5,B+,Delhi,Hypertension,0
+55,Male,49.7,AB-,Bangalore,None,0
+55,Male,75.9,AB+,Bangalore,Diabetes,0
+28,Male,50.3,B+,Chennai,Asthma,0
+48,Male,75.2,B+,Bangalore,Hypertension,0
+42,Male,46.5,AB+,Delhi,Asthma,0
+24,Female,51.1,AB+,Delhi,Diabetes,0
+52,Female,60.7,O+,Mumbai,Hypertension,0
+53,Male,59.2,B+,Delhi,None,1
+34,Female,69.7,AB+,Bangalore,None,1
+28,Male,47.7,B+,Delhi,Diabetes,0
+34,Male,48.0,B+,Bangalore,Diabetes,0
+38,Female,86.1,AB-,Hyderabad,Diabetes,0
+36,Female,64.7,AB-,Bangalore,None,1
+38,Male,47.5,A-,Chennai,Heart Disease,0
+30,Male,79.4,AB-,Chennai,Hypertension,0
+18,Male,45.5,B+,Bangalore,Heart Disease,0
+55,Male,66.1,B-,Chennai,Asthma,0
+54,Male,72.6,O-,Mumbai,Heart Disease,0
+41,Female,49.5,O+,Hyderabad,Hypertension,0
+42,Female,48.7,B+,Chennai,Asthma,0
+58,Female,89.9,A+,Delhi,None,1
+35,Female,47.8,B+,Delhi,Hypertension,0
+26,Male,65.6,A-,Mumbai,Diabetes,0
+55,Female,75.1,AB+,Delhi,Heart Disease,0
+26,Female,47.4,B-,Delhi,Asthma,0
+19,Female,71.8,AB+,Delhi,Hypertension,0
+50,Female,85.8,B-,Bangalore,Heart Disease,0
+22,Female,83.0,AB+,Mumbai,None,1
+22,Female,49.5,AB-,Mumbai,None,0
+47,Male,83.0,AB+,Delhi,Asthma,0
+47,Female,76.2,O-,Mumbai,Hypertension,0
+18,Male,67.8,O+,Bangalore,Diabetes,0
+56,Female,65.7,A+,Delhi,Asthma,0
+52,Male,46.0,O+,Hyderabad,Heart Disease,0
+39,Female,70.6,A-,Mumbai,Diabetes,0
+52,Male,64.1,AB-,Bangalore,None,1
+60,Male,83.2,AB+,Chennai,Heart Disease,0
+59,Male,54.4,AB-,Hyderabad,Asthma,0
+52,Female,75.8,AB+,Delhi,None,1
+20,Male,48.2,B+,Hyderabad,Diabetes,0
+55,Male,77.2,A+,Delhi,Diabetes,0
+36,Female,58.5,AB-,Mumbai,Heart Disease,0
+19,Female,81.5,AB+,Chennai,Diabetes,0
+49,Male,66.1,AB+,Mumbai,Diabetes,0
+60,Female,65.0,O+,Hyderabad,Heart Disease,0
+27,Male,82.7,A+,Delhi,None,1
+51,Female,46.3,A-,Bangalore,Asthma,0
+21,Male,65.9,O-,Bangalore,None,1
+46,Male,80.8,A+,Delhi,Hypertension,0
+30,Male,54.1,O-,Hyderabad,Diabetes,0
+38,Male,85.9,O+,Mumbai,Asthma,0
+50,Female,87.4,A+,Delhi,None,1
+32,Male,77.1,O+,Delhi,Asthma,0
+51,Female,68.8,B+,Mumbai,None,1
+45,Female,86.2,O-,Delhi,Diabetes,0
+40,Male,80.8,B+,Chennai,Hypertension,0
+55,Female,81.0,AB-,Bangalore,None,1
+28,Male,74.0,O+,Hyderabad,Hypertension,0
+18,Male,66.6,A+,Hyderabad,Diabetes,0
+48,Female,80.0,O+,Hyderabad,Diabetes,0
+38,Female,49.6,AB+,Bangalore,Hypertension,0
+57,Female,63.0,O+,Mumbai,Diabetes,0
+38,Male,74.9,B-,Chennai,Hypertension,0
+36,Male,69.2,B+,Delhi,Diabetes,0
+35,Male,64.5,A-,Delhi,Diabetes,0
+48,Male,60.1,O-,Bangalore,Hypertension,0
+34,Male,71.1,O-,Hyderabad,Heart Disease,0
+26,Female,69.2,O-,Delhi,Diabetes,0
+58,Female,51.1,B-,Mumbai,Heart Disease,0
+32,Female,81.7,O-,Mumbai,Diabetes,0
+50,Male,51.6,AB-,Delhi,Heart Disease,0
+41,Female,63.4,AB+,Delhi,None,1
+43,Female,77.2,B-,Chennai,None,1
+43,Female,76.9,B+,Hyderabad,Asthma,0
+54,Male,86.5,B-,Bangalore,Hypertension,0
+52,Male,63.4,O-,Mumbai,Asthma,0
+22,Male,51.1,B-,Bangalore,Diabetes,0
+42,Male,87.6,A-,Delhi,Heart Disease,0
+27,Male,54.0,O+,Mumbai,Hypertension,0
+20,Male,67.8,B+,Chennai,Heart Disease,0
+52,Male,73.2,A+,Mumbai,Hypertension,0
+25,Male,54.9,A-,Delhi,None,1
+57,Male,52.4,O-,Mumbai,None,1
+23,Female,58.5,B+,Mumbai,Diabetes,0
+56,Female,61.8,AB+,Mumbai,Asthma,0
+59,Female,79.5,B-,Hyderabad,Heart Disease,0
+57,Male,83.4,B+,Hyderabad,None,1
+24,Male,59.4,AB+,Delhi,Heart Disease,0
+59,Male,78.8,A-,Bangalore,Asthma,0
+43,Female,89.4,AB-,Hyderabad,Heart Disease,0
+36,Male,57.5,AB+,Delhi,None,1
+31,Female,87.8,B-,Hyderabad,Asthma,0
+30,Male,62.7,AB+,Chennai,None,1
+55,Male,47.0,AB+,Chennai,None,0
+18,Female,82.0,B-,Chennai,Heart Disease,0
+38,Male,68.6,A-,Hyderabad,Hypertension,0
+22,Male,49.7,AB-,Bangalore,None,0
+58,Female,82.3,O+,Delhi,Heart Disease,0
+23,Male,84.4,O-,Mumbai,Heart Disease,0
+36,Male,82.7,O+,Bangalore,Diabetes,0
+31,Male,68.8,A+,Hyderabad,Heart Disease,0
+21,Male,85.4,O-,Mumbai,Hypertension,0
+33,Male,45.8,B-,Chennai,Diabetes,0
+38,Female,67.4,O+,Delhi,Hypertension,0
+52,Female,87.1,A-,Chennai,Heart Disease,0
+37,Male,75.8,AB+,Mumbai,Hypertension,0
+60,Female,70.8,A-,Hyderabad,Diabetes,0
+26,Female,77.2,AB-,Chennai,Hypertension,0
+55,Female,49.7,B+,Bangalore,None,0
+45,Male,46.7,A+,Bangalore,Diabetes,0
+34,Female,88.7,O-,Mumbai,Asthma,0
+57,Male,54.8,AB+,Mumbai,Diabetes,0
+54,Male,45.5,O-,Delhi,Diabetes,0
+51,Female,70.1,AB-,Delhi,Diabetes,0
+45,Male,63.6,O-,Chennai,Asthma,0
+49,Male,79.9,AB+,Mumbai,Hypertension,0
+43,Male,52.0,A-,Delhi,Heart Disease,0
+43,Female,77.2,A+,Delhi,None,1
+33,Male,46.3,B-,Mumbai,None,0
+37,Female,81.1,O-,Chennai,None,1
+32,Male,52.3,B-,Delhi,Asthma,0
+44,Male,55.1,AB-,Hyderabad,None,1
+21,Female,72.8,B-,Chennai,None,1
+49,Male,61.4,O+,Delhi,Heart Disease,0
+58,Female,58.3,A+,Bangalore,Diabetes,0
+42,Male,64.0,AB+,Chennai,None,1
+25,Male,61.9,A+,Mumbai,Hypertension,0
+59,Male,86.3,B-,Chennai,Hypertension,0
+46,Female,45.6,A+,Hyderabad,Heart Disease,0
+54,Female,76.9,AB+,Chennai,None,1
+24,Female,53.8,B+,Chennai,Heart Disease,0
+37,Male,89.5,O+,Bangalore,Heart Disease,0
+53,Male,59.7,A+,Bangalore,None,1
+31,Male,88.1,A-,Mumbai,Asthma,0
+29,Male,46.9,B+,Hyderabad,None,0
+54,Female,77.5,AB-,Delhi,None,1
+52,Female,50.1,O+,Bangalore,Heart Disease,0
+39,Male,79.2,O-,Hyderabad,None,1
+50,Female,62.2,B+,Hyderabad,Hypertension,0
+59,Female,80.1,AB-,Chennai,Hypertension,0
+49,Male,51.8,O-,Delhi,Hypertension,0
+60,Male,55.2,B-,Bangalore,Diabetes,0
+50,Male,82.8,A-,Hyderabad,Asthma,0
+49,Female,73.2,AB+,Chennai,Heart Disease,0
+19,Male,87.3,B+,Delhi,Heart Disease,0
+50,Female,56.1,O-,Hyderabad,None,1
+54,Female,85.5,AB-,Delhi,Diabetes,0
+28,Female,51.3,O+,Chennai,Hypertension,0
+25,Male,79.1,A-,Mumbai,None,1
+54,Female,48.7,B+,Hyderabad,Hypertension,0
+42,Female,76.6,A-,Hyderabad,Heart Disease,0
+48,Female,62.4,O-,Chennai,Hypertension,0
+18,Female,46.8,B+,Bangalore,Hypertension,0
+24,Female,89.4,O+,Mumbai,Heart Disease,0
+59,Female,81.8,B-,Delhi,None,1
+58,Female,79.9,B+,Delhi,Diabetes,0
+53,Male,68.1,A-,Delhi,Diabetes,0
+24,Female,80.2,AB+,Mumbai,Hypertension,0
+47,Female,50.9,O-,Hyderabad,None,1
+44,Male,65.6,O+,Chennai,Diabetes,0
+54,Female,67.0,B+,Delhi,Diabetes,0
+38,Male,62.7,B+,Chennai,None,1
+50,Male,55.0,B-,Mumbai,Asthma,0
+35,Male,70.0,A+,Mumbai,None,1
+37,Male,81.4,A+,Hyderabad,Heart Disease,0
+23,Male,87.1,A+,Delhi,Hypertension,0
+51,Male,54.6,O-,Mumbai,None,1
+32,Male,86.7,AB-,Hyderabad,Diabetes,0
+25,Male,69.9,B+,Chennai,Asthma,0
+33,Male,78.9,A-,Mumbai,None,1
+51,Male,79.3,AB-,Mumbai,Hypertension,0
+40,Female,83.7,O-,Bangalore,Hypertension,0
+59,Female,51.3,A+,Chennai,Hypertension,0
+34,Female,57.4,B+,Delhi,Asthma,0
+38,Male,84.9,O-,Chennai,Asthma,0
+52,Male,75.0,A+,Chennai,Heart Disease,0
+45,Female,66.4,B+,Chennai,None,1
+53,Female,51.1,A+,Bangalore,Diabetes,0
+46,Female,85.2,A-,Delhi,Hypertension,0
+49,Female,76.4,A+,Hyderabad,Hypertension,0
+38,Female,80.8,B-,Bangalore,Heart Disease,0
+31,Female,76.5,B-,Mumbai,None,1
+24,Female,76.2,O+,Hyderabad,None,1
+36,Female,45.6,O+,Hyderabad,Hypertension,0
+31,Male,57.0,A+,Bangalore,None,1
+26,Female,61.5,AB+,Mumbai,Diabetes,0
+30,Female,82.0,AB-,Delhi,Hypertension,0
+60,Female,55.6,B+,Bangalore,Heart Disease,0
+56,Female,58.1,A+,Delhi,None,1
+43,Female,69.7,B-,Hyderabad,Asthma,0
+37,Male,80.4,AB-,Delhi,Diabetes,0
+46,Male,61.9,O-,Mumbai,Heart Disease,0
+52,Female,79.7,O-,Hyderabad,Heart Disease,0
+51,Female,50.9,B-,Delhi,Asthma,0
+56,Female,55.6,A+,Mumbai,Heart Disease,0
+60,Male,45.7,A+,Mumbai,Hypertension,0
+39,Female,86.1,A-,Chennai,Diabetes,0
+25,Female,56.9,O+,Hyderabad,Hypertension,0
+29,Male,67.1,A+,Mumbai,Heart Disease,0
+22,Female,49.8,AB+,Hyderabad,Diabetes,0
+50,Male,52.9,AB-,Bangalore,Diabetes,0
+43,Male,60.6,B-,Chennai,None,1
+46,Female,76.9,O+,Bangalore,Diabetes,0
+57,Female,48.1,AB+,Chennai,Hypertension,0
+28,Female,79.9,B+,Hyderabad,Hypertension,0
+37,Male,75.3,O-,Bangalore,Diabetes,0
+26,Female,45.3,AB-,Delhi,Hypertension,0
+48,Female,60.5,B-,Chennai,Asthma,0
+39,Male,72.8,A-,Bangalore,Diabetes,0
+32,Female,86.5,B-,Delhi,Hypertension,0
+27,Male,65.3,O-,Chennai,Heart Disease,0
+55,Male,70.2,A+,Hyderabad,Asthma,0
+35,Female,88.7,B+,Chennai,Asthma,0
+18,Female,52.7,A-,Chennai,Diabetes,0
+59,Female,59.0,AB+,Mumbai,Diabetes,0
+20,Female,48.9,A+,Hyderabad,Hypertension,0
+19,Female,73.3,B+,Chennai,Asthma,0
+23,Male,89.8,A-,Bangalore,Heart Disease,0
+51,Male,84.4,O-,Chennai,Diabetes,0
+41,Female,82.2,A-,Delhi,Hypertension,0
+41,Male,69.2,A+,Mumbai,Hypertension,0
+40,Female,53.7,O-,Hyderabad,None,1
+60,Male,47.5,A-,Mumbai,None,0
+38,Female,85.4,O-,Bangalore,Heart Disease,0
+30,Female,70.1,O+,Mumbai,Heart Disease,0
+58,Female,78.6,AB-,Delhi,Heart Disease,0
+49,Male,66.3,O-,Hyderabad,Heart Disease,0
+54,Female,58.6,A+,Hyderabad,None,1
+55,Male,60.8,A-,Hyderabad,Diabetes,0
+39,Male,84.2,AB+,Mumbai,Diabetes,0
+53,Female,48.3,AB-,Hyderabad,Diabetes,0
+43,Female,81.7,B-,Mumbai,Diabetes,0
+42,Male,56.0,A-,Chennai,None,1
+25,Male,65.8,B-,Delhi,Hypertension,0
+53,Female,80.0,O-,Hyderabad,None,1
+52,Male,61.8,O+,Delhi,Hypertension,0
+26,Female,59.8,O-,Hyderabad,Heart Disease,0
+23,Female,67.4,A-,Hyderabad,None,1
+55,Female,81.1,B+,Hyderabad,Diabetes,0
+42,Female,48.7,O-,Mumbai,None,0
+33,Male,59.8,A+,Hyderabad,Heart Disease,0
+56,Male,73.0,B-,Hyderabad,None,1
+45,Male,61.2,O+,Delhi,Diabetes,0
+30,Female,59.5,AB-,Chennai,Hypertension,0
+50,Female,53.7,O-,Chennai,Diabetes,0
+21,Male,79.7,A-,Delhi,None,1
+45,Male,75.2,AB-,Bangalore,Asthma,0
+39,Male,78.3,B+,Chennai,Diabetes,0
+24,Female,60.4,O-,Delhi,None,1
+21,Male,69.6,O-,Mumbai,Heart Disease,0
+31,Female,86.8,A-,Delhi,Asthma,0
+37,Female,48.0,A+,Chennai,Asthma,0
+37,Female,46.8,O+,Hyderabad,None,0
+28,Male,48.2,O+,Mumbai,Diabetes,0
+26,Female,51.0,AB+,Mumbai,Heart Disease,0
+46,Male,48.3,A-,Chennai,Asthma,0
+47,Female,56.6,B+,Chennai,Heart Disease,0
+33,Female,52.3,O+,Hyderabad,Heart Disease,0
+57,Male,84.6,AB-,Delhi,Asthma,0
+51,Female,60.6,O+,Delhi,Heart Disease,0
+30,Male,75.8,O+,Hyderabad,Heart Disease,0
+56,Female,60.4,AB+,Chennai,Heart Disease,0
+38,Male,81.1,AB-,Delhi,Asthma,0
+32,Male,75.6,B-,Mumbai,None,1
+21,Male,51.3,AB-,Delhi,None,1
+45,Female,89.7,AB-,Chennai,Heart Disease,0
+42,Female,70.8,O-,Hyderabad,Asthma,0
+22,Female,76.0,O-,Delhi,None,1
+20,Female,77.1,B+,Delhi,Heart Disease,0
+32,Female,88.8,B+,Chennai,Heart Disease,0
+18,Male,54.0,AB-,Delhi,Hypertension,0
+40,Male,46.6,B-,Bangalore,Asthma,0
+52,Male,61.3,B+,Hyderabad,Heart Disease,0
+48,Male,88.7,AB+,Hyderabad,Hypertension,0
+24,Male,51.5,O-,Chennai,Asthma,0
+59,Male,72.7,A-,Chennai,Heart Disease,0
+56,Female,65.1,O-,Hyderabad,None,1
+53,Male,53.3,B+,Chennai,None,1
+57,Female,70.3,AB-,Hyderabad,None,1
+44,Male,89.5,A+,Delhi,Heart Disease,0
+38,Female,50.0,B+,Hyderabad,Asthma,0
+24,Female,56.2,O-,Delhi,Asthma,0
+58,Female,67.3,B+,Bangalore,None,1
+30,Male,88.8,AB-,Mumbai,Hypertension,0
+35,Female,68.7,O+,Bangalore,Asthma,0
+18,Male,65.6,AB-,Chennai,None,1
+46,Female,60.7,A-,Bangalore,Asthma,0
+24,Female,77.2,O-,Mumbai,Hypertension,0
+46,Male,54.3,A-,Mumbai,Asthma,0
+44,Female,58.3,B+,Bangalore,Diabetes,0
+40,Female,84.7,AB-,Mumbai,Diabetes,0
+35,Male,53.2,B-,Delhi,Asthma,0
+43,Female,45.9,A-,Chennai,Hypertension,0
+51,Female,79.6,A+,Delhi,None,1
+22,Male,83.3,AB+,Hyderabad,Asthma,0
+24,Male,77.8,B+,Chennai,Heart Disease,0
+33,Female,89.7,A-,Chennai,Heart Disease,0
+50,Female,83.2,O-,Hyderabad,None,1
+60,Female,62.5,O+,Delhi,Heart Disease,0
+44,Female,50.7,A-,Mumbai,Heart Disease,0
+18,Female,83.9,B-,Chennai,Diabetes,0
+53,Female,59.0,AB-,Hyderabad,Asthma,0
+35,Male,82.1,A+,Mumbai,Heart Disease,0
+41,Female,62.7,B+,Chennai,Diabetes,0
+24,Female,71.6,A+,Mumbai,Heart Disease,0
+33,Male,59.8,AB+,Delhi,None,1
+57,Male,60.3,B+,Bangalore,None,1
+33,Male,87.3,AB+,Chennai,Asthma,0
+35,Female,57.0,AB+,Delhi,Asthma,0
+35,Male,64.4,O+,Hyderabad,Diabetes,0
+27,Female,78.1,B-,Chennai,Heart Disease,0
+24,Male,56.8,A+,Chennai,Diabetes,0
+30,Female,88.2,AB-,Hyderabad,None,1
+33,Male,54.4,B-,Hyderabad,None,1
+44,Female,64.5,O-,Bangalore,None,1
+26,Male,46.5,AB+,Mumbai,Hypertension,0
+40,Male,81.0,A-,Chennai,Diabetes,0
+36,Male,71.4,A+,Bangalore,Diabetes,0
+57,Male,81.1,A+,Bangalore,None,1
+43,Female,49.8,AB+,Chennai,None,0
+59,Male,49.3,AB-,Delhi,Heart Disease,0
+41,Male,47.3,AB-,Bangalore,Diabetes,0
+33,Female,51.2,B-,Delhi,None,1
+29,Female,84.3,B-,Hyderabad,Hypertension,0
+31,Female,71.2,B-,Bangalore,Diabetes,0
+30,Male,47.5,A+,Delhi,Diabetes,0
+57,Female,48.3,O-,Hyderabad,Hypertension,0
+30,Male,87.6,AB+,Bangalore,Asthma,0
+29,Male,86.2,A-,Mumbai,Heart Disease,0
+51,Male,86.3,B-,Chennai,None,1
+29,Male,73.7,AB-,Hyderabad,Asthma,0
+33,Male,53.1,A+,Mumbai,None,1
+49,Male,45.4,B+,Delhi,None,0
+56,Male,87.4,A-,Hyderabad,Diabetes,0
+40,Female,63.8,AB+,Mumbai,Diabetes,0
+38,Male,60.3,AB+,Bangalore,Diabetes,0
+45,Male,72.2,B-,Bangalore,Hypertension,0
+21,Female,48.5,A+,Delhi,Asthma,0
+33,Female,48.9,O-,Mumbai,None,0
+56,Female,57.2,AB+,Bangalore,Heart Disease,0
+53,Male,60.1,O-,Mumbai,Diabetes,0
+40,Female,45.7,O+,Delhi,Hypertension,0
+23,Male,77.2,B-,Hyderabad,Heart Disease,0
+26,Female,46.1,A+,Mumbai,Diabetes,0
+60,Female,73.2,O+,Delhi,Heart Disease,0
+42,Female,71.3,AB+,Hyderabad,Heart Disease,0
+53,Female,72.8,AB+,Chennai,Hypertension,0
+56,Male,46.9,AB+,Delhi,Diabetes,0
+60,Female,52.2,O+,Hyderabad,Diabetes,0
+43,Female,57.5,A-,Mumbai,Hypertension,0
+20,Female,81.2,O+,Bangalore,Hypertension,0
+60,Female,82.2,B+,Chennai,Diabetes,0
+41,Female,71.5,A+,Mumbai,Diabetes,0
+58,Male,61.3,A+,Bangalore,Hypertension,0
+24,Male,48.2,B-,Chennai,Diabetes,0
+29,Female,61.8,O-,Bangalore,Heart Disease,0
+43,Male,80.0,A-,Mumbai,None,1
+58,Female,77.2,O+,Chennai,Hypertension,0
+51,Male,84.4,O-,Mumbai,Asthma,0
+24,Female,75.5,B+,Mumbai,Asthma,0
+22,Male,45.4,A+,Hyderabad,None,0
+31,Female,74.5,AB+,Bangalore,Asthma,0
+36,Male,66.4,O-,Delhi,Heart Disease,0
+46,Female,47.2,O+,Delhi,None,0
+43,Female,56.8,B-,Delhi,Asthma,0
+49,Female,57.2,A-,Bangalore,Hypertension,0
+45,Female,90.0,B+,Delhi,Heart Disease,0
+44,Female,51.6,AB-,Bangalore,None,1
+46,Female,57.9,B-,Delhi,Asthma,0
+18,Female,47.0,AB-,Mumbai,Asthma,0
+27,Male,87.2,AB+,Bangalore,Hypertension,0
+20,Male,85.3,A+,Hyderabad,Hypertension,0
+44,Male,86.1,O-,Bangalore,Diabetes,0
+50,Male,88.1,AB+,Mumbai,Asthma,0
+40,Male,50.5,B-,Hyderabad,Heart Disease,0
+19,Female,62.7,B+,Bangalore,Diabetes,0
+38,Female,55.5,AB-,Chennai,Hypertension,0
+41,Female,60.0,B-,Bangalore,Heart Disease,0
+47,Female,65.5,A-,Bangalore,Hypertension,0
+33,Female,78.1,O+,Chennai,Asthma,0
+21,Female,74.9,AB-,Mumbai,Heart Disease,0
+24,Female,87.2,A-,Chennai,Diabetes,0
+49,Male,80.5,AB+,Mumbai,Heart Disease,0
+47,Female,71.1,B-,Hyderabad,Asthma,0
+37,Male,53.4,B+,Bangalore,Heart Disease,0
+23,Female,69.0,AB+,Mumbai,Diabetes,0
+23,Female,62.7,B-,Bangalore,Hypertension,0
+23,Female,46.6,A-,Delhi,Diabetes,0
+60,Female,74.0,O+,Hyderabad,Heart Disease,0
+36,Female,80.0,A-,Bangalore,Asthma,0
+21,Male,47.4,B+,Delhi,Asthma,0
+35,Female,70.7,A-,Delhi,Diabetes,0
+40,Female,56.8,A+,Hyderabad,Diabetes,0
+33,Male,50.1,O+,Delhi,Heart Disease,0
+19,Female,76.5,AB-,Hyderabad,None,1
+29,Female,62.3,AB-,Chennai,Heart Disease,0
+26,Female,68.5,O+,Bangalore,Diabetes,0
+38,Female,75.4,B-,Delhi,Diabetes,0
+36,Female,64.2,AB-,Mumbai,Heart Disease,0
+31,Female,86.8,A+,Hyderabad,Heart Disease,0
+27,Male,79.2,B-,Mumbai,Heart Disease,0
+52,Female,57.8,O+,Bangalore,Hypertension,0
+18,Female,80.8,B-,Mumbai,Heart Disease,0
+57,Female,56.0,B+,Chennai,Hypertension,0
+35,Male,50.7,AB-,Hyderabad,None,1
+58,Female,77.6,A+,Hyderabad,Heart Disease,0
+40,Male,55.3,B+,Mumbai,Hypertension,0
+26,Female,83.9,O+,Hyderabad,Hypertension,0
+23,Female,85.5,AB+,Mumbai,Heart Disease,0
+42,Male,57.1,AB+,Hyderabad,Heart Disease,0
+23,Female,54.8,B+,Bangalore,Hypertension,0
+57,Female,58.7,B+,Bangalore,Hypertension,0
+22,Female,58.6,AB+,Mumbai,Heart Disease,0
+51,Female,68.2,O+,Mumbai,Asthma,0
+53,Male,50.6,B-,Mumbai,Hypertension,0
+20,Male,84.5,A+,Bangalore,Asthma,0
+32,Male,81.9,B-,Bangalore,Diabetes,0
+34,Male,57.9,AB-,Chennai,None,1
+26,Male,81.3,O-,Chennai,Asthma,0
+54,Female,76.3,B+,Mumbai,Heart Disease,0
+31,Male,51.5,AB-,Mumbai,Heart Disease,0
+31,Female,83.5,AB+,Chennai,Asthma,0
+30,Female,57.2,B-,Mumbai,None,1
+35,Male,79.5,O-,Delhi,Hypertension,0
+27,Male,46.8,A-,Mumbai,Asthma,0
+35,Female,53.4,B+,Mumbai,Asthma,0
+28,Male,58.0,B+,Bangalore,Asthma,0
+43,Female,79.1,AB-,Hyderabad,Hypertension,0
+24,Female,87.7,AB-,Bangalore,Heart Disease,0
+42,Female,46.2,A+,Delhi,Hypertension,0
+59,Male,53.8,A+,Mumbai,Heart Disease,0
+60,Male,59.2,O+,Chennai,Asthma,0
+43,Female,88.9,AB-,Delhi,None,1
+22,Male,49.8,B-,Mumbai,Diabetes,0
+36,Female,87.6,A+,Mumbai,Diabetes,0
+23,Male,59.2,O-,Mumbai,Hypertension,0
+35,Female,61.7,O-,Bangalore,Heart Disease,0
+45,Male,71.7,B+,Bangalore,Diabetes,0
+56,Male,63.9,O-,Hyderabad,Hypertension,0
+58,Male,89.8,B-,Bangalore,Heart Disease,0
+31,Male,86.8,A+,Bangalore,Heart Disease,0
+39,Male,47.0,A+,Bangalore,Hypertension,0
+55,Male,66.9,O+,Chennai,None,1
+50,Female,47.3,O+,Bangalore,Asthma,0
+19,Male,57.5,AB+,Hyderabad,Diabetes,0
+26,Male,79.4,AB-,Chennai,Heart Disease,0
+50,Female,62.9,AB-,Chennai,Heart Disease,0
+44,Female,75.4,O-,Hyderabad,None,1
+53,Female,60.2,O-,Mumbai,None,1
+29,Female,86.6,O+,Mumbai,Diabetes,0
+32,Female,74.5,AB+,Mumbai,Diabetes,0
+49,Male,75.2,O+,Bangalore,Asthma,0
+30,Male,71.6,AB-,Delhi,Hypertension,0
+33,Female,52.3,A+,Chennai,Diabetes,0
+52,Female,82.1,B-,Bangalore,Heart Disease,0
+18,Female,67.9,B-,Delhi,Asthma,0
+54,Female,78.1,A+,Mumbai,Diabetes,0
+49,Female,70.6,B-,Hyderabad,Diabetes,0
+21,Female,54.9,AB+,Chennai,None,1
+56,Female,64.0,AB-,Mumbai,Hypertension,0
+39,Female,75.4,AB-,Chennai,Asthma,0
+22,Female,49.2,B-,Delhi,Heart Disease,0
+18,Male,64.8,AB+,Delhi,Diabetes,0
+33,Female,58.7,O-,Mumbai,Asthma,0
+37,Male,77.6,AB+,Bangalore,Asthma,0
+40,Male,47.6,A+,Delhi,None,0
+42,Male,77.4,AB-,Mumbai,Diabetes,0
+45,Female,50.7,A-,Chennai,Asthma,0
+47,Female,86.1,A+,Bangalore,Diabetes,0
+57,Male,61.7,O+,Chennai,Heart Disease,0
+21,Female,75.8,O+,Delhi,Asthma,0
+53,Female,78.2,A+,Hyderabad,Hypertension,0
+51,Male,56.6,O+,Bangalore,Asthma,0
+23,Female,81.9,AB-,Chennai,Heart Disease,0
+26,Male,73.3,B+,Hyderabad,None,1
+28,Female,56.5,AB+,Hyderabad,Asthma,0
+18,Female,56.4,AB+,Chennai,Hypertension,0
+28,Male,52.1,O+,Hyderabad,None,1
+29,Male,80.2,B-,Hyderabad,Asthma,0
+35,Male,49.2,O-,Bangalore,Heart Disease,0
+47,Female,59.1,O+,Chennai,Diabetes,0
+45,Male,61.0,AB+,Hyderabad,Asthma,0
+47,Male,76.1,A+,Bangalore,Asthma,0
+30,Male,70.9,AB+,Chennai,Heart Disease,0
+43,Female,72.4,A+,Mumbai,Asthma,0
+33,Female,81.9,A+,Bangalore,None,1
+38,Male,76.0,B-,Mumbai,Asthma,0
+22,Male,59.2,A-,Chennai,Asthma,0
+56,Female,64.8,AB+,Mumbai,Diabetes,0
+36,Male,70.2,B+,Hyderabad,Hypertension,0
+59,Male,61.5,AB-,Chennai,Asthma,0
+39,Female,63.5,B+,Hyderabad,Hypertension,0
+39,Female,56.7,B+,Chennai,Heart Disease,0
+31,Female,62.9,A-,Mumbai,Diabetes,0
+29,Male,86.3,O-,Bangalore,Asthma,0
+43,Female,69.2,AB+,Chennai,Asthma,0
+56,Male,47.0,AB-,Hyderabad,Asthma,0
+57,Female,73.4,AB-,Hyderabad,Diabetes,0
+55,Female,82.4,A-,Hyderabad,Asthma,0
+26,Female,75.4,O+,Delhi,Diabetes,0
+34,Male,70.8,A+,Delhi,Heart Disease,0
+35,Male,73.3,A-,Hyderabad,Hypertension,0
+45,Male,78.5,B+,Delhi,Hypertension,0
+37,Female,58.5,A-,Hyderabad,Diabetes,0
+55,Male,71.1,O-,Mumbai,None,1
+57,Female,53.6,B+,Delhi,Asthma,0
+49,Female,55.8,A-,Bangalore,None,1
+39,Female,84.0,B-,Bangalore,Diabetes,0
+30,Female,77.7,B-,Bangalore,Asthma,0
+29,Male,45.6,AB-,Bangalore,None,0
+18,Male,60.5,O+,Bangalore,Asthma,0
+35,Male,66.6,B+,Mumbai,None,1
+55,Female,53.4,B-,Mumbai,Diabetes,0
+55,Male,79.7,A+,Hyderabad,None,1
+34,Male,89.5,B+,Chennai,Asthma,0
+48,Male,52.6,A-,Mumbai,None,1
+38,Male,69.3,B-,Bangalore,Heart Disease,0
+27,Female,78.2,B+,Mumbai,None,1
+41,Male,62.5,A+,Hyderabad,Asthma,0
+43,Male,74.8,AB-,Chennai,Heart Disease,0
+40,Female,87.0,A-,Bangalore,Heart Disease,0
+35,Male,59.8,AB+,Bangalore,Diabetes,0
+33,Male,45.1,A+,Mumbai,None,0
+27,Male,48.2,AB-,Bangalore,Heart Disease,0
+34,Female,64.3,B+,Delhi,None,1
+21,Female,82.7,A-,Bangalore,Asthma,0
+34,Female,63.3,O+,Chennai,Asthma,0
+27,Male,80.5,O+,Mumbai,Hypertension,0
+21,Female,62.0,O-,Bangalore,None,1
+50,Female,77.8,O+,Delhi,Diabetes,0
+36,Female,51.1,O+,Mumbai,None,1
+51,Male,62.1,B-,Hyderabad,Hypertension,0
+20,Female,53.0,B-,Hyderabad,None,1
+18,Female,52.6,A-,Mumbai,Heart Disease,0
+38,Female,72.0,AB+,Chennai,Hypertension,0
+47,Male,83.3,O-,Hyderabad,Hypertension,0
+60,Female,54.7,AB-,Delhi,None,1
+48,Male,45.4,O+,Hyderabad,Hypertension,0
+40,Male,58.7,O+,Chennai,None,1
+55,Male,48.5,O+,Delhi,Hypertension,0
+22,Female,75.3,A+,Delhi,Asthma,0
+56,Female,84.4,O-,Chennai,Asthma,0
+47,Female,69.2,AB+,Mumbai,Diabetes,0
+48,Female,55.6,B-,Bangalore,Heart Disease,0
+18,Male,87.8,B+,Bangalore,None,1
+54,Male,83.0,AB+,Bangalore,None,1
+30,Female,55.7,A+,Delhi,Asthma,0
+18,Female,79.5,AB+,Chennai,None,1
+53,Male,84.8,A-,Bangalore,None,1
+32,Female,89.6,O-,Delhi,None,1
+56,Female,79.0,AB+,Delhi,Asthma,0
+56,Female,64.3,A-,Bangalore,Hypertension,0
+44,Male,79.5,AB+,Chennai,Asthma,0
+43,Female,52.6,AB-,Mumbai,Heart Disease,0
+47,Female,89.9,AB-,Delhi,None,1
+18,Female,64.7,B-,Chennai,None,1
+58,Female,51.5,AB+,Delhi,Asthma,0
+36,Female,64.4,AB+,Hyderabad,Diabetes,0
+41,Male,65.9,B+,Chennai,Hypertension,0
+56,Female,84.0,A-,Chennai,Hypertension,0
+30,Male,74.3,A+,Bangalore,Diabetes,0
+18,Male,53.9,B-,Hyderabad,Heart Disease,0
+21,Male,89.2,A-,Mumbai,None,1
+49,Male,56.7,B+,Chennai,Asthma,0
+43,Male,57.8,AB+,Mumbai,Diabetes,0
+33,Male,87.8,A+,Mumbai,Hypertension,0
+39,Female,58.6,AB-,Chennai,Diabetes,0
+60,Male,54.9,A+,Mumbai,Asthma,0
+48,Female,71.9,A-,Chennai,None,1
+22,Female,80.8,A-,Hyderabad,Asthma,0
+18,Female,65.6,B-,Mumbai,Asthma,0
+59,Male,80.0,B+,Bangalore,Heart Disease,0
+40,Female,60.6,AB-,Chennai,Asthma,0
+20,Male,63.5,O+,Chennai,Heart Disease,0
+38,Female,80.0,B-,Bangalore,Asthma,0
+49,Male,50.7,B+,Chennai,Asthma,0
+49,Female,87.2,AB-,Delhi,None,1
+37,Male,62.3,O-,Mumbai,Hypertension,0
+54,Male,54.1,A-,Hyderabad,None,1
+51,Male,79.4,O-,Chennai,Heart Disease,0
+53,Female,79.9,B+,Chennai,None,1
+43,Male,55.8,B+,Hyderabad,None,1
+46,Male,74.0,A+,Bangalore,Heart Disease,0
+54,Male,77.2,O-,Mumbai,Diabetes,0
+42,Female,72.7,AB+,Mumbai,Asthma,0
+35,Male,79.2,A-,Bangalore,Asthma,0
+55,Female,78.5,AB+,Delhi,Hypertension,0
+36,Female,74.4,B-,Bangalore,None,1
+21,Female,62.2,AB-,Delhi,None,1
+38,Female,69.5,AB-,Hyderabad,Asthma,0
+59,Female,58.3,AB-,Bangalore,Heart Disease,0
+52,Female,87.6,O+,Chennai,None,1
+58,Male,76.5,AB-,Chennai,Hypertension,0
+50,Female,64.2,AB-,Bangalore,Diabetes,0
+46,Male,60.9,B-,Delhi,Diabetes,0
+18,Female,72.8,AB-,Hyderabad,Hypertension,0
+20,Female,46.2,O+,Hyderabad,None,0
+27,Female,69.3,B-,Mumbai,Heart Disease,0
+26,Male,82.8,AB+,Bangalore,Hypertension,0
+56,Male,49.6,O+,Hyderabad,Hypertension,0
+41,Female,56.1,AB+,Delhi,None,1
+20,Male,60.2,O-,Delhi,Asthma,0
+23,Male,87.9,A+,Chennai,None,1
+33,Female,77.7,B+,Delhi,Asthma,0
+60,Female,83.7,A-,Chennai,Diabetes,0
+20,Male,61.2,O+,Hyderabad,Heart Disease,0
+47,Female,61.3,B-,Hyderabad,Asthma,0
+38,Female,87.5,AB-,Chennai,Heart Disease,0
+29,Female,88.1,O+,Mumbai,Heart Disease,0
+18,Male,79.3,B+,Chennai,Heart Disease,0
+29,Male,67.1,O+,Delhi,Hypertension,0
+36,Male,89.0,A+,Mumbai,Heart Disease,0
+48,Female,47.7,A+,Bangalore,Diabetes,0
+45,Female,85.9,B+,Mumbai,Hypertension,0
+37,Female,87.5,O+,Chennai,Diabetes,0
+19,Female,49.9,B-,Delhi,None,0
+21,Female,53.0,O-,Delhi,Diabetes,0
+54,Male,71.2,O-,Chennai,Asthma,0
+25,Male,63.3,O-,Mumbai,Hypertension,0
+22,Male,81.5,O+,Bangalore,Asthma,0
+23,Female,79.2,A+,Chennai,Hypertension,0
+37,Female,82.3,O+,Mumbai,Diabetes,0
+27,Male,65.9,B-,Bangalore,Asthma,0
+33,Female,80.1,A+,Bangalore,Asthma,0
+42,Male,79.2,B-,Chennai,Hypertension,0
+18,Female,59.5,AB+,Delhi,Diabetes,0
+37,Female,48.6,A+,Hyderabad,Asthma,0
+22,Male,71.5,AB-,Bangalore,Diabetes,0
+53,Male,50.7,B-,Chennai,Diabetes,0
+37,Male,73.1,O-,Chennai,Asthma,0
+40,Female,86.1,O-,Hyderabad,None,1
+51,Female,53.7,AB-,Hyderabad,Hypertension,0
+59,Female,49.3,AB+,Hyderabad,Diabetes,0
+56,Male,51.8,AB+,Mumbai,Heart Disease,0
+43,Male,84.5,A-,Mumbai,None,1
+28,Female,45.3,AB-,Delhi,Hypertension,0
+40,Male,46.6,B+,Mumbai,Heart Disease,0
+57,Female,71.8,O-,Delhi,Diabetes,0
+41,Male,50.1,O-,Chennai,Asthma,0
+21,Male,84.9,B+,Chennai,None,1
+33,Male,51.0,A-,Bangalore,Hypertension,0
+28,Male,49.1,A-,Hyderabad,Hypertension,0
+44,Male,67.5,B-,Mumbai,Diabetes,0
+57,Male,46.6,B+,Chennai,None,0
+23,Female,52.0,A-,Bangalore,Hypertension,0
+54,Female,50.8,A-,Mumbai,Hypertension,0
+33,Male,49.7,A+,Delhi,Diabetes,0
+26,Male,58.0,B-,Bangalore,Heart Disease,0
+51,Female,84.0,B+,Chennai,None,1
+55,Female,76.6,B+,Mumbai,Heart Disease,0
+32,Female,69.6,B-,Hyderabad,Hypertension,0
+44,Female,50.9,AB+,Chennai,Hypertension,0
+39,Female,64.2,O+,Hyderabad,Asthma,0
+60,Female,62.1,O+,Bangalore,Asthma,0
+48,Female,72.6,B-,Hyderabad,Heart Disease,0
+19,Male,76.2,AB-,Delhi,None,1
+57,Male,57.3,O-,Hyderabad,Asthma,0
+26,Female,76.5,B+,Chennai,Asthma,0
+47,Female,65.5,AB+,Bangalore,Hypertension,0
+53,Female,69.1,AB-,Hyderabad,Hypertension,0
+35,Female,48.7,B+,Chennai,Hypertension,0
+49,Male,87.3,AB-,Mumbai,Hypertension,0
+26,Male,46.4,AB-,Mumbai,Hypertension,0
+43,Male,87.4,A+,Hyderabad,Heart Disease,0
+20,Female,58.3,B+,Delhi,None,1
+36,Male,69.6,A-,Chennai,None,1
+47,Male,51.1,AB+,Delhi,Hypertension,0
+40,Female,84.7,O+,Hyderabad,Hypertension,0
+41,Male,88.6,O+,Mumbai,None,1
+28,Female,87.7,O-,Hyderabad,Hypertension,0
+41,Male,51.6,A-,Mumbai,None,1
+36,Male,76.0,AB+,Hyderabad,Diabetes,0
+60,Male,45.3,AB-,Chennai,Heart Disease,0
+29,Female,47.5,AB-,Bangalore,None,0
+23,Male,51.9,AB-,Chennai,Hypertension,0
+31,Female,45.2,AB+,Hyderabad,None,0
+35,Female,47.3,A-,Bangalore,Heart Disease,0
+45,Male,75.9,AB+,Delhi,Diabetes,0
+59,Female,53.9,AB+,Chennai,Heart Disease,0
+47,Male,55.2,O-,Delhi,Diabetes,0
+55,Male,55.5,O-,Chennai,Diabetes,0
+23,Male,88.9,B+,Chennai,Heart Disease,0
+36,Female,74.8,O-,Chennai,Hypertension,0
+24,Male,76.7,O-,Chennai,Hypertension,0
+20,Male,51.4,O-,Bangalore,None,1
+41,Male,57.1,B-,Mumbai,Heart Disease,0
+29,Female,71.1,B+,Chennai,None,1
+40,Female,65.3,AB-,Hyderabad,None,1
+37,Male,84.9,AB-,Chennai,Asthma,0
+29,Male,78.4,A+,Bangalore,None,1
+59,Male,60.8,A-,Mumbai,Asthma,0
+19,Male,72.8,O+,Delhi,Heart Disease,0
+44,Male,67.2,A-,Mumbai,None,1
+18,Male,66.3,O+,Bangalore,Asthma,0
+48,Male,79.3,B+,Delhi,Hypertension,0
+20,Male,71.1,A+,Delhi,None,1
+21,Female,59.1,AB-,Bangalore,Heart Disease,0
+25,Male,46.2,A+,Chennai,Diabetes,0
+31,Male,82.7,B-,Hyderabad,Heart Disease,0
+40,Male,71.2,O+,Mumbai,Hypertension,0
+18,Female,80.3,A-,Bangalore,Hypertension,0
+58,Male,51.7,O+,Mumbai,Asthma,0
+53,Male,65.3,B-,Bangalore,Asthma,0
+36,Female,87.3,O+,Chennai,Asthma,0
+40,Male,48.4,AB-,Chennai,Hypertension,0
+44,Female,73.8,AB+,Bangalore,None,1
+58,Female,67.7,O-,Chennai,Diabetes,0
+54,Female,88.9,A-,Delhi,Diabetes,0
+32,Male,46.6,A-,Bangalore,Asthma,0
+59,Female,80.5,AB+,Chennai,Diabetes,0
+45,Female,74.3,B-,Hyderabad,None,1
+52,Male,89.6,A+,Chennai,Heart Disease,0
+59,Female,70.7,A-,Delhi,Hypertension,0
+30,Male,61.7,B+,Delhi,Heart Disease,0
+18,Female,78.2,O+,Chennai,Diabetes,0
+21,Female,58.7,A+,Delhi,None,1
+57,Female,66.5,O-,Hyderabad,Diabetes,0
+38,Female,86.0,AB-,Bangalore,Asthma,0
+21,Male,47.0,B+,Delhi,Asthma,0
+36,Male,71.4,O+,Bangalore,Diabetes,0
+43,Male,51.4,B-,Bangalore,Hypertension,0
+22,Male,76.3,O+,Delhi,Hypertension,0
+57,Female,49.3,O+,Mumbai,Hypertension,0
+59,Male,46.7,O+,Bangalore,None,0
+23,Female,66.6,AB+,Bangalore,Asthma,0
+41,Female,56.0,A-,Bangalore,Asthma,0
+33,Male,83.9,AB-,Delhi,Hypertension,0
+18,Female,89.9,B+,Chennai,None,1
+29,Female,65.5,A+,Chennai,None,1
+46,Male,86.3,A-,Bangalore,None,1
+60,Female,71.5,A-,Chennai,Asthma,0
+32,Female,51.8,O-,Delhi,Hypertension,0
+40,Female,63.0,A+,Delhi,None,1
+21,Male,54.2,O-,Bangalore,Hypertension,0
+41,Male,45.4,O+,Delhi,None,0
+49,Male,75.4,B-,Mumbai,Diabetes,0
+34,Female,58.1,B-,Delhi,Hypertension,0
+31,Female,62.3,O-,Bangalore,Heart Disease,0
+48,Male,65.9,O-,Bangalore,Diabetes,0
+43,Female,76.7,AB+,Hyderabad,Asthma,0
+21,Female,78.1,B-,Bangalore,Asthma,0
+57,Male,48.1,AB-,Chennai,Heart Disease,0
+28,Male,48.8,AB-,Bangalore,Heart Disease,0
+52,Male,67.9,A+,Chennai,None,1
+60,Female,46.8,B-,Bangalore,Asthma,0
+23,Female,55.7,B+,Delhi,Asthma,0
+51,Male,72.3,AB-,Chennai,Asthma,0
+26,Male,54.7,O-,Chennai,Heart Disease,0
+51,Female,61.4,B+,Hyderabad,None,1
+47,Male,85.8,O-,Delhi,Hypertension,0
+49,Female,55.0,O+,Mumbai,Asthma,0
+34,Female,75.2,B+,Delhi,Asthma,0
+57,Female,82.8,AB-,Bangalore,None,1
+46,Female,87.6,A+,Hyderabad,Asthma,0
+41,Female,82.2,B+,Bangalore,None,1
+18,Male,58.3,AB-,Delhi,Asthma,0
+21,Male,87.0,O-,Bangalore,Hypertension,0
+47,Male,86.2,A+,Bangalore,Hypertension,0
+21,Female,67.9,O+,Mumbai,Hypertension,0
+31,Female,45.7,B+,Chennai,Diabetes,0
+30,Female,56.5,O-,Chennai,Asthma,0
+21,Male,73.3,AB+,Mumbai,Diabetes,0
+35,Female,72.1,O-,Chennai,Hypertension,0
+47,Male,66.7,B+,Chennai,Hypertension,0
+53,Male,58.3,A+,Bangalore,None,1
+20,Female,86.7,A-,Delhi,Diabetes,0
+43,Male,77.8,A+,Bangalore,Hypertension,0
+36,Male,63.8,B-,Hyderabad,Asthma,0
+45,Male,75.2,B-,Hyderabad,None,1
+34,Female,52.4,O+,Mumbai,Heart Disease,0
+52,Male,81.3,O-,Hyderabad,None,1
+57,Male,75.6,AB+,Mumbai,None,1
+22,Male,76.5,A-,Hyderabad,Diabetes,0
+23,Male,62.8,AB+,Hyderabad,Asthma,0
+58,Female,55.2,AB-,Chennai,None,1
+26,Male,59.0,O-,Mumbai,Heart Disease,0
+37,Male,54.5,A-,Hyderabad,Diabetes,0
+51,Female,76.3,A-,Bangalore,Diabetes,0
+26,Female,69.0,AB-,Delhi,Asthma,0
+18,Female,69.1,A-,Bangalore,None,1
+32,Male,67.6,B+,Hyderabad,None,1
+32,Female,55.8,O-,Delhi,None,1
+57,Female,75.7,B-,Bangalore,Asthma,0
+45,Female,63.6,AB-,Bangalore,Diabetes,0
+26,Male,62.1,A+,Bangalore,Hypertension,0
+39,Male,58.8,O-,Chennai,Heart Disease,0
+34,Male,71.8,B-,Bangalore,Diabetes,0
+50,Male,70.3,A+,Bangalore,None,1
+55,Male,51.6,AB-,Mumbai,Asthma,0
+24,Female,53.7,AB+,Delhi,Diabetes,0
+35,Female,45.7,O-,Mumbai,Asthma,0
+48,Female,83.5,B+,Delhi,Diabetes,0
+43,Female,55.5,AB-,Bangalore,Diabetes,0
+55,Female,68.6,A+,Bangalore,None,1
+41,Female,46.2,B-,Delhi,Asthma,0
+49,Female,58.8,AB+,Mumbai,Diabetes,0
+19,Male,77.9,A-,Bangalore,Diabetes,0
+46,Female,52.3,A-,Mumbai,None,1
+30,Female,82.5,O+,Bangalore,Heart Disease,0
+35,Female,61.8,A-,Chennai,Diabetes,0
+53,Female,71.1,B-,Bangalore,None,1
+39,Female,86.3,O+,Hyderabad,Hypertension,0
+43,Male,77.9,B+,Chennai,Hypertension,0
+30,Male,66.7,O+,Delhi,Diabetes,0
+36,Female,83.7,AB+,Bangalore,None,1
+51,Female,87.5,AB+,Delhi,None,1
+19,Female,64.8,AB+,Hyderabad,Diabetes,0
+24,Female,72.7,O+,Delhi,Asthma,0
+56,Male,58.6,B+,Hyderabad,Diabetes,0
+37,Female,60.5,A+,Mumbai,Diabetes,0
+56,Female,62.8,B-,Mumbai,Diabetes,0
+46,Male,82.5,B+,Mumbai,Asthma,0
+43,Male,55.6,AB+,Chennai,Hypertension,0
+34,Female,53.6,A+,Mumbai,Heart Disease,0
+22,Female,68.2,O+,Bangalore,Hypertension,0
+40,Male,60.2,O-,Delhi,Asthma,0
+34,Male,83.8,O-,Delhi,Heart Disease,0
+50,Male,48.6,AB-,Chennai,Asthma,0
+40,Male,56.8,B+,Hyderabad,Hypertension,0
+22,Male,73.9,B-,Chennai,Asthma,0
+20,Female,72.3,A-,Hyderabad,Asthma,0
+53,Male,88.4,AB-,Delhi,Asthma,0
+36,Male,63.3,B-,Bangalore,Hypertension,0
+26,Female,82.6,B-,Mumbai,Hypertension,0
+19,Female,50.1,A-,Bangalore,Hypertension,0
+32,Female,73.9,A+,Chennai,Heart Disease,0
+34,Female,66.6,B-,Bangalore,Heart Disease,0
+46,Female,58.4,B-,Bangalore,None,1
+53,Female,63.4,O+,Bangalore,Diabetes,0
+20,Male,59.2,O+,Chennai,Hypertension,0
+37,Male,71.7,B+,Bangalore,Hypertension,0
+27,Male,84.9,O-,Delhi,Heart Disease,0
+30,Male,55.7,B-,Mumbai,None,1
+47,Male,71.2,AB-,Bangalore,Hypertension,0
+58,Female,86.0,B+,Mumbai,Diabetes,0
+26,Female,85.0,O-,Delhi,None,1
+33,Female,71.7,B-,Delhi,Diabetes,0
+24,Female,56.2,A+,Bangalore,None,1
+19,Female,85.1,A-,Delhi,Diabetes,0
+42,Male,87.2,A+,Hyderabad,Hypertension,0
+59,Male,50.3,AB+,Hyderabad,Asthma,0
+57,Female,50.7,B+,Chennai,Asthma,0
+51,Male,61.9,O-,Delhi,Heart Disease,0
+53,Female,75.7,B-,Mumbai,None,1
+40,Male,70.4,AB+,Mumbai,Diabetes,0
+60,Female,51.5,A-,Hyderabad,None,1
+27,Female,75.0,AB+,Mumbai,Hypertension,0
+45,Female,77.8,A+,Bangalore,Diabetes,0
+34,Female,57.5,O-,Bangalore,None,1
+60,Female,59.2,B+,Hyderabad,None,1
+21,Male,72.1,A-,Delhi,Heart Disease,0
+45,Male,83.9,O-,Chennai,Diabetes,0
+29,Female,79.5,A+,Hyderabad,Hypertension,0
+19,Male,84.2,B+,Mumbai,None,1
+38,Male,52.6,O-,Chennai,Diabetes,0
+46,Male,58.2,B+,Chennai,Diabetes,0
+58,Female,67.7,A-,Bangalore,Heart Disease,0
+60,Male,86.7,AB+,Bangalore,Heart Disease,0
+30,Male,68.2,B-,Delhi,Hypertension,0
+23,Male,54.2,A-,Chennai,Heart Disease,0
+46,Female,78.7,B+,Mumbai,Hypertension,0
+47,Female,53.1,A-,Mumbai,Diabetes,0
+20,Male,67.7,AB-,Bangalore,Hypertension,0
+19,Female,72.7,O-,Delhi,Heart Disease,0
+24,Male,51.2,AB-,Bangalore,Diabetes,0
+56,Male,69.1,A+,Delhi,Asthma,0
+58,Male,50.7,O-,Chennai,Diabetes,0
+46,Female,63.6,AB+,Mumbai,None,1
+30,Male,47.7,A-,Bangalore,Diabetes,0
+38,Female,76.8,B-,Bangalore,None,1
+39,Female,46.4,A-,Chennai,Diabetes,0
+28,Male,63.1,O+,Mumbai,Diabetes,0
+18,Male,84.5,AB+,Delhi,None,1
+33,Male,73.1,AB+,Bangalore,Diabetes,0
+41,Male,46.2,B+,Delhi,Asthma,0
+20,Male,62.6,B-,Chennai,Asthma,0
+33,Female,85.4,B-,Delhi,Diabetes,0
+31,Male,76.7,O+,Delhi,Heart Disease,0
+60,Female,75.8,O+,Delhi,Asthma,0
+43,Male,73.0,O+,Mumbai,None,1
+27,Female,47.4,O-,Mumbai,Hypertension,0
+47,Female,48.0,B+,Hyderabad,Asthma,0
+35,Male,62.2,A+,Bangalore,Asthma,0
+44,Male,68.4,AB+,Hyderabad,None,1
+20,Male,74.7,AB-,Mumbai,Hypertension,0
+38,Male,49.0,A+,Mumbai,Asthma,0
+37,Male,51.6,B+,Bangalore,Hypertension,0
+39,Male,52.0,O-,Chennai,Asthma,0
+39,Female,78.8,AB-,Bangalore,None,1
+53,Female,70.0,A+,Bangalore,Asthma,0
+18,Female,61.7,O-,Hyderabad,Diabetes,0
+47,Female,80.4,O-,Delhi,Heart Disease,0
+35,Male,73.4,A-,Delhi,Hypertension,0
+39,Female,59.2,AB-,Chennai,Diabetes,0
+34,Male,85.9,B+,Bangalore,Hypertension,0
+55,Male,88.8,AB-,Hyderabad,Asthma,0
+38,Female,60.4,AB+,Delhi,Asthma,0
+23,Male,63.6,A-,Chennai,None,1
+24,Male,51.6,B-,Mumbai,Diabetes,0
+59,Male,86.7,A+,Delhi,Heart Disease,0
+56,Female,56.9,O-,Delhi,None,1
+42,Female,88.7,O+,Mumbai,Hypertension,0
+57,Male,89.1,O+,Hyderabad,Hypertension,0
+19,Male,55.6,AB-,Delhi,Diabetes,0
+57,Female,51.8,AB-,Delhi,None,1
+34,Male,87.4,B+,Chennai,Diabetes,0
+20,Female,51.5,O+,Chennai,Heart Disease,0
+29,Male,58.9,B-,Delhi,Heart Disease,0
+52,Male,88.0,AB+,Hyderabad,Asthma,0
+29,Female,66.0,O-,Mumbai,Diabetes,0
+58,Male,88.6,B+,Hyderabad,Hypertension,0
+36,Male,61.7,A+,Delhi,Asthma,0
+42,Female,89.1,A+,Mumbai,Diabetes,0
+24,Female,61.4,AB+,Hyderabad,None,1
+45,Female,57.9,B+,Hyderabad,Hypertension,0
+26,Female,75.6,AB-,Hyderabad,Heart Disease,0
+22,Female,75.1,B-,Hyderabad,Heart Disease,0
+19,Female,45.4,B-,Chennai,Heart Disease,0
+19,Female,62.9,B+,Mumbai,Asthma,0
+36,Male,64.5,AB+,Mumbai,Asthma,0
+23,Male,85.8,B+,Mumbai,Asthma,0
+47,Female,77.7,AB-,Delhi,Asthma,0
+32,Male,74.2,A+,Delhi,Hypertension,0
+19,Male,66.2,A+,Hyderabad,Diabetes,0
+40,Female,60.8,B+,Delhi,Heart Disease,0
+33,Male,76.2,O-,Hyderabad,Diabetes,0
+31,Female,50.4,AB+,Delhi,Diabetes,0
+18,Female,89.9,A+,Hyderabad,None,1
+25,Female,57.3,B+,Mumbai,Asthma,0
+39,Female,70.1,AB-,Chennai,None,1
+22,Male,46.9,AB-,Mumbai,Asthma,0
+30,Male,59.0,O+,Bangalore,Asthma,0
+20,Male,54.5,B+,Chennai,Diabetes,0
+28,Female,47.4,A+,Bangalore,Hypertension,0
+40,Male,51.6,A+,Hyderabad,Diabetes,0
+22,Female,77.7,O+,Mumbai,Asthma,0
+31,Male,69.9,A-,Mumbai,Heart Disease,0
+36,Male,68.3,O-,Bangalore,Hypertension,0
+23,Female,56.3,B-,Hyderabad,Heart Disease,0
+55,Male,46.9,O-,Delhi,Diabetes,0
+56,Male,69.6,AB+,Delhi,None,1
+26,Female,57.5,AB-,Bangalore,Asthma,0
+33,Female,69.9,AB-,Delhi,Asthma,0
+34,Female,66.2,O-,Delhi,Hypertension,0
+60,Female,87.7,A-,Chennai,Heart Disease,0
+49,Female,79.7,A+,Bangalore,Diabetes,0
+36,Female,57.7,AB-,Chennai,Diabetes,0
+37,Male,63.9,O+,Bangalore,Diabetes,0
+26,Female,49.0,A-,Chennai,None,0
+19,Female,50.6,A-,Delhi,Heart Disease,0
+60,Male,74.6,AB-,Hyderabad,Heart Disease,0
+20,Female,61.2,A+,Delhi,Diabetes,0
+49,Female,84.0,AB+,Hyderabad,Diabetes,0
+52,Male,53.3,AB-,Hyderabad,Hypertension,0
+21,Male,52.1,B+,Mumbai,Diabetes,0
+21,Female,47.8,O+,Bangalore,None,0
+33,Female,85.2,A-,Hyderabad,Hypertension,0
+39,Female,68.8,O+,Hyderabad,Asthma,0
+33,Female,51.5,B-,Chennai,Heart Disease,0
+30,Female,72.1,AB-,Chennai,Diabetes,0
+26,Male,83.4,O+,Mumbai,Diabetes,0
+21,Female,78.3,A-,Bangalore,Diabetes,0
+33,Male,62.3,A+,Mumbai,Asthma,0
+50,Female,86.4,AB+,Mumbai,Asthma,0
+51,Male,80.5,AB+,Chennai,Asthma,0
+57,Female,82.1,AB+,Delhi,Asthma,0
+26,Female,67.0,B-,Delhi,None,1
+24,Female,83.5,AB-,Bangalore,None,1
+37,Male,56.4,A-,Bangalore,Heart Disease,0
+56,Female,63.6,B-,Bangalore,Hypertension,0
+24,Female,59.9,AB-,Chennai,Hypertension,0
+22,Female,83.8,B-,Hyderabad,Hypertension,0
+31,Male,86.1,AB+,Hyderabad,Diabetes,0
+43,Male,58.2,O+,Bangalore,Hypertension,0
+38,Female,50.7,A-,Mumbai,Asthma,0
+58,Female,59.9,A+,Delhi,None,1
+32,Female,61.0,A-,Delhi,Heart Disease,0
+36,Male,52.3,AB+,Mumbai,Diabetes,0
+31,Female,55.1,B+,Bangalore,Diabetes,0
+51,Female,85.7,B+,Chennai,Hypertension,0
+41,Male,68.1,A-,Chennai,None,1
+46,Male,81.6,A-,Mumbai,Heart Disease,0
+19,Male,85.2,A+,Bangalore,Heart Disease,0
+28,Male,70.3,A+,Mumbai,Heart Disease,0
+37,Female,58.4,O+,Chennai,Hypertension,0
+45,Male,53.0,A+,Delhi,Diabetes,0
+51,Female,79.8,O+,Bangalore,Hypertension,0
+18,Male,84.1,AB-,Chennai,Hypertension,0
+45,Male,69.6,B-,Chennai,None,1
+24,Male,55.6,A-,Delhi,Hypertension,0
+59,Male,48.4,AB+,Bangalore,Diabetes,0
+30,Male,68.1,O-,Mumbai,Diabetes,0
+38,Male,49.5,O-,Mumbai,Asthma,0
+26,Male,80.3,AB-,Hyderabad,Asthma,0
+59,Male,71.7,O+,Hyderabad,None,1
+29,Male,76.3,B-,Hyderabad,Asthma,0
+29,Male,65.5,O+,Chennai,Asthma,0
+53,Female,88.0,A-,Mumbai,Hypertension,0
+18,Female,52.4,B+,Hyderabad,Asthma,0
+32,Female,79.6,O-,Delhi,Heart Disease,0
+32,Male,55.5,AB+,Delhi,None,1
+26,Female,85.6,A-,Bangalore,Asthma,0
+33,Male,81.1,A-,Hyderabad,Hypertension,0
+53,Female,86.8,A-,Chennai,Hypertension,0
+44,Female,66.7,B-,Hyderabad,Diabetes,0
+32,Female,51.6,O-,Bangalore,Asthma,0
+37,Female,45.1,A-,Mumbai,Hypertension,0
+40,Female,56.3,AB+,Bangalore,Heart Disease,0
+46,Male,45.5,A+,Delhi,None,0
+25,Male,59.7,AB-,Mumbai,Diabetes,0
+32,Female,74.5,O+,Mumbai,Heart Disease,0
+56,Male,55.7,A+,Mumbai,Asthma,0
+34,Female,86.0,B+,Delhi,Diabetes,0
+50,Male,47.8,B-,Delhi,None,0
+42,Female,70.1,B+,Delhi,Heart Disease,0
+52,Male,78.6,B-,Delhi,None,1
+56,Female,57.7,A-,Hyderabad,Hypertension,0
+43,Female,62.9,AB-,Bangalore,Hypertension,0
+33,Female,79.2,O+,Mumbai,Hypertension,0
+22,Female,77.5,B-,Bangalore,Heart Disease,0
+18,Male,70.2,B-,Delhi,Diabetes,0
+38,Male,59.4,AB+,Mumbai,Heart Disease,0
+59,Male,80.1,A-,Bangalore,Asthma,0
+33,Male,77.0,A+,Delhi,Diabetes,0
+49,Female,71.9,O+,Delhi,Diabetes,0
+39,Female,82.0,B-,Hyderabad,Asthma,0
+34,Male,88.8,O-,Chennai,Asthma,0
+59,Female,57.0,A+,Chennai,None,1
+59,Male,72.2,A+,Hyderabad,Heart Disease,0
+55,Female,70.6,A-,Delhi,Diabetes,0
+19,Male,59.3,A-,Mumbai,Hypertension,0
+45,Female,66.5,AB+,Mumbai,Hypertension,0
+39,Female,84.3,B+,Mumbai,Asthma,0
+25,Male,86.0,AB+,Bangalore,Hypertension,0
+20,Male,69.0,O+,Mumbai,Hypertension,0
+25,Male,77.7,A-,Hyderabad,Diabetes,0
+55,Male,55.9,B-,Hyderabad,Heart Disease,0
+23,Male,80.8,AB+,Delhi,Hypertension,0
+33,Female,50.3,AB-,Bangalore,Hypertension,0
+57,Female,62.0,AB-,Bangalore,Hypertension,0
+29,Female,86.5,AB-,Chennai,Hypertension,0
+31,Female,45.6,B-,Mumbai,Asthma,0
+20,Male,81.7,AB-,Mumbai,Hypertension,0
+19,Male,47.7,B+,Mumbai,None,0
+33,Male,87.6,AB-,Chennai,Heart Disease,0
+53,Female,60.8,AB+,Bangalore,Heart Disease,0
+38,Male,77.8,O+,Chennai,None,1
+35,Male,82.2,AB+,Hyderabad,Diabetes,0
+57,Male,80.2,O-,Bangalore,Asthma,0
+57,Male,87.0,B+,Chennai,Diabetes,0
+41,Female,52.3,A+,Bangalore,Hypertension,0
+25,Male,70.6,AB+,Hyderabad,Heart Disease,0
+24,Female,74.5,O+,Delhi,Asthma,0
+51,Male,56.3,B+,Hyderabad,Asthma,0
+59,Male,46.7,O+,Mumbai,Diabetes,0
+57,Male,64.7,A+,Bangalore,None,1
+49,Female,61.2,AB-,Hyderabad,Asthma,0
+58,Male,47.3,O-,Mumbai,Heart Disease,0
+45,Female,71.2,B+,Delhi,Hypertension,0
+40,Male,73.5,A-,Bangalore,Diabetes,0
+57,Male,88.0,O-,Delhi,Hypertension,0
+49,Female,84.2,A+,Bangalore,None,1
+48,Female,69.9,AB-,Delhi,Heart Disease,0
+58,Male,54.4,O-,Chennai,Hypertension,0
+60,Male,72.2,AB+,Delhi,Asthma,0
+50,Female,65.7,A+,Bangalore,Diabetes,0
+32,Female,73.8,A+,Delhi,Hypertension,0
+58,Female,86.8,AB-,Mumbai,Diabetes,0
+31,Female,89.4,B-,Chennai,Heart Disease,0
+56,Female,81.4,A+,Mumbai,None,1
+33,Male,59.5,A-,Hyderabad,Heart Disease,0
+25,Female,63.2,B-,Hyderabad,None,1
+50,Female,81.2,A+,Delhi,Diabetes,0
+44,Female,45.9,O-,Hyderabad,Heart Disease,0
+47,Female,61.2,A+,Chennai,Hypertension,0
+40,Male,55.7,O-,Chennai,Hypertension,0
+60,Male,56.0,O+,Hyderabad,None,1
+59,Female,88.8,A+,Bangalore,Heart Disease,0
+46,Male,58.2,A+,Delhi,Hypertension,0
+27,Female,80.3,AB+,Mumbai,Asthma,0
+51,Male,72.7,AB-,Delhi,Diabetes,0
+24,Male,72.8,B-,Delhi,Diabetes,0
+35,Male,70.9,O-,Mumbai,Hypertension,0
+27,Female,56.6,B+,Hyderabad,Heart Disease,0
+57,Female,82.3,O-,Mumbai,Hypertension,0
+24,Female,61.1,O-,Hyderabad,Hypertension,0
+58,Female,64.1,AB-,Mumbai,Heart Disease,0
+28,Female,69.7,O+,Mumbai,Diabetes,0
+34,Male,51.0,AB+,Chennai,Heart Disease,0
+59,Male,76.5,B-,Mumbai,Heart Disease,0
+59,Male,77.6,O+,Bangalore,Hypertension,0
+36,Female,70.1,O-,Hyderabad,Diabetes,0
+23,Female,83.2,O-,Mumbai,None,1
+20,Female,59.8,A-,Mumbai,Diabetes,0
+35,Male,47.3,AB+,Delhi,Hypertension,0
+27,Male,70.3,B+,Bangalore,Diabetes,0
+49,Male,71.9,A-,Mumbai,Heart Disease,0
+43,Female,78.1,O-,Mumbai,None,1
+39,Male,85.7,A+,Delhi,Heart Disease,0
+47,Female,77.1,O+,Hyderabad,Diabetes,0
+47,Male,62.6,A+,Bangalore,Heart Disease,0
+46,Male,78.9,O+,Mumbai,None,1
+41,Male,74.5,A+,Delhi,Hypertension,0
+24,Male,69.5,AB+,Chennai,None,1
+22,Male,69.6,O+,Delhi,Hypertension,0
+25,Female,82.2,AB+,Delhi,Asthma,0
+45,Female,63.1,B-,Bangalore,None,1
+48,Female,79.0,A-,Bangalore,Hypertension,0
+50,Female,83.5,A+,Mumbai,Diabetes,0
+59,Male,89.6,B-,Hyderabad,Hypertension,0
+31,Male,89.6,O-,Bangalore,Asthma,0
+40,Male,69.3,AB-,Delhi,None,1
+57,Male,88.6,A+,Chennai,None,1
+43,Female,47.3,B-,Mumbai,Diabetes,0
+31,Male,85.9,B+,Chennai,Hypertension,0
+43,Male,56.4,B+,Mumbai,Heart Disease,0
+55,Male,62.8,B+,Mumbai,Asthma,0
+60,Male,65.5,O+,Hyderabad,None,1
+18,Female,66.4,O+,Chennai,Asthma,0
+42,Male,52.8,A-,Hyderabad,Asthma,0
+37,Female,57.7,B+,Bangalore,None,1
+36,Male,78.3,B-,Bangalore,Diabetes,0
+49,Male,55.2,O-,Mumbai,Asthma,0
+40,Male,55.8,B-,Mumbai,Asthma,0
+23,Female,73.8,A+,Delhi,Hypertension,0
+25,Female,62.0,AB-,Mumbai,Heart Disease,0
+27,Male,88.5,B+,Chennai,Hypertension,0
+38,Male,55.3,B+,Bangalore,Diabetes,0
+41,Female,46.0,AB-,Hyderabad,Diabetes,0
+52,Female,46.5,A+,Delhi,Diabetes,0
+53,Male,60.0,B+,Hyderabad,Hypertension,0
+49,Female,51.6,AB-,Chennai,Heart Disease,0
+33,Female,46.3,AB+,Delhi,Hypertension,0
+20,Female,70.3,B-,Bangalore,Heart Disease,0
+60,Female,66.7,B+,Bangalore,Heart Disease,0
+37,Male,60.5,O+,Chennai,Diabetes,0
+21,Male,86.0,B+,Bangalore,Asthma,0
+30,Female,63.9,A-,Chennai,Asthma,0
+29,Female,62.9,A+,Chennai,Diabetes,0
+20,Male,69.6,AB+,Delhi,Diabetes,0
+33,Male,52.8,A+,Mumbai,Hypertension,0
+42,Female,57.7,A+,Bangalore,Asthma,0
+44,Male,59.2,O-,Hyderabad,Hypertension,0
+53,Female,71.8,AB+,Bangalore,Hypertension,0
+45,Female,46.3,O+,Bangalore,Heart Disease,0
+41,Male,64.0,O-,Bangalore,Diabetes,0
+22,Male,80.6,AB+,Chennai,Hypertension,0
+39,Male,70.0,O-,Bangalore,Heart Disease,0
+37,Male,61.3,AB+,Mumbai,None,1
+52,Male,82.8,A+,Delhi,Asthma,0
+24,Female,62.2,O+,Mumbai,Diabetes,0
+46,Female,86.5,B-,Chennai,Hypertension,0
+52,Male,88.3,B-,Mumbai,Hypertension,0
+42,Female,87.2,B-,Mumbai,None,1
+34,Female,89.2,AB+,Delhi,Diabetes,0
+30,Female,66.3,B+,Hyderabad,Asthma,0
+45,Male,68.5,AB+,Chennai,Asthma,0
+36,Male,84.8,AB-,Delhi,Hypertension,0
+36,Female,52.7,A+,Hyderabad,None,1
+52,Male,72.3,AB-,Mumbai,Hypertension,0
+38,Male,63.9,O-,Delhi,None,1
+31,Female,82.3,O+,Hyderabad,Heart Disease,0
+24,Female,60.0,O-,Hyderabad,Asthma,0
+19,Male,85.7,B+,Chennai,None,1
+38,Female,79.3,O+,Hyderabad,Diabetes,0
+21,Male,67.4,AB+,Hyderabad,Asthma,0
+24,Male,56.9,O+,Chennai,None,1
+30,Male,47.2,A+,Mumbai,Asthma,0
+39,Male,67.9,A-,Bangalore,None,1
+40,Female,59.6,O+,Delhi,Hypertension,0
+57,Female,75.5,AB-,Chennai,None,1
+49,Male,87.9,AB+,Bangalore,Asthma,0
+26,Female,72.3,AB-,Mumbai,Asthma,0
+52,Male,45.9,A-,Chennai,Diabetes,0
+48,Female,76.5,A+,Hyderabad,Asthma,0
+30,Female,73.8,O-,Mumbai,Diabetes,0
+56,Male,81.3,AB+,Hyderabad,Hypertension,0
+28,Female,83.1,AB+,Delhi,None,1
+31,Male,72.3,O-,Hyderabad,Asthma,0
+23,Male,72.7,B-,Chennai,Diabetes,0
+25,Male,87.4,O+,Delhi,Diabetes,0
+29,Female,58.0,AB+,Mumbai,Hypertension,0
+32,Female,86.7,AB+,Mumbai,Hypertension,0
+59,Female,68.6,O+,Bangalore,Hypertension,0
+30,Female,52.1,A+,Mumbai,Heart Disease,0
+29,Female,61.2,B-,Delhi,None,1
+51,Male,61.9,A-,Mumbai,Diabetes,0
+20,Female,61.6,B+,Delhi,Diabetes,0
+51,Female,69.2,A-,Hyderabad,Diabetes,0
+60,Male,64.9,O+,Delhi,Asthma,0
+37,Female,77.1,A+,Delhi,Asthma,0
+55,Female,78.2,O+,Delhi,Asthma,0
+51,Female,67.6,A-,Delhi,Heart Disease,0
+28,Male,54.3,AB-,Bangalore,None,1
+25,Female,72.4,B-,Hyderabad,Heart Disease,0
+56,Female,49.1,AB-,Hyderabad,Asthma,0
+24,Female,45.8,O-,Delhi,Diabetes,0
+28,Female,45.7,A+,Mumbai,Asthma,0
+43,Female,89.5,AB-,Mumbai,Asthma,0
+39,Male,52.3,B-,Hyderabad,None,1
+20,Male,87.1,A-,Mumbai,None,1
+52,Female,83.8,A-,Delhi,Heart Disease,0
+19,Female,80.5,AB+,Chennai,Diabetes,0
+56,Female,83.5,B+,Delhi,None,1
+52,Female,49.4,A-,Bangalore,None,0
+22,Male,79.2,A-,Chennai,Heart Disease,0
+38,Female,58.9,O+,Chennai,Heart Disease,0
+24,Female,51.6,AB-,Chennai,Asthma,0
+53,Female,89.8,B+,Delhi,Hypertension,0
+29,Female,53.1,B-,Chennai,Diabetes,0
+35,Female,86.2,B+,Hyderabad,Asthma,0
+40,Female,71.9,A+,Mumbai,Diabetes,0
+35,Female,47.2,A+,Mumbai,None,0
+34,Female,76.1,B+,Delhi,None,1
+30,Female,63.1,B-,Mumbai,Diabetes,0
+33,Male,45.3,A-,Hyderabad,None,0
+52,Female,46.8,O-,Mumbai,Hypertension,0
+28,Male,86.0,AB+,Delhi,Hypertension,0
+31,Male,57.3,B+,Delhi,Asthma,0
+25,Male,85.2,AB+,Chennai,None,1
+56,Female,48.2,O-,Hyderabad,None,0
+28,Female,74.6,A+,Bangalore,Diabetes,0
+52,Female,59.8,A+,Bangalore,Diabetes,0
+52,Male,59.6,A+,Mumbai,None,1
+39,Male,82.2,A-,Delhi,Heart Disease,0
+37,Male,81.9,O-,Hyderabad,Hypertension,0
+56,Female,53.2,O-,Chennai,Hypertension,0
+32,Female,65.4,AB+,Hyderabad,Asthma,0
+26,Male,64.1,B-,Hyderabad,None,1
+46,Male,70.3,A+,Mumbai,Diabetes,0
+46,Female,74.6,O-,Chennai,Diabetes,0
+29,Male,49.8,A+,Chennai,Diabetes,0
+39,Female,49.9,B+,Mumbai,Hypertension,0
+26,Female,75.9,B+,Bangalore,None,1
+28,Female,52.1,B+,Delhi,Heart Disease,0
+19,Male,46.9,B-,Chennai,Asthma,0
+27,Female,53.1,AB-,Mumbai,Asthma,0
+26,Female,48.4,A-,Bangalore,None,0
+52,Female,56.4,AB-,Delhi,Diabetes,0
+35,Female,89.3,O+,Bangalore,None,1
+36,Female,82.0,A-,Hyderabad,Hypertension,0
+37,Male,81.6,O+,Mumbai,Heart Disease,0
+52,Male,47.9,B-,Chennai,Diabetes,0
+30,Female,57.0,A-,Chennai,Diabetes,0
+33,Female,51.1,O+,Mumbai,None,1
+51,Female,51.0,O-,Hyderabad,None,1
+54,Female,63.1,O-,Chennai,Hypertension,0
+53,Male,88.5,A+,Bangalore,Diabetes,0
+40,Male,82.4,AB+,Delhi,None,1
+57,Female,47.1,A+,Delhi,Diabetes,0
+36,Male,81.1,B-,Delhi,None,1
+49,Female,82.0,AB-,Delhi,Heart Disease,0
+44,Female,85.6,AB+,Delhi,Hypertension,0
+25,Female,72.0,O-,Mumbai,None,1
+50,Female,89.9,A+,Hyderabad,Asthma,0
+23,Female,89.6,B-,Chennai,Heart Disease,0
+27,Female,78.1,B+,Delhi,Hypertension,0
+25,Male,85.3,A+,Mumbai,Asthma,0
+54,Male,48.3,B-,Hyderabad,Hypertension,0
+35,Male,87.0,O-,Hyderabad,Asthma,0
+52,Female,61.0,O+,Chennai,Diabetes,0
+24,Female,83.6,A+,Hyderabad,Asthma,0
+41,Female,50.9,A-,Chennai,Diabetes,0
+18,Male,87.5,O+,Bangalore,Hypertension,0
+59,Male,67.9,AB-,Delhi,Hypertension,0
+48,Female,72.0,B+,Mumbai,None,1
+46,Female,65.8,AB-,Hyderabad,Heart Disease,0
+38,Female,73.0,A+,Hyderabad,Diabetes,0
+52,Male,64.1,AB-,Mumbai,Heart Disease,0
+30,Male,83.4,A+,Chennai,Diabetes,0
+42,Male,73.2,B+,Delhi,Heart Disease,0
+50,Male,88.4,B-,Mumbai,Asthma,0
+34,Female,87.9,B+,Delhi,Asthma,0
+44,Female,83.6,O-,Hyderabad,Asthma,0
+45,Female,88.2,A+,Bangalore,Diabetes,0
+32,Female,46.4,A-,Bangalore,Hypertension,0
+32,Male,82.9,B+,Chennai,Heart Disease,0
+43,Female,76.5,O+,Bangalore,Asthma,0
+25,Female,49.7,A+,Chennai,Diabetes,0
+40,Male,54.8,AB+,Delhi,Hypertension,0
+51,Female,83.8,A+,Delhi,Hypertension,0
+49,Male,51.2,O+,Chennai,Diabetes,0
+52,Male,82.4,AB-,Hyderabad,None,1
+23,Male,83.7,AB+,Chennai,None,1
+47,Female,76.9,A+,Delhi,Diabetes,0
+19,Female,82.1,AB-,Mumbai,Heart Disease,0
+29,Male,47.4,O-,Mumbai,Heart Disease,0
+59,Female,70.8,AB-,Hyderabad,Hypertension,0
+47,Male,85.6,AB-,Mumbai,Asthma,0
+22,Male,58.7,A-,Delhi,Heart Disease,0
+60,Female,86.2,A-,Mumbai,Diabetes,0
+31,Male,53.4,A+,Delhi,Diabetes,0
+28,Male,73.5,AB+,Mumbai,Asthma,0
+26,Male,63.5,A-,Delhi,Heart Disease,0
+51,Male,57.5,A+,Hyderabad,Diabetes,0
+29,Female,83.4,O-,Delhi,Heart Disease,0
+37,Female,83.1,AB-,Delhi,None,1
+33,Male,89.3,B+,Mumbai,Diabetes,0
+43,Female,89.9,O+,Bangalore,Diabetes,0
+50,Female,79.9,A+,Chennai,None,1
+43,Female,53.3,O+,Delhi,Asthma,0
+60,Male,63.0,O-,Bangalore,Hypertension,0
+29,Female,67.5,A-,Delhi,Heart Disease,0
+54,Male,79.1,AB-,Hyderabad,Diabetes,0
+25,Male,55.6,A+,Bangalore,Hypertension,0
+29,Male,60.9,AB-,Chennai,Asthma,0
+41,Female,63.8,AB+,Delhi,Hypertension,0
+20,Female,58.4,AB+,Hyderabad,Hypertension,0
+30,Male,87.3,A+,Hyderabad,Asthma,0
+25,Male,81.8,B+,Chennai,Hypertension,0
+43,Female,61.0,A+,Hyderabad,Asthma,0
+41,Female,51.1,AB+,Mumbai,Heart Disease,0
+24,Male,50.6,O-,Mumbai,Hypertension,0
+40,Male,72.7,AB-,Delhi,Diabetes,0
+51,Male,73.0,AB+,Chennai,Hypertension,0
+22,Male,67.1,O+,Hyderabad,Hypertension,0
+54,Male,89.4,AB+,Delhi,Heart Disease,0
+38,Male,65.2,AB-,Delhi,Diabetes,0
+25,Male,59.7,O+,Delhi,None,1
+45,Female,49.7,B-,Hyderabad,Asthma,0
+48,Male,84.4,O+,Delhi,Diabetes,0
+20,Female,88.4,A+,Chennai,Asthma,0
+54,Male,72.7,B+,Bangalore,Hypertension,0
+22,Female,83.2,O+,Delhi,None,1
+38,Female,61.0,A-,Delhi,Hypertension,0
+50,Male,72.3,A-,Bangalore,Asthma,0
+56,Male,88.1,B+,Mumbai,Heart Disease,0
+29,Female,46.4,AB+,Chennai,Asthma,0
+45,Male,89.5,A+,Hyderabad,None,1
+51,Male,70.9,B+,Hyderabad,Heart Disease,0
+46,Female,84.3,A+,Mumbai,None,1
+58,Female,47.3,A-,Bangalore,Diabetes,0
+47,Female,49.2,AB+,Hyderabad,Diabetes,0
+34,Male,65.1,O-,Bangalore,Asthma,0
+56,Male,51.0,B-,Hyderabad,Hypertension,0
+47,Female,55.5,O-,Hyderabad,Hypertension,0
+55,Male,84.7,AB+,Bangalore,Hypertension,0
+20,Female,87.2,O+,Chennai,None,1
+26,Male,88.3,O-,Hyderabad,None,1
+30,Female,71.9,AB-,Mumbai,None,1
+46,Male,58.9,B-,Bangalore,Hypertension,0
+45,Male,73.2,AB-,Chennai,Heart Disease,0
+53,Male,45.9,AB+,Mumbai,Asthma,0
+34,Male,45.4,B+,Bangalore,Heart Disease,0
+37,Male,56.7,AB+,Delhi,Asthma,0
+25,Female,71.7,AB+,Chennai,Diabetes,0
+60,Female,75.2,A-,Mumbai,Hypertension,0
+60,Female,69.8,O-,Chennai,None,1
+47,Female,63.2,A-,Delhi,Heart Disease,0
+28,Female,88.9,O+,Bangalore,Heart Disease,0
+49,Female,82.8,A+,Hyderabad,Heart Disease,0
+23,Female,79.0,A-,Mumbai,None,1
+45,Male,70.0,B+,Mumbai,Asthma,0
+45,Female,53.4,A-,Bangalore,Asthma,0
+28,Male,58.0,A-,Hyderabad,Hypertension,0
+31,Female,45.4,A+,Mumbai,Asthma,0
+21,Male,72.4,AB-,Hyderabad,Diabetes,0
+39,Male,48.4,B+,Mumbai,Hypertension,0
+40,Male,88.5,AB-,Mumbai,Heart Disease,0
+42,Female,68.6,A-,Chennai,None,1
+56,Female,89.5,B-,Chennai,Diabetes,0
+24,Male,87.4,B+,Bangalore,Diabetes,0
+30,Female,66.8,A+,Delhi,None,1
+41,Female,55.9,B-,Bangalore,Diabetes,0
+50,Female,79.0,B-,Hyderabad,None,1
+23,Female,46.8,A+,Delhi,Diabetes,0
+21,Male,88.7,B+,Bangalore,Hypertension,0
+29,Female,70.6,O-,Delhi,Asthma,0
+48,Female,45.1,B+,Mumbai,Heart Disease,0
+25,Male,71.1,O-,Chennai,Asthma,0
+57,Male,55.9,A+,Hyderabad,Asthma,0
+24,Female,45.5,AB-,Chennai,Heart Disease,0
+60,Male,76.3,AB+,Hyderabad,Hypertension,0
+33,Male,65.3,A-,Mumbai,Heart Disease,0
+26,Female,47.4,A-,Bangalore,Diabetes,0
+48,Male,78.3,A+,Chennai,None,1
+32,Female,86.2,AB-,Bangalore,Asthma,0
+45,Female,55.7,O+,Chennai,Asthma,0
+43,Female,81.0,O-,Chennai,Asthma,0
+49,Male,69.9,AB+,Chennai,None,1
+56,Male,49.6,A-,Delhi,Heart Disease,0
+48,Male,60.2,A+,Bangalore,Diabetes,0
+42,Female,77.8,A+,Bangalore,Hypertension,0
+26,Male,52.9,B-,Delhi,None,1
+31,Female,88.3,A+,Bangalore,Hypertension,0
+45,Male,67.6,O+,Delhi,Heart Disease,0
+38,Male,75.8,A+,Hyderabad,Asthma,0
+31,Female,65.5,AB+,Hyderabad,Diabetes,0
+48,Female,65.2,B-,Bangalore,Heart Disease,0
+21,Female,56.1,AB-,Hyderabad,Heart Disease,0
+34,Female,67.5,AB-,Mumbai,None,1
+50,Female,56.9,AB-,Hyderabad,Asthma,0
+42,Male,59.3,A-,Chennai,Heart Disease,0
+33,Female,50.8,A+,Hyderabad,Heart Disease,0
+56,Female,78.4,AB+,Delhi,None,1
+54,Male,65.3,O-,Mumbai,None,1
+58,Male,62.6,B+,Hyderabad,Heart Disease,0
+18,Male,87.3,B-,Bangalore,Asthma,0
+35,Female,57.7,B+,Hyderabad,Hypertension,0
+55,Male,47.2,A-,Bangalore,None,0
+26,Female,79.5,O-,Mumbai,Hypertension,0
+36,Female,86.2,A+,Mumbai,None,1
+60,Male,61.6,AB-,Delhi,Diabetes,0
+22,Male,60.7,B-,Hyderabad,Hypertension,0
+50,Female,56.7,O+,Chennai,Diabetes,0
+42,Male,56.0,B+,Delhi,None,1
+20,Male,88.6,A-,Bangalore,Diabetes,0
+35,Female,69.0,O-,Delhi,Diabetes,0
+58,Male,78.0,B+,Chennai,Diabetes,0
+29,Male,78.6,A+,Hyderabad,Asthma,0
+23,Male,58.4,O+,Mumbai,None,1
+31,Male,60.8,B+,Delhi,Diabetes,0
+53,Female,66.3,AB-,Chennai,Diabetes,0
+41,Male,57.4,AB-,Delhi,Asthma,0
+20,Female,89.1,O-,Delhi,None,1
+34,Male,80.5,O-,Mumbai,None,1
+30,Female,76.6,AB+,Mumbai,None,1
+36,Female,68.5,O-,Hyderabad,Asthma,0
+41,Male,70.8,A+,Mumbai,Hypertension,0
+18,Male,83.6,B+,Mumbai,Heart Disease,0
+28,Male,61.4,O-,Hyderabad,Asthma,0
+51,Female,56.3,A+,Delhi,Heart Disease,0
+42,Female,47.7,O+,Hyderabad,Hypertension,0
+43,Male,46.2,A+,Mumbai,None,0
+39,Male,81.3,O+,Mumbai,Hypertension,0
+40,Female,53.6,O-,Chennai,Diabetes,0
+22,Female,51.0,O-,Chennai,Diabetes,0
+29,Female,84.3,O-,Hyderabad,Asthma,0
+25,Female,47.3,AB-,Bangalore,None,0
+28,Female,72.0,AB-,Hyderabad,Diabetes,0
+51,Male,72.0,AB+,Delhi,Hypertension,0
+20,Male,45.6,AB-,Chennai,Heart Disease,0
+31,Female,88.7,AB-,Delhi,None,1
+35,Female,79.5,A+,Hyderabad,Heart Disease,0
+50,Male,55.7,O+,Bangalore,Hypertension,0
+59,Male,56.8,O+,Bangalore,Hypertension,0
+29,Female,67.3,B+,Chennai,Diabetes,0
+43,Female,63.7,B-,Bangalore,Heart Disease,0
+20,Female,64.0,A-,Delhi,Diabetes,0
+27,Male,58.0,B+,Chennai,None,1
+37,Male,86.9,O+,Bangalore,Asthma,0
+20,Male,53.9,A-,Hyderabad,None,1
+41,Female,84.6,AB+,Mumbai,Hypertension,0
+28,Female,60.7,A-,Bangalore,Diabetes,0
+21,Female,71.4,AB+,Chennai,Asthma,0
+42,Female,87.3,AB-,Chennai,None,1
+57,Female,74.4,O-,Delhi,Diabetes,0
+51,Female,69.4,A-,Chennai,Diabetes,0
+38,Male,82.0,O+,Delhi,Heart Disease,0
+23,Male,90.0,O+,Delhi,Diabetes,0
+52,Female,62.0,B+,Chennai,Heart Disease,0
+58,Male,71.3,A+,Hyderabad,Hypertension,0
+21,Female,80.1,AB-,Mumbai,None,1
+38,Female,84.4,AB-,Mumbai,None,1
+44,Female,72.3,B-,Mumbai,Asthma,0
+24,Male,86.1,O+,Delhi,Heart Disease,0
+29,Male,81.6,A-,Mumbai,None,1
+38,Female,83.4,A-,Hyderabad,None,1
+54,Female,62.2,AB+,Delhi,Diabetes,0
+57,Female,67.6,O-,Hyderabad,Diabetes,0
+20,Female,82.8,AB+,Hyderabad,Hypertension,0
+43,Male,88.7,A+,Mumbai,Asthma,0
+20,Male,70.5,AB-,Bangalore,Heart Disease,0
+28,Male,52.8,B+,Chennai,Hypertension,0
+53,Male,50.8,O-,Bangalore,None,1
+53,Male,82.5,A-,Delhi,Heart Disease,0
+24,Male,81.2,O+,Mumbai,Hypertension,0
+36,Male,46.9,O+,Mumbai,Hypertension,0
+56,Female,48.0,AB-,Hyderabad,Hypertension,0
+23,Female,56.8,AB+,Mumbai,Heart Disease,0
+43,Male,63.9,O-,Chennai,None,1
+53,Female,66.6,O-,Mumbai,Hypertension,0
+20,Male,83.5,A+,Chennai,Diabetes,0
+25,Female,57.0,AB-,Bangalore,Heart Disease,0
+45,Male,83.2,O-,Chennai,None,1
+37,Female,45.8,AB+,Bangalore,Heart Disease,0
+36,Female,88.2,O+,Bangalore,None,1
+38,Female,73.6,A-,Delhi,Hypertension,0
+45,Female,77.7,AB+,Mumbai,Asthma,0
+22,Male,57.8,AB+,Mumbai,None,1
+36,Female,69.5,AB+,Chennai,Heart Disease,0
+48,Female,53.6,AB-,Chennai,Diabetes,0
+51,Female,80.5,A+,Bangalore,Asthma,0
+49,Male,81.9,A-,Delhi,None,1
+42,Male,52.7,B+,Mumbai,Asthma,0
+23,Male,79.1,AB+,Hyderabad,Hypertension,0
+34,Male,63.1,A+,Bangalore,Asthma,0
+40,Female,72.6,A-,Chennai,Hypertension,0
+31,Male,64.8,A-,Delhi,Asthma,0
+60,Female,83.5,B+,Chennai,Diabetes,0
+42,Female,82.9,A-,Mumbai,Asthma,0
+29,Male,86.0,A-,Hyderabad,Hypertension,0
+33,Male,85.2,AB-,Bangalore,Heart Disease,0
+52,Female,83.9,AB+,Chennai,Hypertension,0
+48,Male,54.3,A+,Chennai,None,1
+44,Female,82.9,A+,Mumbai,None,1
+24,Male,73.2,AB-,Hyderabad,Heart Disease,0
+27,Female,88.9,O-,Bangalore,None,1
+41,Male,84.3,O+,Mumbai,Diabetes,0
+60,Male,70.7,AB+,Chennai,Hypertension,0
+33,Female,50.0,AB-,Hyderabad,None,0
+56,Male,82.8,AB+,Bangalore,Asthma,0
+36,Female,47.6,A-,Delhi,Heart Disease,0
+36,Female,75.6,O+,Bangalore,Hypertension,0
+52,Male,83.2,A-,Chennai,None,1
+40,Male,57.9,AB-,Hyderabad,None,1
+41,Female,47.7,AB+,Mumbai,None,0
+32,Male,82.5,AB+,Bangalore,Heart Disease,0
+49,Male,74.2,AB+,Hyderabad,Diabetes,0
+43,Female,66.4,A-,Chennai,None,1
+20,Male,54.5,B-,Chennai,None,1
+36,Male,84.9,O-,Bangalore,Asthma,0
+39,Male,87.1,A-,Bangalore,None,1
+37,Male,47.9,AB+,Hyderabad,Diabetes,0
+28,Female,78.0,A-,Mumbai,None,1
+56,Male,52.3,O-,Bangalore,Hypertension,0
+20,Female,84.7,A-,Chennai,None,1
+54,Female,59.0,O+,Mumbai,Asthma,0
+39,Male,63.3,A-,Bangalore,None,1
+29,Female,74.4,AB+,Bangalore,Diabetes,0
+47,Male,83.6,AB-,Hyderabad,Heart Disease,0
+45,Female,89.1,O-,Delhi,Asthma,0
+54,Male,63.9,O+,Hyderabad,Hypertension,0
+31,Female,76.1,O+,Chennai,Diabetes,0
+54,Male,80.4,A+,Mumbai,Heart Disease,0
+52,Female,74.7,B-,Hyderabad,Hypertension,0
+48,Male,49.3,B-,Delhi,Heart Disease,0
+21,Female,62.8,AB+,Delhi,Heart Disease,0
+25,Female,53.1,AB-,Chennai,Hypertension,0
+30,Female,75.1,A+,Delhi,None,1
+30,Female,67.7,AB-,Delhi,Heart Disease,0
+25,Male,74.6,A-,Mumbai,Diabetes,0
+28,Male,46.6,B-,Delhi,Heart Disease,0
+49,Female,54.0,A+,Mumbai,Hypertension,0
+48,Male,77.2,O+,Hyderabad,Diabetes,0
+20,Female,70.6,A-,Chennai,Asthma,0
+24,Male,66.0,AB+,Delhi,Diabetes,0
+42,Female,74.7,A+,Hyderabad,Asthma,0
+53,Female,49.5,O-,Hyderabad,Heart Disease,0
+32,Female,59.1,A-,Mumbai,Hypertension,0
+22,Male,72.8,AB+,Mumbai,Diabetes,0
+20,Male,87.2,AB-,Delhi,Asthma,0
+21,Male,53.9,O-,Bangalore,Asthma,0
+22,Male,88.0,O+,Mumbai,None,1
+19,Female,76.4,O+,Bangalore,Asthma,0
+53,Male,51.9,O-,Delhi,None,1
+31,Male,55.9,B+,Delhi,Heart Disease,0
+21,Female,82.3,A+,Hyderabad,Diabetes,0
+37,Male,87.3,AB+,Delhi,Asthma,0
+26,Female,57.4,O-,Chennai,Heart Disease,0
+38,Female,84.1,B-,Hyderabad,Heart Disease,0
+59,Female,56.3,AB-,Chennai,Hypertension,0
+36,Male,56.4,AB+,Hyderabad,Diabetes,0
+45,Male,50.4,AB-,Mumbai,Diabetes,0
+25,Male,57.8,B-,Mumbai,None,1
+46,Female,50.9,B+,Bangalore,Asthma,0
+41,Male,84.7,A+,Hyderabad,Diabetes,0
+56,Female,82.3,O-,Mumbai,Hypertension,0
+25,Male,75.8,B-,Chennai,Heart Disease,0
+47,Male,65.0,AB-,Delhi,Heart Disease,0
+38,Female,73.5,O-,Bangalore,Diabetes,0
+28,Male,73.1,AB+,Hyderabad,Heart Disease,0
+39,Male,67.7,O-,Mumbai,Heart Disease,0
+28,Female,75.5,O-,Bangalore,None,1
+37,Male,80.9,AB+,Bangalore,None,1
+53,Male,60.6,AB-,Delhi,Hypertension,0
+30,Male,62.1,A-,Delhi,Diabetes,0
+39,Male,69.2,O-,Mumbai,None,1
+55,Female,70.5,A-,Bangalore,None,1
+59,Male,73.7,O+,Mumbai,Hypertension,0
+33,Female,80.2,A-,Hyderabad,None,1
+40,Male,52.4,A-,Bangalore,Hypertension,0
+56,Male,55.8,AB-,Hyderabad,None,1
+19,Female,61.4,AB-,Delhi,Asthma,0
+55,Female,74.8,AB+,Bangalore,Heart Disease,0
+24,Female,55.0,B-,Chennai,Heart Disease,0
+35,Female,75.0,A+,Hyderabad,Asthma,0
+34,Male,83.0,O+,Chennai,Diabetes,0
+53,Male,69.1,B+,Bangalore,Asthma,0
+18,Female,75.1,A-,Mumbai,Heart Disease,0
+38,Male,55.8,O+,Bangalore,None,1
+47,Female,59.7,AB+,Mumbai,Hypertension,0
+54,Male,85.0,B+,Bangalore,Asthma,0
+50,Male,64.3,A-,Mumbai,Diabetes,0
+41,Female,66.8,B-,Bangalore,Diabetes,0
+52,Male,87.9,A-,Mumbai,None,1
+49,Female,70.7,B-,Delhi,Heart Disease,0
+24,Male,60.3,B-,Chennai,Asthma,0
+28,Female,78.3,A-,Hyderabad,None,1
+31,Male,74.9,B-,Mumbai,Hypertension,0
+38,Male,70.5,B+,Mumbai,Diabetes,0
+59,Male,88.3,B-,Bangalore,None,1
+30,Female,55.6,B+,Mumbai,Heart Disease,0
+21,Female,45.6,AB-,Bangalore,None,0
+20,Male,47.6,A-,Delhi,None,0
+32,Female,64.7,A+,Hyderabad,Hypertension,0
+55,Female,48.0,B+,Chennai,None,0
+48,Female,49.4,O+,Chennai,Heart Disease,0
+27,Female,74.6,AB-,Delhi,Diabetes,0
+27,Female,45.3,A+,Hyderabad,Diabetes,0
+52,Male,57.2,B+,Mumbai,Heart Disease,0
+33,Female,71.7,A+,Chennai,Diabetes,0
+18,Male,52.1,O+,Hyderabad,Asthma,0
+19,Female,69.0,B-,Delhi,Diabetes,0
+54,Female,89.7,O-,Chennai,None,1
+51,Female,70.1,B-,Bangalore,Asthma,0
+34,Male,85.7,B+,Delhi,Hypertension,0
+55,Male,68.9,O-,Hyderabad,Asthma,0
+30,Male,54.4,AB-,Bangalore,Asthma,0
+29,Male,70.2,A-,Mumbai,None,1
+20,Female,67.7,B+,Bangalore,Hypertension,0
+23,Male,70.8,A+,Hyderabad,Diabetes,0
+34,Male,56.4,B-,Chennai,None,1
+30,Female,87.9,B-,Delhi,Hypertension,0
+50,Female,86.0,A-,Chennai,Hypertension,0
+42,Male,50.9,O-,Chennai,Diabetes,0
+58,Female,72.3,O+,Delhi,Heart Disease,0
+46,Male,85.1,O+,Delhi,Diabetes,0
+50,Male,74.0,B+,Hyderabad,Asthma,0
+20,Male,49.4,B+,Delhi,Heart Disease,0
+28,Male,74.0,AB-,Delhi,Hypertension,0
+18,Female,51.5,O-,Hyderabad,Heart Disease,0
+55,Female,57.1,A-,Chennai,Diabetes,0
+47,Female,54.6,O-,Delhi,None,1
+42,Female,45.3,O-,Delhi,Heart Disease,0
+37,Female,59.9,A-,Delhi,None,1
+55,Female,84.2,A-,Bangalore,Diabetes,0
+37,Female,76.5,B+,Hyderabad,Heart Disease,0
+49,Male,71.3,O-,Mumbai,Hypertension,0
+49,Male,46.5,AB+,Bangalore,Hypertension,0
+32,Male,80.8,O+,Chennai,Diabetes,0
+57,Male,46.7,A+,Hyderabad,Diabetes,0
+24,Female,49.6,O+,Delhi,Asthma,0
+19,Female,49.7,AB-,Bangalore,None,0
+56,Male,52.3,B-,Mumbai,Asthma,0
+52,Female,64.9,A+,Mumbai,None,1
+36,Male,71.8,A-,Delhi,Hypertension,0
+33,Female,55.3,AB-,Bangalore,Asthma,0
+21,Male,81.3,O+,Chennai,Hypertension,0
+54,Female,61.0,B+,Mumbai,Hypertension,0
+39,Female,85.3,AB-,Mumbai,None,1
+56,Male,67.0,O+,Mumbai,None,1
+48,Female,63.2,A+,Chennai,Hypertension,0
+22,Male,49.0,A+,Bangalore,Heart Disease,0
+34,Male,65.6,B+,Mumbai,Heart Disease,0
+54,Female,67.0,O+,Hyderabad,Hypertension,0
+21,Male,53.5,B-,Bangalore,Asthma,0
+43,Female,64.5,O+,Hyderabad,Heart Disease,0
+31,Female,73.7,AB+,Delhi,Hypertension,0
+27,Female,70.7,O+,Chennai,None,1
+34,Female,71.4,B-,Chennai,Heart Disease,0
+60,Male,64.7,B+,Chennai,Heart Disease,0
+48,Female,79.2,B+,Bangalore,Asthma,0
+59,Male,59.6,O-,Chennai,Hypertension,0
+51,Female,49.1,A+,Bangalore,None,0
+47,Female,57.8,AB+,Chennai,None,1
+45,Female,60.0,A+,Chennai,Asthma,0
+21,Female,66.7,B-,Mumbai,None,1
+40,Female,71.0,A+,Hyderabad,Heart Disease,0
+31,Female,50.3,AB-,Mumbai,None,1
+60,Male,75.5,AB-,Bangalore,None,1
+54,Female,68.9,A+,Mumbai,Diabetes,0
+23,Male,61.5,AB+,Hyderabad,None,1
+46,Male,82.6,O-,Delhi,Asthma,0
+28,Female,80.9,A-,Chennai,Hypertension,0
+42,Female,48.2,B-,Chennai,Heart Disease,0
+25,Male,45.7,AB-,Bangalore,Heart Disease,0
+44,Female,50.5,A+,Bangalore,Diabetes,0
+19,Female,80.5,A-,Mumbai,Hypertension,0
+49,Male,77.9,O-,Delhi,Hypertension,0
+29,Female,46.3,B-,Bangalore,Diabetes,0
+47,Female,80.0,O-,Mumbai,None,1
+25,Female,86.1,B+,Mumbai,Hypertension,0
+22,Male,49.7,B-,Bangalore,Hypertension,0
+42,Female,86.7,O+,Hyderabad,Diabetes,0
+60,Male,59.1,AB-,Delhi,Heart Disease,0
+49,Female,83.0,B+,Mumbai,Asthma,0
+59,Female,59.6,O-,Bangalore,Hypertension,0
+45,Female,87.9,O+,Mumbai,Heart Disease,0
+60,Female,45.7,B-,Mumbai,Hypertension,0
+24,Female,87.5,AB-,Hyderabad,Heart Disease,0
+57,Female,67.5,O+,Delhi,Heart Disease,0
+43,Female,80.6,O-,Bangalore,Diabetes,0
+27,Female,77.3,A+,Mumbai,Heart Disease,0
+43,Female,70.4,B+,Mumbai,Diabetes,0
+30,Male,76.2,B+,Hyderabad,Diabetes,0
+46,Female,69.4,O+,Mumbai,Asthma,0
+32,Female,85.3,O-,Chennai,Asthma,0
+57,Male,53.5,A-,Delhi,None,1
+41,Female,83.4,O+,Chennai,Asthma,0
+30,Male,83.3,A+,Delhi,Diabetes,0
+39,Female,76.5,A-,Bangalore,None,1
+44,Female,88.1,A-,Hyderabad,None,1
+28,Female,68.8,A-,Chennai,None,1
+23,Male,84.2,A+,Hyderabad,Asthma,0
+46,Female,88.6,A-,Mumbai,Diabetes,0
+60,Female,60.1,B-,Mumbai,Hypertension,0
+23,Male,80.4,A-,Delhi,None,1
+25,Male,53.8,B-,Bangalore,None,1
+54,Female,89.1,B-,Hyderabad,Asthma,0
+57,Male,69.5,O-,Chennai,Asthma,0
+57,Male,59.4,AB+,Bangalore,Heart Disease,0
+44,Male,75.6,B-,Mumbai,Asthma,0
+45,Male,48.3,A-,Bangalore,Heart Disease,0
+25,Female,83.7,AB+,Delhi,Diabetes,0
+37,Male,69.5,B-,Mumbai,None,1
+60,Female,86.9,AB+,Chennai,Diabetes,0
+24,Male,89.2,B-,Bangalore,Diabetes,0
+36,Male,64.3,AB+,Delhi,Heart Disease,0
+49,Male,58.1,O-,Delhi,Asthma,0
+55,Male,54.0,A-,Mumbai,Hypertension,0
+49,Female,71.5,O-,Delhi,Hypertension,0
+56,Female,50.7,B-,Chennai,Asthma,0
+51,Male,78.3,A-,Bangalore,Diabetes,0
+52,Male,74.2,AB+,Delhi,None,1
+45,Male,65.6,O+,Delhi,Hypertension,0
+19,Female,77.8,B-,Mumbai,Diabetes,0
+37,Female,75.6,A+,Delhi,Heart Disease,0
+45,Male,70.7,B+,Delhi,Hypertension,0
+21,Male,82.5,O-,Bangalore,Heart Disease,0
+47,Female,62.8,AB+,Bangalore,Asthma,0
+54,Male,59.7,AB+,Chennai,Hypertension,0
+21,Male,46.4,AB+,Hyderabad,Heart Disease,0
+46,Female,50.7,O-,Hyderabad,Hypertension,0
+45,Male,47.8,O-,Hyderabad,Asthma,0
+38,Male,59.5,AB-,Bangalore,Heart Disease,0
+27,Female,83.7,O+,Chennai,Hypertension,0
+19,Female,79.7,AB-,Delhi,Asthma,0
+60,Female,85.0,B+,Bangalore,Diabetes,0
+45,Female,53.4,AB-,Chennai,Asthma,0
+52,Female,79.1,AB-,Mumbai,Heart Disease,0
+18,Male,72.0,O+,Chennai,Hypertension,0
+59,Male,54.6,A-,Chennai,Asthma,0
+24,Female,55.3,B-,Bangalore,Hypertension,0
+30,Female,60.1,AB+,Bangalore,Diabetes,0
+41,Male,57.7,O+,Chennai,Hypertension,0
+20,Female,82.7,A-,Delhi,Asthma,0
+32,Female,51.6,AB-,Delhi,Asthma,0
+55,Female,85.4,A+,Delhi,Diabetes,0
+23,Female,49.9,AB-,Bangalore,Diabetes,0
+29,Female,81.9,O+,Delhi,Diabetes,0
+45,Female,58.1,A+,Chennai,None,1
+19,Female,49.6,B+,Chennai,Asthma,0
+59,Male,70.9,AB+,Delhi,None,1
+58,Male,73.8,O+,Bangalore,Hypertension,0
+52,Male,86.4,B+,Delhi,Hypertension,0
+36,Male,66.1,AB+,Delhi,Diabetes,0
+18,Female,56.2,O+,Bangalore,Diabetes,0
+45,Male,77.8,O+,Chennai,Heart Disease,0
+22,Female,81.4,O+,Bangalore,Hypertension,0
+37,Female,70.5,O+,Delhi,Diabetes,0
+34,Male,68.6,O+,Chennai,Heart Disease,0
+29,Male,65.1,B+,Delhi,None,1
+40,Male,75.2,B+,Delhi,Hypertension,0
+55,Male,45.6,B-,Chennai,Heart Disease,0
+42,Male,70.1,O-,Chennai,Heart Disease,0
+51,Female,87.4,AB-,Mumbai,Diabetes,0
+20,Female,74.5,A+,Hyderabad,Asthma,0
+49,Male,53.2,B+,Hyderabad,Diabetes,0
+51,Female,75.3,AB-,Delhi,Heart Disease,0
+30,Female,53.8,B-,Delhi,Diabetes,0
+27,Female,69.0,B-,Delhi,Hypertension,0
+52,Female,56.7,AB+,Bangalore,Asthma,0
+59,Female,89.1,A-,Delhi,None,1
+42,Male,63.7,A+,Mumbai,Diabetes,0
+28,Male,84.9,O+,Mumbai,Heart Disease,0
+49,Female,69.9,AB-,Bangalore,Diabetes,0
+31,Female,73.4,B-,Bangalore,Hypertension,0
+26,Female,79.7,B+,Mumbai,None,1
+57,Male,85.9,B+,Bangalore,Hypertension,0
+39,Male,86.5,AB-,Chennai,Hypertension,0
+23,Male,76.0,O+,Delhi,Diabetes,0
+38,Female,74.5,O-,Chennai,Asthma,0
+59,Male,89.3,O-,Bangalore,Heart Disease,0
+42,Female,82.4,O-,Delhi,Asthma,0
+58,Male,84.4,AB-,Hyderabad,Heart Disease,0
+34,Male,87.3,AB+,Mumbai,Asthma,0
+35,Male,76.3,A-,Hyderabad,Diabetes,0
+24,Male,54.2,AB-,Chennai,Asthma,0
+43,Male,63.4,A+,Hyderabad,None,1
+50,Male,84.2,A+,Mumbai,Heart Disease,0
+44,Male,56.9,O-,Bangalore,Hypertension,0
+56,Male,49.3,A+,Bangalore,Heart Disease,0
+28,Male,77.8,B-,Chennai,None,1
+26,Female,52.1,A+,Bangalore,Diabetes,0
+28,Female,75.9,AB-,Delhi,Hypertension,0
+19,Female,76.2,B+,Hyderabad,Asthma,0
+60,Female,50.8,O+,Hyderabad,None,1
+42,Female,85.3,A-,Chennai,Hypertension,0
+23,Female,88.7,B+,Delhi,Asthma,0
+53,Female,75.3,A-,Hyderabad,Asthma,0
+33,Male,81.0,AB+,Delhi,Hypertension,0
+51,Female,60.9,AB-,Delhi,Heart Disease,0
+55,Female,47.8,AB+,Bangalore,Diabetes,0
+30,Female,74.6,O+,Mumbai,Asthma,0
+51,Male,77.5,O-,Chennai,Hypertension,0
+48,Male,66.0,B-,Delhi,Asthma,0
+20,Male,68.6,AB-,Delhi,Hypertension,0
+26,Male,55.2,A+,Mumbai,None,1
+22,Male,89.6,O+,Delhi,Heart Disease,0
+47,Female,50.9,A+,Chennai,Diabetes,0
+51,Male,47.9,B+,Bangalore,Hypertension,0
+55,Male,80.7,AB+,Mumbai,Asthma,0
+23,Male,88.9,A+,Mumbai,None,1
+29,Male,53.9,O+,Bangalore,Heart Disease,0
+57,Male,72.8,A-,Bangalore,None,1
+47,Male,78.8,A-,Hyderabad,Diabetes,0
+24,Male,53.3,O-,Hyderabad,Heart Disease,0
+25,Female,59.5,AB+,Chennai,None,1
+35,Female,65.7,O+,Bangalore,Diabetes,0
+50,Female,58.1,O-,Bangalore,Heart Disease,0
+39,Female,85.9,AB+,Mumbai,Heart Disease,0
+25,Male,82.5,O+,Mumbai,None,1
+51,Female,69.4,AB-,Chennai,None,1
+28,Male,72.6,O-,Bangalore,Heart Disease,0
+48,Male,54.1,A+,Chennai,None,1
+37,Male,46.3,A+,Chennai,Asthma,0
+30,Male,55.7,AB+,Chennai,None,1
+53,Male,52.9,B-,Chennai,Hypertension,0
+38,Male,83.5,AB-,Hyderabad,Asthma,0
+26,Male,75.6,A-,Hyderabad,Heart Disease,0
+45,Female,72.3,O+,Bangalore,Hypertension,0
+58,Male,45.7,AB+,Bangalore,Diabetes,0
+59,Female,89.1,AB-,Delhi,Heart Disease,0
+48,Male,83.8,O+,Mumbai,None,1
+53,Female,81.6,O+,Chennai,Hypertension,0
+35,Male,53.5,A+,Delhi,Hypertension,0
+48,Female,52.6,O+,Hyderabad,None,1
+20,Male,79.8,A-,Mumbai,Hypertension,0
+37,Male,64.9,A-,Mumbai,Heart Disease,0
+20,Female,55.8,A-,Bangalore,None,1
+51,Female,46.1,A-,Hyderabad,Asthma,0
+22,Male,59.8,AB-,Mumbai,Diabetes,0
+34,Female,53.9,A+,Mumbai,Hypertension,0
+60,Female,55.2,A+,Hyderabad,Asthma,0
+54,Male,48.9,O-,Bangalore,Heart Disease,0
+50,Male,61.1,B-,Hyderabad,Asthma,0
+37,Male,50.5,A-,Mumbai,None,1
+29,Male,82.7,O-,Mumbai,Diabetes,0
+34,Female,54.8,AB-,Mumbai,Hypertension,0
+18,Male,81.3,B-,Bangalore,None,1
+30,Male,81.5,A+,Delhi,Asthma,0
+31,Female,56.5,AB+,Bangalore,Heart Disease,0
+23,Male,59.6,AB+,Delhi,Hypertension,0
+26,Female,66.5,O-,Bangalore,Hypertension,0
+45,Female,76.4,O+,Mumbai,None,1
+47,Male,76.3,O-,Chennai,Diabetes,0
+37,Female,66.1,AB-,Chennai,Asthma,0
+29,Female,87.7,A-,Hyderabad,Asthma,0
+60,Female,70.4,B+,Delhi,None,1
+22,Female,71.1,A+,Chennai,Hypertension,0
+50,Female,71.8,AB+,Delhi,Asthma,0
+46,Male,70.8,B+,Bangalore,Asthma,0
+57,Male,50.2,A-,Chennai,Hypertension,0
+30,Female,84.8,A+,Delhi,Asthma,0
+40,Female,74.1,A+,Hyderabad,Heart Disease,0
+43,Female,87.4,B+,Bangalore,Asthma,0
+21,Male,50.8,AB+,Hyderabad,Diabetes,0
+21,Male,77.8,A+,Delhi,Diabetes,0
+32,Female,80.3,AB-,Hyderabad,None,1
+40,Female,62.5,O-,Chennai,Heart Disease,0
+25,Female,47.8,A-,Delhi,Heart Disease,0
+22,Male,51.3,AB-,Delhi,Heart Disease,0
+43,Female,85.7,B-,Hyderabad,Asthma,0
+45,Male,56.5,A-,Mumbai,Heart Disease,0
+43,Female,70.1,A+,Delhi,None,1
+34,Male,69.9,A+,Delhi,Heart Disease,0
+29,Male,71.5,O+,Mumbai,Diabetes,0
+60,Male,85.8,B+,Chennai,Heart Disease,0
+42,Male,60.3,B-,Mumbai,Asthma,0
+19,Male,67.3,B-,Mumbai,None,1
+27,Male,47.3,B+,Chennai,None,0
+39,Female,51.7,O-,Mumbai,Asthma,0
+19,Female,66.9,O+,Chennai,None,1
+30,Male,56.6,O-,Mumbai,Asthma,0
+18,Male,53.7,A-,Mumbai,Hypertension,0
+33,Female,68.7,AB+,Chennai,Heart Disease,0
+48,Male,56.2,B+,Bangalore,Diabetes,0
+60,Male,62.5,AB-,Bangalore,Heart Disease,0
+58,Male,45.6,A-,Mumbai,Asthma,0
+45,Male,55.3,A-,Mumbai,Heart Disease,0
+59,Male,64.0,O+,Mumbai,Heart Disease,0
+50,Male,81.9,AB+,Mumbai,Asthma,0
+59,Male,71.3,AB+,Chennai,Hypertension,0
+36,Male,56.9,O+,Delhi,Asthma,0
+51,Male,66.1,O+,Delhi,None,1
+46,Male,55.4,B+,Hyderabad,Asthma,0
+25,Female,69.6,O-,Mumbai,Asthma,0
+20,Male,74.3,A+,Hyderabad,Hypertension,0
+28,Female,72.3,B-,Delhi,None,1
+19,Male,66.8,AB-,Chennai,None,1
+25,Male,77.8,B-,Chennai,Heart Disease,0
+32,Male,76.4,O-,Hyderabad,Hypertension,0
+27,Male,84.4,AB-,Delhi,None,1
+38,Male,49.9,O-,Bangalore,Hypertension,0
+44,Female,67.2,B+,Chennai,Hypertension,0
+58,Male,47.4,AB+,Bangalore,None,0
+33,Female,54.4,B+,Mumbai,Asthma,0
+31,Female,85.3,A+,Delhi,Hypertension,0
+46,Female,89.2,A+,Chennai,Asthma,0
+47,Male,88.8,AB+,Delhi,Asthma,0
+56,Male,67.9,B+,Mumbai,Diabetes,0
+27,Female,80.1,B+,Hyderabad,Heart Disease,0
+18,Female,80.8,AB-,Mumbai,Asthma,0
+55,Female,79.7,AB-,Delhi,Asthma,0
+50,Male,81.0,AB-,Chennai,None,1
+60,Female,61.1,O+,Chennai,Heart Disease,0
+39,Female,54.8,O-,Mumbai,Heart Disease,0
+55,Male,58.5,O-,Bangalore,Asthma,0
+32,Male,66.7,B-,Mumbai,Asthma,0
+41,Male,75.9,A-,Bangalore,Asthma,0
+20,Male,46.1,B-,Bangalore,Hypertension,0
+31,Female,70.1,O+,Hyderabad,Hypertension,0
+57,Male,47.3,B+,Delhi,Heart Disease,0
+32,Male,57.6,O+,Mumbai,Hypertension,0
+18,Male,82.4,O+,Mumbai,Hypertension,0
+25,Female,84.3,O+,Hyderabad,Hypertension,0
+39,Female,86.8,A-,Hyderabad,Diabetes,0
+21,Male,47.0,A+,Delhi,Diabetes,0
+51,Male,90.0,A+,Chennai,Diabetes,0
+49,Female,64.1,B+,Delhi,None,1
+24,Male,49.2,AB-,Chennai,Heart Disease,0
+57,Female,77.6,A-,Bangalore,Asthma,0
+49,Male,50.0,AB+,Mumbai,Hypertension,0
+42,Female,66.6,B-,Mumbai,Diabetes,0
+59,Female,55.9,O+,Delhi,Hypertension,0
+42,Male,85.8,O-,Delhi,Diabetes,0
+48,Female,53.7,B-,Hyderabad,Hypertension,0
+39,Female,78.0,AB+,Chennai,None,1
+27,Male,53.2,O+,Chennai,Asthma,0
+18,Male,72.1,A-,Bangalore,Hypertension,0
+53,Female,72.6,A-,Mumbai,None,1
+42,Female,87.1,O+,Delhi,Hypertension,0
+47,Male,83.7,A+,Chennai,Asthma,0
+18,Female,83.7,B+,Chennai,Diabetes,0
+36,Female,62.5,A+,Delhi,None,1
+36,Male,64.1,AB+,Chennai,Diabetes,0
+39,Male,48.0,A+,Mumbai,None,0
+58,Male,51.0,O-,Chennai,Heart Disease,0
+51,Male,73.3,O-,Chennai,Diabetes,0
+51,Male,89.6,A-,Delhi,Asthma,0
+43,Male,78.5,AB-,Chennai,Hypertension,0
+21,Male,84.7,O+,Delhi,Diabetes,0
+51,Female,51.3,A-,Chennai,Asthma,0
+40,Male,52.3,O-,Hyderabad,Diabetes,0
+29,Male,73.8,B-,Mumbai,Diabetes,0
+51,Female,57.1,B+,Delhi,Diabetes,0
+37,Male,60.6,O-,Mumbai,Asthma,0
+18,Female,85.4,O+,Bangalore,Heart Disease,0
+24,Female,79.9,O+,Hyderabad,Diabetes,0
+54,Female,61.3,A-,Chennai,Asthma,0
+58,Male,80.3,B-,Delhi,Hypertension,0
+50,Female,76.5,AB-,Delhi,Heart Disease,0
+59,Male,71.0,AB+,Bangalore,Hypertension,0
+29,Female,75.1,A-,Mumbai,None,1
+52,Male,45.0,A-,Chennai,Diabetes,0
+26,Female,50.3,O+,Mumbai,Heart Disease,0
+18,Female,76.6,O+,Mumbai,Asthma,0
+55,Male,71.6,A+,Bangalore,Hypertension,0
+38,Female,61.4,AB+,Chennai,Hypertension,0
+25,Male,85.1,O+,Hyderabad,Hypertension,0
+54,Female,73.3,AB-,Chennai,Asthma,0
+22,Female,71.3,B-,Delhi,Hypertension,0
+52,Male,53.9,A-,Delhi,Asthma,0
+20,Male,85.2,B-,Chennai,Asthma,0
+51,Male,88.8,A-,Chennai,None,1
+37,Male,71.0,O-,Bangalore,None,1
+26,Female,73.8,A+,Hyderabad,Diabetes,0
+52,Female,69.7,O+,Bangalore,None,1
+59,Male,66.5,AB-,Bangalore,Hypertension,0
+33,Female,73.1,A-,Hyderabad,Heart Disease,0
+53,Female,71.6,O+,Delhi,Heart Disease,0
+20,Female,63.4,B-,Bangalore,Heart Disease,0
+39,Female,62.7,AB+,Hyderabad,Heart Disease,0
+23,Female,80.8,A-,Mumbai,Asthma,0
+40,Male,67.5,O-,Hyderabad,Hypertension,0
+43,Male,61.4,B-,Mumbai,Hypertension,0
+24,Male,79.4,A-,Bangalore,None,1
+20,Female,66.7,B-,Delhi,Hypertension,0
+55,Male,59.1,AB+,Bangalore,Diabetes,0
+37,Male,72.7,A+,Delhi,Diabetes,0
+21,Male,62.8,O+,Bangalore,Heart Disease,0
+39,Female,84.3,O-,Bangalore,Asthma,0
+45,Male,84.6,A-,Hyderabad,None,1
+34,Female,65.0,B+,Mumbai,Diabetes,0
+41,Female,62.4,B+,Hyderabad,None,1
+33,Female,84.8,B+,Bangalore,Heart Disease,0
+45,Female,80.6,B+,Chennai,Diabetes,0
+50,Male,67.6,B+,Delhi,None,1
+44,Male,77.3,O+,Bangalore,None,1
+18,Female,49.3,O-,Delhi,Hypertension,0
+37,Male,46.7,A+,Hyderabad,Heart Disease,0
+42,Female,53.5,AB-,Delhi,Hypertension,0
+51,Male,87.0,B+,Mumbai,None,1
+26,Male,63.2,O-,Mumbai,Diabetes,0
+49,Female,62.7,AB+,Delhi,Diabetes,0
+21,Female,46.1,A+,Mumbai,Hypertension,0
+41,Male,88.4,AB-,Hyderabad,Heart Disease,0
+40,Male,66.5,O-,Chennai,Heart Disease,0
+21,Male,86.4,O+,Bangalore,Hypertension,0
+55,Male,84.5,A+,Chennai,Asthma,0
+54,Male,53.8,A+,Bangalore,Asthma,0
+55,Male,79.9,AB+,Mumbai,None,1
+50,Female,82.4,O+,Mumbai,Hypertension,0
+27,Female,71.4,B-,Hyderabad,Asthma,0
+30,Female,75.5,B+,Bangalore,Hypertension,0
+60,Female,60.2,B+,Hyderabad,Hypertension,0
+32,Female,49.2,A+,Chennai,Diabetes,0
+24,Male,81.2,O-,Hyderabad,Diabetes,0
+21,Male,73.6,O-,Bangalore,None,1
+40,Male,81.5,AB-,Hyderabad,Asthma,0
+53,Female,89.6,A+,Mumbai,None,1
+19,Female,76.7,A+,Mumbai,Asthma,0
+39,Male,50.0,O+,Bangalore,Hypertension,0
+48,Male,56.8,AB+,Hyderabad,Asthma,0
+28,Male,83.5,A+,Hyderabad,Hypertension,0
+45,Female,70.0,A+,Bangalore,Hypertension,0
+46,Female,85.5,B-,Mumbai,Heart Disease,0
+48,Male,72.0,O-,Chennai,Heart Disease,0
+20,Female,84.3,B+,Mumbai,None,1
+30,Male,73.9,A-,Hyderabad,Diabetes,0
+18,Female,68.2,B-,Mumbai,None,1
+31,Female,54.4,AB+,Hyderabad,Heart Disease,0
+46,Male,55.5,AB+,Mumbai,None,1
+52,Female,65.3,B-,Hyderabad,Hypertension,0
+30,Male,60.1,AB-,Delhi,Heart Disease,0
+21,Male,88.3,A-,Chennai,Heart Disease,0
+28,Male,87.7,A+,Hyderabad,None,1
+37,Female,52.9,B+,Chennai,None,1
+19,Male,88.4,O-,Hyderabad,None,1
+45,Male,70.7,O+,Delhi,Hypertension,0
+35,Male,70.5,B+,Mumbai,None,1
+18,Male,89.9,B-,Hyderabad,None,1
+38,Female,66.3,O+,Mumbai,None,1
+29,Male,89.9,B-,Hyderabad,Heart Disease,0
+52,Male,57.9,AB+,Bangalore,None,1
+60,Male,63.8,O-,Bangalore,Diabetes,0
+34,Male,75.7,O-,Bangalore,None,1
+45,Female,83.6,A+,Delhi,Hypertension,0
+49,Male,70.8,O+,Chennai,Asthma,0
+19,Female,60.2,B-,Bangalore,None,1
+19,Female,87.4,O-,Chennai,Hypertension,0
+44,Female,78.8,AB-,Mumbai,Hypertension,0
+28,Female,59.9,B-,Delhi,Diabetes,0
+30,Male,89.1,AB-,Bangalore,None,1
+38,Male,72.3,A-,Hyderabad,Hypertension,0
+53,Male,75.5,O-,Chennai,Asthma,0
+54,Male,60.7,A-,Bangalore,Asthma,0
+58,Female,46.5,B+,Hyderabad,None,0
+18,Male,52.9,B-,Hyderabad,Hypertension,0
+35,Female,64.0,O-,Delhi,Heart Disease,0
+26,Male,60.2,O-,Bangalore,Hypertension,0
+37,Male,54.3,B+,Delhi,Hypertension,0
+58,Male,68.7,B+,Delhi,Asthma,0
+34,Male,78.0,O-,Chennai,Heart Disease,0
+28,Female,80.7,A-,Hyderabad,Diabetes,0
+38,Male,46.9,O-,Hyderabad,Asthma,0
+18,Female,71.2,O+,Delhi,Hypertension,0
+30,Female,79.4,O-,Hyderabad,Diabetes,0
+30,Male,82.1,A-,Chennai,Heart Disease,0
+22,Female,58.8,AB+,Bangalore,Heart Disease,0
+36,Female,67.6,AB+,Mumbai,Asthma,0
+49,Female,62.1,AB-,Bangalore,Diabetes,0
+56,Female,78.8,B+,Bangalore,Heart Disease,0
+46,Male,54.1,A+,Bangalore,None,1
+41,Female,68.5,B-,Delhi,Hypertension,0
+24,Male,58.5,AB+,Bangalore,None,1
+36,Female,71.0,A-,Hyderabad,Heart Disease,0
+34,Male,52.1,B-,Mumbai,Asthma,0
+51,Female,86.4,AB-,Chennai,Diabetes,0
+57,Male,46.5,B+,Chennai,Hypertension,0
+26,Female,58.0,A+,Mumbai,Heart Disease,0
+21,Male,66.5,AB-,Delhi,Hypertension,0
+50,Male,47.0,A+,Chennai,Heart Disease,0
+29,Male,69.1,B+,Bangalore,None,1
+22,Female,77.5,AB+,Chennai,Asthma,0
+58,Male,86.4,B-,Bangalore,None,1
+50,Male,69.3,O-,Chennai,Diabetes,0
+26,Male,74.7,O+,Chennai,Hypertension,0
+58,Male,69.8,AB+,Hyderabad,Asthma,0
+39,Male,87.6,B-,Mumbai,Hypertension,0
+52,Male,66.6,A+,Chennai,Hypertension,0
+55,Male,83.5,A-,Hyderabad,Hypertension,0
+29,Female,74.3,A-,Bangalore,None,1
+18,Male,46.5,O-,Bangalore,Asthma,0
+40,Female,64.2,O-,Mumbai,Asthma,0
+20,Female,85.8,AB+,Delhi,Hypertension,0
+36,Female,47.0,A-,Bangalore,Asthma,0
+28,Female,54.4,O+,Mumbai,Hypertension,0
+51,Female,67.1,AB-,Delhi,Asthma,0
+41,Female,58.0,O-,Hyderabad,Diabetes,0
+38,Male,88.5,B+,Hyderabad,Hypertension,0
+47,Female,55.5,B-,Bangalore,Asthma,0
+32,Female,77.7,AB-,Bangalore,None,1
+57,Male,64.8,B-,Bangalore,None,1
+23,Female,56.5,O-,Chennai,Asthma,0
+27,Female,89.3,B+,Mumbai,Heart Disease,0
+55,Male,80.2,O-,Bangalore,Asthma,0
+29,Female,68.7,A+,Chennai,Heart Disease,0
+29,Female,80.9,B+,Delhi,Hypertension,0
+52,Male,63.0,B+,Chennai,Diabetes,0
+35,Female,88.7,AB-,Bangalore,Hypertension,0
+34,Male,73.5,B-,Bangalore,None,1
+46,Female,71.4,A-,Bangalore,Diabetes,0
+31,Female,83.7,O-,Bangalore,Asthma,0
+55,Male,81.9,AB-,Delhi,Hypertension,0
+27,Female,88.7,B+,Mumbai,Diabetes,0
+42,Male,77.6,AB+,Mumbai,Hypertension,0
+29,Female,58.1,AB+,Hyderabad,Hypertension,0
+33,Male,75.3,A-,Bangalore,Asthma,0
+22,Male,83.2,AB+,Chennai,None,1
+21,Female,49.4,O-,Chennai,Asthma,0
+50,Male,51.6,B-,Hyderabad,Hypertension,0
+44,Male,75.2,AB+,Hyderabad,Diabetes,0
+47,Female,74.0,B+,Delhi,Asthma,0
+38,Male,64.0,O-,Mumbai,Heart Disease,0
+19,Male,75.7,B+,Mumbai,Asthma,0
+55,Female,84.6,B-,Hyderabad,None,1
+20,Male,64.1,B+,Mumbai,Heart Disease,0
+57,Female,71.4,A-,Bangalore,None,1
+56,Male,61.0,A+,Bangalore,Asthma,0
+54,Female,71.1,B+,Chennai,Heart Disease,0
+42,Male,63.4,A+,Chennai,Heart Disease,0
+45,Male,51.5,AB+,Chennai,Diabetes,0
+35,Male,79.3,A+,Bangalore,Hypertension,0
+34,Male,59.1,A+,Hyderabad,Heart Disease,0
+36,Female,64.9,O-,Mumbai,Asthma,0
+50,Male,75.8,B-,Delhi,None,1
+28,Male,58.7,AB-,Chennai,Hypertension,0
+41,Male,73.9,O+,Mumbai,Hypertension,0
+29,Female,47.5,A-,Hyderabad,Asthma,0
+48,Female,68.1,B-,Bangalore,Hypertension,0
+39,Male,63.7,B-,Mumbai,None,1
+52,Male,48.6,O-,Delhi,None,0
+58,Female,54.0,AB-,Mumbai,Asthma,0
+25,Female,56.2,B-,Chennai,Diabetes,0
+33,Male,81.7,O-,Delhi,Heart Disease,0
+35,Female,64.3,B-,Hyderabad,Hypertension,0
+50,Male,83.9,O-,Mumbai,Asthma,0
+52,Female,84.0,O+,Mumbai,Heart Disease,0
+53,Male,62.3,A-,Hyderabad,Heart Disease,0
+32,Male,81.1,AB+,Chennai,Asthma,0
+58,Male,63.2,B+,Chennai,None,1
+51,Female,74.6,AB+,Mumbai,Diabetes,0
+30,Female,75.3,AB+,Hyderabad,Diabetes,0
+20,Male,82.4,B-,Hyderabad,Asthma,0
+58,Female,84.2,O+,Delhi,Asthma,0
