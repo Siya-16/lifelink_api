@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: lifelink-ml-api
+    name: donor-eligibility-api
     runtime: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: ""
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
       - key: SUPABASE_URL
