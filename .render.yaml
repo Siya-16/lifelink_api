@@ -1,10 +1,11 @@
 services:
   - type: web
-    name: donor-ml-api
+    name: lifelink-ml-api
     runtime: python
-    buildCommand: ""
+    buildCommand: pip install -r requirements.txt
     startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.10
-    plan: free
+      - key: SUPABASE_URL
+        value: https://dexqhfuaujdltuprtxzt.supabase.co
+      - key: SUPABASE_KEY
+        value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRleHFoZnVhdWpkbHR1cHJ0eHp0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY3MjE0NjYsImV4cCI6MjA2MjI5NzQ2Nn0.ZR259lBVw6oDkcEQTmfeWGoLxkDNa6GybWMf-TtCEFc
